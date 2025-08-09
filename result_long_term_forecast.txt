@@ -1,0 +1,3 @@
+long_term_forecast_SmartLogistics_96_96_QCAAPatchTF_SmartLogistics_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_SmartLogisticsExp_0  
+mse:1.0904464721679688, mae:0.9077444672584534, dtw:-999
+
