@@ -1,5 +1,12 @@
-dataset/
-checkpoints/
+# Bỏ qua tất cả file trong dataset và checkpoints
+dataset/*
+checkpoints/*
+
+# Nhưng giữ lại file .gitkeep trong mỗi thư mục
+!dataset/.gitkeep
+!checkpoints/.gitkeep
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
