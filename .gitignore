@@ -1,10 +1,13 @@
 # Bỏ qua tất cả file trong dataset và checkpoints
 dataset/*
 checkpoints/*
+data_provider/data_preprocessing/dataset/*
 
 # Nhưng giữ lại file .gitkeep trong mỗi thư mục
 !dataset/.gitkeep
 !checkpoints/.gitkeep
+!data_provider/data_preprocessing/dataset/.gitkeep
+
 
 
 # Byte-compiled / optimized / DLL files

@@ -1,3 +1,6 @@
 long_term_forecast_SmartLogistics_96_96_QCAAPatchTF_SmartLogistics_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_SmartLogisticsExp_0  
 mse:1.0904464721679688, mae:0.9077444672584534, dtw:-999
 
+long_term_forecast_SupplyChain_Customer_Country_QCAAPatchTF_SupplyChain_ftMS_sl60_ll45_pl7_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0  
+mse:1.0625672340393066, mae:0.8676092028617859, rmse:1.0308090448379517, mape:1.0407428741455078, mspe:1.2251591682434082
+

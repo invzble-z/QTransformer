@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore')
 class Dataset_SupplyChain(Dataset):
     def __init__(self, args, root_path, flag='train', size=None,
                  features='MS', data_path='buyer_Customer_Country_processed.csv',
-                 target='Order Item Quantity', scale=True, timeenc=0, freq='d'):
+                 target='Order Item Quantity', scale=True, timeenc=0, freq='d', seasonal_patterns=None):
         # size [seq_len, label_len, pred_len]
         self.args = args
         if size is None:
