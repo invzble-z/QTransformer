@@ -1,0 +1,24 @@
+Order Region,order_date_only,Order Item Quantity
+Canada,2016-08-27,31
+Caribbean,2015-01-01,16
+Central Africa,2016-08-26,4
+Central America,2015-01-01,100
+Central Asia,2016-09-01,8
+East Africa,2016-08-27,19
+East of USA,2016-04-02,58
+Eastern Asia,2015-10-24,16
+Eastern Europe,2016-08-25,12
+North Africa,2016-08-25,16
+Northern Europe,2015-05-31,38
+Oceania,2015-10-24,40
+South America,2015-01-01,54
+South Asia,2015-10-24,8
+South of  USA ,2016-04-01,11
+Southeast Asia,2015-10-24,37
+Southern Africa,2016-08-26,15
+Southern Europe,2015-05-31,2
+US Center ,2016-04-02,42
+West Africa,2016-08-26,12
+West Asia,2016-08-25,1
+West of USA ,2016-04-01,12
+Western Europe,2015-05-31,72

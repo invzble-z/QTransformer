@@ -1,0 +1,4501 @@
+Order Region,order_date_only,Order Item Quantity
+Caribbean,2015-01-01,16
+Central America,2015-01-01,100
+South America,2015-01-01,54
+Caribbean,2015-01-02,18
+Central America,2015-01-02,99
+South America,2015-01-02,51
+Caribbean,2015-01-03,60
+Central America,2015-01-03,73
+South America,2015-01-03,27
+Caribbean,2015-01-04,42
+Central America,2015-01-04,80
+South America,2015-01-04,31
+Caribbean,2015-01-05,15
+Central America,2015-01-05,81
+South America,2015-01-05,46
+Caribbean,2015-01-06,27
+Central America,2015-01-06,59
+South America,2015-01-06,100
+Caribbean,2015-01-07,17
+Central America,2015-01-07,54
+South America,2015-01-07,82
+Caribbean,2015-01-08,22
+Central America,2015-01-08,89
+South America,2015-01-08,45
+Caribbean,2015-01-09,5
+Central America,2015-01-09,117
+South America,2015-01-09,26
+Caribbean,2015-01-10,22
+Central America,2015-01-10,106
+South America,2015-01-10,43
+Caribbean,2015-01-11,21
+Central America,2015-01-11,107
+South America,2015-01-11,18
+Caribbean,2015-01-12,13
+Central America,2015-01-12,56
+South America,2015-01-12,100
+Caribbean,2015-01-13,63
+Central America,2015-01-13,64
+South America,2015-01-13,25
+Caribbean,2015-01-14,40
+Central America,2015-01-14,104
+South America,2015-01-14,23
+Caribbean,2015-01-15,53
+Central America,2015-01-15,94
+South America,2015-01-15,59
+Caribbean,2015-01-16,76
+Central America,2015-01-16,51
+South America,2015-01-16,74
+Caribbean,2015-01-17,40
+Central America,2015-01-17,52
+South America,2015-01-17,37
+Caribbean,2015-01-18,53
+Central America,2015-01-18,127
+South America,2015-01-18,40
+Caribbean,2015-01-19,37
+Central America,2015-01-19,113
+South America,2015-01-19,46
+Caribbean,2015-01-20,17
+Central America,2015-01-20,91
+South America,2015-01-20,59
+Caribbean,2015-01-21,44
+Central America,2015-01-21,74
+South America,2015-01-21,83
+Caribbean,2015-01-22,25
+Central America,2015-01-22,116
+South America,2015-01-22,50
+Caribbean,2015-01-23,28
+Central America,2015-01-23,151
+South America,2015-01-23,30
+Caribbean,2015-01-24,31
+Central America,2015-01-24,82
+South America,2015-01-24,86
+Caribbean,2015-01-25,12
+Central America,2015-01-25,100
+South America,2015-01-25,56
+Caribbean,2015-01-26,18
+Central America,2015-01-26,115
+South America,2015-01-26,71
+Caribbean,2015-01-27,34
+Central America,2015-01-27,89
+South America,2015-01-27,72
+Caribbean,2015-01-28,36
+Central America,2015-01-28,95
+South America,2015-01-28,28
+Caribbean,2015-01-29,24
+Central America,2015-01-29,112
+South America,2015-01-29,27
+Caribbean,2015-01-30,18
+Central America,2015-01-30,90
+South America,2015-01-30,64
+Caribbean,2015-01-31,7
+Central America,2015-01-31,44
+South America,2015-01-31,121
+Caribbean,2015-02-01,19
+Central America,2015-02-01,141
+South America,2015-02-01,48
+Caribbean,2015-02-02,39
+Central America,2015-02-02,95
+South America,2015-02-02,21
+Caribbean,2015-02-03,49
+Central America,2015-02-03,95
+South America,2015-02-03,63
+Caribbean,2015-02-04,46
+Central America,2015-02-04,81
+South America,2015-02-04,29
+Caribbean,2015-02-05,11
+Central America,2015-02-05,135
+South America,2015-02-05,55
+Caribbean,2015-02-06,53
+Central America,2015-02-06,79
+South America,2015-02-06,69
+Caribbean,2015-02-07,94
+Central America,2015-02-07,67
+South America,2015-02-07,65
+Caribbean,2015-02-08,20
+Central America,2015-02-08,84
+South America,2015-02-08,52
+Caribbean,2015-02-09,20
+Central America,2015-02-09,114
+South America,2015-02-09,64
+Caribbean,2015-02-10,23
+Central America,2015-02-10,121
+South America,2015-02-10,46
+Caribbean,2015-02-11,50
+Central America,2015-02-11,60
+South America,2015-02-11,56
+Caribbean,2015-02-12,44
+Central America,2015-02-12,70
+South America,2015-02-12,29
+Caribbean,2015-02-13,49
+Central America,2015-02-13,131
+South America,2015-02-13,51
+Caribbean,2015-02-14,32
+Central America,2015-02-14,57
+South America,2015-02-14,26
+Caribbean,2015-02-15,39
+Central America,2015-02-15,148
+South America,2015-02-15,44
+Caribbean,2015-02-16,25
+Central America,2015-02-16,66
+South America,2015-02-16,112
+Caribbean,2015-02-17,38
+Central America,2015-02-17,94
+South America,2015-02-17,52
+Caribbean,2015-02-18,24
+Central America,2015-02-18,86
+South America,2015-02-18,60
+Caribbean,2015-02-19,48
+Central America,2015-02-19,70
+South America,2015-02-19,45
+Caribbean,2015-02-20,46
+Central America,2015-02-20,57
+South America,2015-02-20,51
+Caribbean,2015-02-21,24
+Central America,2015-02-21,116
+South America,2015-02-21,49
+Caribbean,2015-02-22,15
+Central America,2015-02-22,102
+South America,2015-02-22,35
+Caribbean,2015-02-23,58
+Central America,2015-02-23,112
+South America,2015-02-23,23
+Caribbean,2015-02-24,46
+Central America,2015-02-24,121
+South America,2015-02-24,54
+Caribbean,2015-02-25,22
+Central America,2015-02-25,57
+South America,2015-02-25,96
+Caribbean,2015-02-26,26
+Central America,2015-02-26,137
+South America,2015-02-26,20
+Caribbean,2015-02-27,21
+Central America,2015-02-27,96
+South America,2015-02-27,33
+Caribbean,2015-02-28,23
+Central America,2015-02-28,38
+South America,2015-02-28,49
+Caribbean,2015-03-01,32
+Central America,2015-03-01,129
+South America,2015-03-01,78
+Caribbean,2015-03-02,64
+Central America,2015-03-02,79
+South America,2015-03-02,45
+Caribbean,2015-03-03,33
+Central America,2015-03-03,103
+South America,2015-03-03,28
+Caribbean,2015-03-04,48
+Central America,2015-03-04,87
+South America,2015-03-04,39
+Caribbean,2015-03-05,6
+Central America,2015-03-05,99
+South America,2015-03-05,58
+Caribbean,2015-03-06,29
+Central America,2015-03-06,77
+South America,2015-03-06,48
+Caribbean,2015-03-07,73
+Central America,2015-03-07,99
+South America,2015-03-07,28
+Caribbean,2015-03-08,20
+Central America,2015-03-08,83
+South America,2015-03-08,91
+Caribbean,2015-03-09,27
+Central America,2015-03-09,110
+South America,2015-03-09,52
+Caribbean,2015-03-10,6
+Central America,2015-03-10,119
+South America,2015-03-10,28
+Caribbean,2015-03-11,14
+Central America,2015-03-11,79
+South America,2015-03-11,53
+Caribbean,2015-03-12,2
+Central America,2015-03-12,151
+South America,2015-03-12,72
+Caribbean,2015-03-13,26
+Central America,2015-03-13,70
+South America,2015-03-13,45
+Caribbean,2015-03-14,72
+Central America,2015-03-14,123
+South America,2015-03-14,21
+Caribbean,2015-03-15,42
+Central America,2015-03-15,88
+South America,2015-03-15,18
+Caribbean,2015-03-16,22
+Central America,2015-03-16,95
+South America,2015-03-16,52
+Caribbean,2015-03-17,26
+Central America,2015-03-17,91
+South America,2015-03-17,59
+Caribbean,2015-03-18,13
+Central America,2015-03-18,95
+South America,2015-03-18,77
+Caribbean,2015-03-19,62
+Central America,2015-03-19,108
+South America,2015-03-19,41
+Caribbean,2015-03-20,6
+Central America,2015-03-20,84
+South America,2015-03-20,61
+Caribbean,2015-03-21,53
+Central America,2015-03-21,101
+South America,2015-03-21,54
+Caribbean,2015-03-22,59
+Central America,2015-03-22,67
+South America,2015-03-22,114
+Caribbean,2015-03-23,55
+Central America,2015-03-23,71
+South America,2015-03-23,44
+Caribbean,2015-03-24,33
+Central America,2015-03-24,129
+South America,2015-03-24,23
+Caribbean,2015-03-25,16
+Central America,2015-03-25,70
+South America,2015-03-25,22
+Caribbean,2015-03-26,7
+Central America,2015-03-26,105
+South America,2015-03-26,55
+Caribbean,2015-03-27,18
+Central America,2015-03-27,59
+South America,2015-03-27,19
+Caribbean,2015-03-28,25
+Central America,2015-03-28,129
+South America,2015-03-28,9
+Caribbean,2015-03-29,6
+Central America,2015-03-29,100
+South America,2015-03-29,45
+Caribbean,2015-03-30,11
+Central America,2015-03-30,65
+South America,2015-03-30,59
+Caribbean,2015-03-31,41
+Central America,2015-03-31,46
+South America,2015-03-31,16
+Caribbean,2015-04-01,4
+Central America,2015-04-01,90
+South America,2015-04-01,40
+Caribbean,2015-04-02,15
+Central America,2015-04-02,98
+South America,2015-04-02,38
+Caribbean,2015-04-03,34
+Central America,2015-04-03,89
+South America,2015-04-03,73
+Caribbean,2015-04-04,24
+Central America,2015-04-04,139
+South America,2015-04-04,21
+Caribbean,2015-04-05,20
+Central America,2015-04-05,101
+South America,2015-04-05,68
+Caribbean,2015-04-06,31
+Central America,2015-04-06,95
+South America,2015-04-06,50
+Caribbean,2015-04-07,18
+Central America,2015-04-07,116
+South America,2015-04-07,43
+Caribbean,2015-04-08,18
+Central America,2015-04-08,91
+South America,2015-04-08,44
+Caribbean,2015-04-09,14
+Central America,2015-04-09,150
+South America,2015-04-09,10
+Caribbean,2015-04-10,26
+Central America,2015-04-10,147
+South America,2015-04-10,44
+Caribbean,2015-04-11,20
+Central America,2015-04-11,131
+South America,2015-04-11,48
+Caribbean,2015-04-12,33
+Central America,2015-04-12,118
+South America,2015-04-12,39
+Caribbean,2015-04-13,44
+Central America,2015-04-13,118
+South America,2015-04-13,22
+Caribbean,2015-04-14,84
+Central America,2015-04-14,114
+South America,2015-04-14,31
+Caribbean,2015-04-15,39
+Central America,2015-04-15,126
+South America,2015-04-15,19
+Caribbean,2015-04-16,6
+Central America,2015-04-16,147
+South America,2015-04-16,45
+Caribbean,2015-04-17,18
+Central America,2015-04-17,150
+South America,2015-04-17,20
+Caribbean,2015-04-18,30
+Central America,2015-04-18,69
+South America,2015-04-18,36
+Caribbean,2015-04-19,19
+Central America,2015-04-19,150
+South America,2015-04-19,53
+Caribbean,2015-04-20,12
+Central America,2015-04-20,133
+South America,2015-04-20,27
+Caribbean,2015-04-21,36
+Central America,2015-04-21,53
+South America,2015-04-21,42
+Caribbean,2015-04-22,21
+Central America,2015-04-22,62
+South America,2015-04-22,114
+Caribbean,2015-04-23,51
+Central America,2015-04-23,61
+South America,2015-04-23,48
+Caribbean,2015-04-24,18
+Central America,2015-04-24,123
+South America,2015-04-24,6
+Caribbean,2015-04-25,22
+Central America,2015-04-25,123
+South America,2015-04-25,40
+Caribbean,2015-04-26,38
+Central America,2015-04-26,121
+South America,2015-04-26,58
+Caribbean,2015-04-27,14
+Central America,2015-04-27,84
+South America,2015-04-27,27
+Caribbean,2015-04-28,31
+Central America,2015-04-28,107
+South America,2015-04-28,40
+Caribbean,2015-04-29,23
+Central America,2015-04-29,117
+South America,2015-04-29,17
+Caribbean,2015-04-30,23
+Central America,2015-04-30,108
+South America,2015-04-30,52
+Caribbean,2015-05-01,24
+Central America,2015-05-01,48
+South America,2015-05-01,83
+Caribbean,2015-05-02,12
+Central America,2015-05-02,164
+South America,2015-05-02,28
+Caribbean,2015-05-03,3
+Central America,2015-05-03,115
+South America,2015-05-03,75
+Caribbean,2015-05-04,40
+Central America,2015-05-04,98
+South America,2015-05-04,43
+Caribbean,2015-05-05,24
+Central America,2015-05-05,92
+South America,2015-05-05,44
+Caribbean,2015-05-06,37
+Central America,2015-05-06,108
+South America,2015-05-06,17
+Caribbean,2015-05-07,21
+Central America,2015-05-07,100
+South America,2015-05-07,58
+Caribbean,2015-05-08,31
+Central America,2015-05-08,110
+South America,2015-05-08,60
+Caribbean,2015-05-09,42
+Central America,2015-05-09,96
+South America,2015-05-09,65
+Caribbean,2015-05-10,5
+Central America,2015-05-10,63
+South America,2015-05-10,58
+Caribbean,2015-05-11,16
+Central America,2015-05-11,71
+South America,2015-05-11,53
+Caribbean,2015-05-12,51
+Central America,2015-05-12,88
+South America,2015-05-12,42
+Caribbean,2015-05-13,37
+Central America,2015-05-13,121
+South America,2015-05-13,37
+Caribbean,2015-05-14,44
+Central America,2015-05-14,124
+South America,2015-05-14,61
+Caribbean,2015-05-15,19
+Central America,2015-05-15,115
+South America,2015-05-15,40
+Caribbean,2015-05-16,49
+Central America,2015-05-16,75
+South America,2015-05-16,38
+Caribbean,2015-05-17,56
+Central America,2015-05-17,88
+South America,2015-05-17,8
+Caribbean,2015-05-18,76
+Central America,2015-05-18,80
+South America,2015-05-18,39
+Caribbean,2015-05-19,11
+Central America,2015-05-19,68
+South America,2015-05-19,84
+Caribbean,2015-05-20,3
+Central America,2015-05-20,53
+South America,2015-05-20,42
+Caribbean,2015-05-21,6
+Central America,2015-05-21,83
+South America,2015-05-21,61
+Caribbean,2015-05-22,26
+Central America,2015-05-22,129
+South America,2015-05-22,59
+Caribbean,2015-05-23,48
+Central America,2015-05-23,90
+South America,2015-05-23,29
+Caribbean,2015-05-24,20
+Central America,2015-05-24,79
+South America,2015-05-24,27
+Caribbean,2015-05-25,14
+Central America,2015-05-25,145
+South America,2015-05-25,48
+Central America,2015-05-26,114
+South America,2015-05-26,31
+South America,2015-05-27,174
+South America,2015-05-28,201
+South America,2015-05-29,146
+South America,2015-05-30,183
+Northern Europe,2015-05-31,38
+South America,2015-05-31,38
+Southern Europe,2015-05-31,2
+Western Europe,2015-05-31,72
+Northern Europe,2015-06-01,43
+Southern Europe,2015-06-01,45
+Western Europe,2015-06-01,52
+Northern Europe,2015-06-02,4
+Southern Europe,2015-06-02,36
+Western Europe,2015-06-02,122
+Northern Europe,2015-06-03,34
+Southern Europe,2015-06-03,40
+Western Europe,2015-06-03,104
+Northern Europe,2015-06-04,24
+Southern Europe,2015-06-04,25
+Western Europe,2015-06-04,169
+Northern Europe,2015-06-05,34
+Southern Europe,2015-06-05,44
+Western Europe,2015-06-05,101
+Northern Europe,2015-06-06,29
+Southern Europe,2015-06-06,1
+Western Europe,2015-06-06,98
+Northern Europe,2015-06-07,25
+Southern Europe,2015-06-07,16
+Western Europe,2015-06-07,101
+Northern Europe,2015-06-08,49
+Southern Europe,2015-06-08,35
+Western Europe,2015-06-08,167
+Northern Europe,2015-06-09,35
+Southern Europe,2015-06-09,23
+Western Europe,2015-06-09,76
+Northern Europe,2015-06-10,67
+Southern Europe,2015-06-10,1
+Western Europe,2015-06-10,107
+Northern Europe,2015-06-11,31
+Southern Europe,2015-06-11,38
+Western Europe,2015-06-11,85
+Northern Europe,2015-06-12,57
+Southern Europe,2015-06-12,21
+Western Europe,2015-06-12,69
+Northern Europe,2015-06-13,18
+Southern Europe,2015-06-13,30
+Western Europe,2015-06-13,101
+Northern Europe,2015-06-14,25
+Southern Europe,2015-06-14,57
+Western Europe,2015-06-14,104
+Northern Europe,2015-06-15,23
+Southern Europe,2015-06-15,60
+Western Europe,2015-06-15,118
+Northern Europe,2015-06-16,81
+Southern Europe,2015-06-16,4
+Western Europe,2015-06-16,116
+Northern Europe,2015-06-17,20
+Southern Europe,2015-06-17,34
+Western Europe,2015-06-17,103
+Northern Europe,2015-06-18,70
+Southern Europe,2015-06-18,18
+Western Europe,2015-06-18,67
+Northern Europe,2015-06-19,30
+Southern Europe,2015-06-19,89
+Western Europe,2015-06-19,60
+Northern Europe,2015-06-20,31
+Southern Europe,2015-06-20,18
+Western Europe,2015-06-20,154
+Northern Europe,2015-06-21,63
+Southern Europe,2015-06-21,39
+Western Europe,2015-06-21,93
+Northern Europe,2015-06-22,42
+Southern Europe,2015-06-22,27
+Western Europe,2015-06-22,85
+Northern Europe,2015-06-23,24
+Southern Europe,2015-06-23,52
+Western Europe,2015-06-23,75
+Northern Europe,2015-06-24,25
+Southern Europe,2015-06-24,7
+Western Europe,2015-06-24,121
+Northern Europe,2015-06-25,26
+Southern Europe,2015-06-25,17
+Western Europe,2015-06-25,110
+Northern Europe,2015-06-26,21
+Southern Europe,2015-06-26,46
+Western Europe,2015-06-26,101
+Northern Europe,2015-06-27,55
+Southern Europe,2015-06-27,34
+Western Europe,2015-06-27,102
+Northern Europe,2015-06-28,50
+Southern Europe,2015-06-28,36
+Western Europe,2015-06-28,127
+Northern Europe,2015-06-29,54
+Southern Europe,2015-06-29,91
+Western Europe,2015-06-29,44
+Northern Europe,2015-06-30,53
+Southern Europe,2015-06-30,18
+Western Europe,2015-06-30,159
+Northern Europe,2015-07-01,41
+Southern Europe,2015-07-01,40
+Western Europe,2015-07-01,71
+Northern Europe,2015-07-02,6
+Southern Europe,2015-07-02,54
+Western Europe,2015-07-02,102
+Northern Europe,2015-07-03,51
+Southern Europe,2015-07-03,8
+Western Europe,2015-07-03,111
+Northern Europe,2015-07-04,26
+Southern Europe,2015-07-04,50
+Western Europe,2015-07-04,96
+Northern Europe,2015-07-05,78
+Southern Europe,2015-07-05,36
+Western Europe,2015-07-05,105
+Northern Europe,2015-07-06,24
+Southern Europe,2015-07-06,36
+Western Europe,2015-07-06,60
+Northern Europe,2015-07-07,23
+Southern Europe,2015-07-07,32
+Western Europe,2015-07-07,91
+Northern Europe,2015-07-08,21
+Southern Europe,2015-07-08,30
+Western Europe,2015-07-08,90
+Northern Europe,2015-07-09,61
+Southern Europe,2015-07-09,32
+Western Europe,2015-07-09,107
+Northern Europe,2015-07-10,30
+Southern Europe,2015-07-10,98
+Western Europe,2015-07-10,65
+Northern Europe,2015-07-11,30
+Southern Europe,2015-07-11,45
+Western Europe,2015-07-11,96
+Northern Europe,2015-07-12,38
+Southern Europe,2015-07-12,3
+Western Europe,2015-07-12,152
+Northern Europe,2015-07-13,19
+Southern Europe,2015-07-13,45
+Western Europe,2015-07-13,85
+Northern Europe,2015-07-14,68
+Southern Europe,2015-07-14,80
+Western Europe,2015-07-14,60
+Northern Europe,2015-07-15,12
+Southern Europe,2015-07-15,74
+Western Europe,2015-07-15,144
+Northern Europe,2015-07-16,64
+Southern Europe,2015-07-16,43
+Western Europe,2015-07-16,75
+Northern Europe,2015-07-17,72
+Southern Europe,2015-07-17,66
+Western Europe,2015-07-17,71
+Northern Europe,2015-07-18,36
+Southern Europe,2015-07-18,45
+Western Europe,2015-07-18,82
+Northern Europe,2015-07-19,41
+Southern Europe,2015-07-19,1
+Western Europe,2015-07-19,136
+Northern Europe,2015-07-20,39
+Southern Europe,2015-07-20,9
+Western Europe,2015-07-20,125
+Northern Europe,2015-07-21,52
+Southern Europe,2015-07-21,62
+Western Europe,2015-07-21,137
+Northern Europe,2015-07-22,23
+Southern Europe,2015-07-22,3
+Western Europe,2015-07-22,99
+Northern Europe,2015-07-23,48
+Southern Europe,2015-07-23,39
+Western Europe,2015-07-23,70
+Northern Europe,2015-07-24,24
+Southern Europe,2015-07-24,24
+Western Europe,2015-07-24,106
+Northern Europe,2015-07-25,62
+Southern Europe,2015-07-25,50
+Western Europe,2015-07-25,67
+Northern Europe,2015-07-26,15
+Southern Europe,2015-07-26,65
+Western Europe,2015-07-26,125
+Northern Europe,2015-07-27,40
+Southern Europe,2015-07-27,18
+Western Europe,2015-07-27,112
+Northern Europe,2015-07-28,5
+Southern Europe,2015-07-28,57
+Western Europe,2015-07-28,143
+Northern Europe,2015-07-29,22
+Southern Europe,2015-07-29,42
+Western Europe,2015-07-29,79
+Northern Europe,2015-07-30,57
+Southern Europe,2015-07-30,11
+Western Europe,2015-07-30,86
+Northern Europe,2015-07-31,30
+Southern Europe,2015-07-31,30
+Western Europe,2015-07-31,137
+Northern Europe,2015-08-01,35
+Southern Europe,2015-08-01,48
+Western Europe,2015-08-01,89
+Northern Europe,2015-08-02,55
+Southern Europe,2015-08-02,8
+Western Europe,2015-08-02,54
+Northern Europe,2015-08-03,20
+Southern Europe,2015-08-03,5
+Western Europe,2015-08-03,153
+Northern Europe,2015-08-04,73
+Southern Europe,2015-08-04,27
+Western Europe,2015-08-04,113
+Northern Europe,2015-08-05,48
+Southern Europe,2015-08-05,22
+Western Europe,2015-08-05,155
+Northern Europe,2015-08-06,25
+Southern Europe,2015-08-06,41
+Western Europe,2015-08-06,99
+Northern Europe,2015-08-07,39
+Southern Europe,2015-08-07,44
+Western Europe,2015-08-07,87
+Northern Europe,2015-08-08,50
+Southern Europe,2015-08-08,36
+Western Europe,2015-08-08,71
+Northern Europe,2015-08-09,62
+Southern Europe,2015-08-09,33
+Western Europe,2015-08-09,73
+Northern Europe,2015-08-10,38
+Southern Europe,2015-08-10,49
+Western Europe,2015-08-10,76
+Northern Europe,2015-08-11,18
+Southern Europe,2015-08-11,25
+Western Europe,2015-08-11,116
+Northern Europe,2015-08-12,32
+Southern Europe,2015-08-12,26
+Western Europe,2015-08-12,130
+Northern Europe,2015-08-13,68
+Southern Europe,2015-08-13,18
+Western Europe,2015-08-13,74
+Northern Europe,2015-08-14,33
+Southern Europe,2015-08-14,20
+Western Europe,2015-08-14,92
+Northern Europe,2015-08-15,20
+Southern Europe,2015-08-15,7
+Western Europe,2015-08-15,129
+Northern Europe,2015-08-16,76
+Southern Europe,2015-08-16,12
+Western Europe,2015-08-16,66
+Northern Europe,2015-08-17,59
+Southern Europe,2015-08-17,36
+Western Europe,2015-08-17,88
+Northern Europe,2015-08-18,7
+Southern Europe,2015-08-18,24
+Western Europe,2015-08-18,85
+Northern Europe,2015-08-19,27
+Southern Europe,2015-08-19,18
+Western Europe,2015-08-19,76
+Northern Europe,2015-08-20,33
+Southern Europe,2015-08-20,31
+Western Europe,2015-08-20,73
+Northern Europe,2015-08-21,24
+Southern Europe,2015-08-21,52
+Western Europe,2015-08-21,96
+Northern Europe,2015-08-22,51
+Southern Europe,2015-08-22,30
+Western Europe,2015-08-22,101
+Northern Europe,2015-08-23,34
+Southern Europe,2015-08-23,25
+Western Europe,2015-08-23,80
+Northern Europe,2015-08-24,23
+Southern Europe,2015-08-24,29
+Western Europe,2015-08-24,70
+Northern Europe,2015-08-25,26
+Southern Europe,2015-08-25,31
+Western Europe,2015-08-25,119
+Northern Europe,2015-08-26,22
+Southern Europe,2015-08-26,21
+Western Europe,2015-08-26,136
+Northern Europe,2015-08-27,50
+Southern Europe,2015-08-27,25
+Western Europe,2015-08-27,95
+Northern Europe,2015-08-28,42
+Southern Europe,2015-08-28,50
+Western Europe,2015-08-28,69
+Northern Europe,2015-08-29,36
+Southern Europe,2015-08-29,25
+Western Europe,2015-08-29,129
+Northern Europe,2015-08-30,47
+Southern Europe,2015-08-30,58
+Western Europe,2015-08-30,86
+Northern Europe,2015-08-31,38
+Southern Europe,2015-08-31,27
+Western Europe,2015-08-31,83
+Northern Europe,2015-09-01,27
+Southern Europe,2015-09-01,21
+Western Europe,2015-09-01,90
+Northern Europe,2015-09-02,25
+Southern Europe,2015-09-02,28
+Western Europe,2015-09-02,98
+Northern Europe,2015-09-03,17
+Southern Europe,2015-09-03,50
+Western Europe,2015-09-03,97
+Northern Europe,2015-09-04,24
+Southern Europe,2015-09-04,29
+Western Europe,2015-09-04,118
+Northern Europe,2015-09-05,50
+Southern Europe,2015-09-05,35
+Western Europe,2015-09-05,72
+Northern Europe,2015-09-06,28
+Southern Europe,2015-09-06,44
+Western Europe,2015-09-06,175
+Northern Europe,2015-09-07,7
+Southern Europe,2015-09-07,40
+Western Europe,2015-09-07,139
+Northern Europe,2015-09-08,44
+Southern Europe,2015-09-08,44
+Western Europe,2015-09-08,63
+Northern Europe,2015-09-09,25
+Southern Europe,2015-09-09,6
+Western Europe,2015-09-09,144
+Northern Europe,2015-09-10,21
+Southern Europe,2015-09-10,25
+Western Europe,2015-09-10,107
+Northern Europe,2015-09-11,72
+Southern Europe,2015-09-11,40
+Western Europe,2015-09-11,73
+Northern Europe,2015-09-12,58
+Southern Europe,2015-09-12,59
+Western Europe,2015-09-12,66
+Northern Europe,2015-09-13,26
+Southern Europe,2015-09-13,23
+Western Europe,2015-09-13,132
+Northern Europe,2015-09-14,21
+Southern Europe,2015-09-14,18
+Western Europe,2015-09-14,135
+Northern Europe,2015-09-15,35
+Southern Europe,2015-09-15,31
+Western Europe,2015-09-15,103
+Northern Europe,2015-09-16,33
+Southern Europe,2015-09-16,68
+Western Europe,2015-09-16,126
+Northern Europe,2015-09-17,23
+Southern Europe,2015-09-17,31
+Western Europe,2015-09-17,84
+Northern Europe,2015-09-18,18
+Southern Europe,2015-09-18,17
+Western Europe,2015-09-18,174
+Northern Europe,2015-09-19,65
+Southern Europe,2015-09-19,31
+Western Europe,2015-09-19,88
+Northern Europe,2015-09-20,61
+Southern Europe,2015-09-20,63
+Western Europe,2015-09-20,59
+Northern Europe,2015-09-21,36
+Southern Europe,2015-09-21,71
+Western Europe,2015-09-21,78
+Northern Europe,2015-09-22,58
+Southern Europe,2015-09-22,36
+Western Europe,2015-09-22,125
+Northern Europe,2015-09-23,58
+Southern Europe,2015-09-23,47
+Western Europe,2015-09-23,111
+Northern Europe,2015-09-24,6
+Southern Europe,2015-09-24,24
+Western Europe,2015-09-24,113
+Northern Europe,2015-09-25,24
+Southern Europe,2015-09-25,67
+Western Europe,2015-09-25,46
+Northern Europe,2015-09-26,55
+Southern Europe,2015-09-26,28
+Western Europe,2015-09-26,111
+Northern Europe,2015-09-27,12
+Southern Europe,2015-09-27,44
+Western Europe,2015-09-27,113
+Northern Europe,2015-09-28,35
+Southern Europe,2015-09-28,2
+Western Europe,2015-09-28,117
+Northern Europe,2015-09-29,88
+Southern Europe,2015-09-29,27
+Western Europe,2015-09-29,49
+Northern Europe,2015-09-30,20
+Southern Europe,2015-09-30,30
+Western Europe,2015-09-30,124
+Northern Europe,2015-10-01,35
+Southern Europe,2015-10-01,11
+Western Europe,2015-10-01,163
+Northern Europe,2015-10-02,41
+Southern Europe,2015-10-02,15
+Western Europe,2015-10-02,133
+Northern Europe,2015-10-03,20
+Southern Europe,2015-10-03,83
+Western Europe,2015-10-03,63
+Northern Europe,2015-10-04,45
+Southern Europe,2015-10-04,7
+Western Europe,2015-10-04,99
+Northern Europe,2015-10-05,56
+Southern Europe,2015-10-05,22
+Western Europe,2015-10-05,99
+Northern Europe,2015-10-06,37
+Southern Europe,2015-10-06,63
+Western Europe,2015-10-06,128
+Northern Europe,2015-10-07,7
+Southern Europe,2015-10-07,34
+Western Europe,2015-10-07,68
+Northern Europe,2015-10-08,33
+Southern Europe,2015-10-08,41
+Western Europe,2015-10-08,120
+Northern Europe,2015-10-09,78
+Southern Europe,2015-10-09,23
+Western Europe,2015-10-09,66
+Northern Europe,2015-10-10,8
+Southern Europe,2015-10-10,31
+Western Europe,2015-10-10,115
+Northern Europe,2015-10-11,34
+Southern Europe,2015-10-11,40
+Western Europe,2015-10-11,104
+Northern Europe,2015-10-12,31
+Southern Europe,2015-10-12,42
+Western Europe,2015-10-12,69
+Northern Europe,2015-10-13,14
+Southern Europe,2015-10-13,47
+Western Europe,2015-10-13,109
+Northern Europe,2015-10-14,27
+Southern Europe,2015-10-14,45
+Western Europe,2015-10-14,73
+Northern Europe,2015-10-15,34
+Southern Europe,2015-10-15,25
+Western Europe,2015-10-15,65
+Northern Europe,2015-10-16,25
+Southern Europe,2015-10-16,27
+Western Europe,2015-10-16,79
+Northern Europe,2015-10-17,14
+Southern Europe,2015-10-17,44
+Western Europe,2015-10-17,74
+Northern Europe,2015-10-18,64
+Southern Europe,2015-10-18,38
+Western Europe,2015-10-18,66
+Northern Europe,2015-10-19,67
+Southern Europe,2015-10-19,14
+Western Europe,2015-10-19,133
+Northern Europe,2015-10-20,42
+Southern Europe,2015-10-20,34
+Western Europe,2015-10-20,112
+Northern Europe,2015-10-21,54
+Southern Europe,2015-10-21,25
+Western Europe,2015-10-21,142
+Northern Europe,2015-10-22,56
+Southern Europe,2015-10-22,12
+Western Europe,2015-10-22,92
+Northern Europe,2015-10-23,57
+Southern Europe,2015-10-23,22
+Western Europe,2015-10-23,90
+Eastern Asia,2015-10-24,16
+Northern Europe,2015-10-24,22
+Oceania,2015-10-24,40
+South Asia,2015-10-24,8
+Southeast Asia,2015-10-24,37
+Western Europe,2015-10-24,30
+Eastern Asia,2015-10-25,47
+Oceania,2015-10-25,56
+South Asia,2015-10-25,12
+Southeast Asia,2015-10-25,54
+Eastern Asia,2015-10-26,45
+Oceania,2015-10-26,57
+South Asia,2015-10-26,9
+Southeast Asia,2015-10-26,40
+Eastern Asia,2015-10-27,59
+Oceania,2015-10-27,55
+South Asia,2015-10-27,35
+Southeast Asia,2015-10-27,79
+Eastern Asia,2015-10-28,84
+Oceania,2015-10-28,26
+South Asia,2015-10-28,17
+Southeast Asia,2015-10-28,43
+Eastern Asia,2015-10-29,51
+Oceania,2015-10-29,29
+South Asia,2015-10-29,51
+Southeast Asia,2015-10-29,43
+Eastern Asia,2015-10-30,79
+Oceania,2015-10-30,43
+South Asia,2015-10-30,58
+Southeast Asia,2015-10-30,11
+Eastern Asia,2015-10-31,78
+Oceania,2015-10-31,49
+South Asia,2015-10-31,22
+Southeast Asia,2015-10-31,44
+Eastern Asia,2015-11-01,24
+Oceania,2015-11-01,48
+South Asia,2015-11-01,40
+Southeast Asia,2015-11-01,56
+Eastern Asia,2015-11-02,30
+Oceania,2015-11-02,21
+South Asia,2015-11-02,50
+Southeast Asia,2015-11-02,64
+Eastern Asia,2015-11-03,44
+Oceania,2015-11-03,38
+South Asia,2015-11-03,46
+Southeast Asia,2015-11-03,37
+Eastern Asia,2015-11-04,90
+Oceania,2015-11-04,69
+Southeast Asia,2015-11-04,73
+Eastern Asia,2015-11-05,44
+Oceania,2015-11-05,41
+South Asia,2015-11-05,90
+Southeast Asia,2015-11-05,30
+Eastern Asia,2015-11-06,32
+Oceania,2015-11-06,52
+South Asia,2015-11-06,36
+Southeast Asia,2015-11-06,31
+Eastern Asia,2015-11-07,30
+Oceania,2015-11-07,44
+South Asia,2015-11-07,15
+Southeast Asia,2015-11-07,11
+Eastern Asia,2015-11-08,40
+Oceania,2015-11-08,56
+South Asia,2015-11-08,21
+Southeast Asia,2015-11-08,44
+Eastern Asia,2015-11-09,13
+Oceania,2015-11-09,26
+South Asia,2015-11-09,69
+Southeast Asia,2015-11-09,43
+Eastern Asia,2015-11-10,35
+Oceania,2015-11-10,40
+South Asia,2015-11-10,32
+Southeast Asia,2015-11-10,41
+Eastern Asia,2015-11-11,65
+Oceania,2015-11-11,45
+South Asia,2015-11-11,20
+Southeast Asia,2015-11-11,55
+Eastern Asia,2015-11-12,78
+Oceania,2015-11-12,48
+South Asia,2015-11-12,22
+Southeast Asia,2015-11-12,57
+Eastern Asia,2015-11-13,50
+Oceania,2015-11-13,82
+South Asia,2015-11-13,11
+Southeast Asia,2015-11-13,95
+Eastern Asia,2015-11-14,60
+Oceania,2015-11-14,68
+South Asia,2015-11-14,15
+Southeast Asia,2015-11-14,27
+Eastern Asia,2015-11-15,39
+Oceania,2015-11-15,36
+South Asia,2015-11-15,12
+Southeast Asia,2015-11-15,44
+Eastern Asia,2015-11-16,36
+Oceania,2015-11-16,38
+South Asia,2015-11-16,21
+Southeast Asia,2015-11-16,97
+Eastern Asia,2015-11-17,47
+Oceania,2015-11-17,80
+South Asia,2015-11-17,17
+Southeast Asia,2015-11-17,39
+Eastern Asia,2015-11-18,39
+Oceania,2015-11-18,2
+South Asia,2015-11-18,45
+Southeast Asia,2015-11-18,62
+Eastern Asia,2015-11-19,62
+Oceania,2015-11-19,30
+South Asia,2015-11-19,27
+Southeast Asia,2015-11-19,73
+Eastern Asia,2015-11-20,35
+Oceania,2015-11-20,42
+South Asia,2015-11-20,21
+Southeast Asia,2015-11-20,102
+Eastern Asia,2015-11-21,39
+Oceania,2015-11-21,37
+South Asia,2015-11-21,36
+Southeast Asia,2015-11-21,87
+Eastern Asia,2015-11-22,43
+Oceania,2015-11-22,38
+South Asia,2015-11-22,71
+Southeast Asia,2015-11-22,18
+Eastern Asia,2015-11-23,59
+Oceania,2015-11-23,9
+South Asia,2015-11-23,54
+Southeast Asia,2015-11-23,67
+Eastern Asia,2015-11-24,16
+Oceania,2015-11-24,41
+South Asia,2015-11-24,21
+Southeast Asia,2015-11-24,40
+Eastern Asia,2015-11-25,15
+Oceania,2015-11-25,72
+South Asia,2015-11-25,13
+Southeast Asia,2015-11-25,67
+Eastern Asia,2015-11-26,40
+Oceania,2015-11-26,32
+South Asia,2015-11-26,38
+Southeast Asia,2015-11-26,61
+Eastern Asia,2015-11-27,53
+Oceania,2015-11-27,39
+South Asia,2015-11-27,26
+Southeast Asia,2015-11-27,28
+Eastern Asia,2015-11-28,36
+Oceania,2015-11-28,39
+South Asia,2015-11-28,24
+Southeast Asia,2015-11-28,58
+Eastern Asia,2015-11-29,50
+Oceania,2015-11-29,48
+South Asia,2015-11-29,33
+Southeast Asia,2015-11-29,59
+Eastern Asia,2015-11-30,72
+Oceania,2015-11-30,46
+South Asia,2015-11-30,16
+Southeast Asia,2015-11-30,36
+Eastern Asia,2015-12-01,72
+Oceania,2015-12-01,38
+South Asia,2015-12-01,37
+Southeast Asia,2015-12-01,36
+Eastern Asia,2015-12-02,54
+Oceania,2015-12-02,48
+South Asia,2015-12-02,33
+Southeast Asia,2015-12-02,20
+Eastern Asia,2015-12-03,23
+Oceania,2015-12-03,26
+South Asia,2015-12-03,70
+Southeast Asia,2015-12-03,62
+Eastern Asia,2015-12-04,36
+Oceania,2015-12-04,41
+South Asia,2015-12-04,26
+Southeast Asia,2015-12-04,96
+Eastern Asia,2015-12-05,32
+Oceania,2015-12-05,18
+South Asia,2015-12-05,15
+Southeast Asia,2015-12-05,73
+Eastern Asia,2015-12-06,43
+Oceania,2015-12-06,15
+South Asia,2015-12-06,26
+Southeast Asia,2015-12-06,57
+Eastern Asia,2015-12-07,6
+Oceania,2015-12-07,42
+South Asia,2015-12-07,14
+Southeast Asia,2015-12-07,77
+Eastern Asia,2015-12-08,34
+Oceania,2015-12-08,35
+South Asia,2015-12-08,27
+Southeast Asia,2015-12-08,34
+Eastern Asia,2015-12-09,5
+Oceania,2015-12-09,55
+South Asia,2015-12-09,74
+Southeast Asia,2015-12-09,45
+Eastern Asia,2015-12-10,33
+Oceania,2015-12-10,27
+South Asia,2015-12-10,25
+Southeast Asia,2015-12-10,47
+Eastern Asia,2015-12-11,90
+Oceania,2015-12-11,28
+South Asia,2015-12-11,15
+Southeast Asia,2015-12-11,54
+Eastern Asia,2015-12-12,20
+Oceania,2015-12-12,39
+South Asia,2015-12-12,96
+Southeast Asia,2015-12-12,36
+Eastern Asia,2015-12-13,56
+Oceania,2015-12-13,35
+South Asia,2015-12-13,58
+Southeast Asia,2015-12-13,76
+Eastern Asia,2015-12-14,28
+Oceania,2015-12-14,65
+South Asia,2015-12-14,52
+Southeast Asia,2015-12-14,37
+Eastern Asia,2015-12-15,22
+Oceania,2015-12-15,69
+South Asia,2015-12-15,57
+Southeast Asia,2015-12-15,56
+Eastern Asia,2015-12-16,68
+Oceania,2015-12-16,56
+South Asia,2015-12-16,47
+Southeast Asia,2015-12-16,39
+Eastern Asia,2015-12-17,15
+Oceania,2015-12-17,53
+South Asia,2015-12-17,32
+Southeast Asia,2015-12-17,55
+Eastern Asia,2015-12-18,48
+Oceania,2015-12-18,69
+South Asia,2015-12-18,43
+Southeast Asia,2015-12-18,23
+Eastern Asia,2015-12-19,29
+Oceania,2015-12-19,56
+South Asia,2015-12-19,57
+Southeast Asia,2015-12-19,52
+Eastern Asia,2015-12-20,33
+Oceania,2015-12-20,13
+South Asia,2015-12-20,29
+Southeast Asia,2015-12-20,85
+Eastern Asia,2015-12-21,79
+Oceania,2015-12-21,42
+South Asia,2015-12-21,19
+Southeast Asia,2015-12-21,25
+Eastern Asia,2015-12-22,49
+Oceania,2015-12-22,38
+South Asia,2015-12-22,61
+Southeast Asia,2015-12-22,48
+Eastern Asia,2015-12-23,35
+Oceania,2015-12-23,92
+South Asia,2015-12-23,3
+Southeast Asia,2015-12-23,56
+Eastern Asia,2015-12-24,80
+Oceania,2015-12-24,59
+South Asia,2015-12-24,43
+Southeast Asia,2015-12-24,45
+Eastern Asia,2015-12-25,12
+Oceania,2015-12-25,43
+South Asia,2015-12-25,78
+Southeast Asia,2015-12-25,92
+Eastern Asia,2015-12-26,13
+Oceania,2015-12-26,42
+South Asia,2015-12-26,65
+Southeast Asia,2015-12-26,28
+Eastern Asia,2015-12-27,75
+Oceania,2015-12-27,31
+South Asia,2015-12-27,19
+Southeast Asia,2015-12-27,86
+Eastern Asia,2015-12-28,37
+Oceania,2015-12-28,48
+South Asia,2015-12-28,12
+Southeast Asia,2015-12-28,96
+Eastern Asia,2015-12-29,22
+Oceania,2015-12-29,67
+South Asia,2015-12-29,7
+Southeast Asia,2015-12-29,78
+Eastern Asia,2015-12-30,25
+Oceania,2015-12-30,55
+South Asia,2015-12-30,21
+Southeast Asia,2015-12-30,71
+Eastern Asia,2015-12-31,22
+Oceania,2015-12-31,22
+South Asia,2015-12-31,40
+Southeast Asia,2015-12-31,23
+Eastern Asia,2016-01-01,32
+Oceania,2016-01-01,33
+South Asia,2016-01-01,28
+Southeast Asia,2016-01-01,62
+Eastern Asia,2016-01-02,30
+Oceania,2016-01-02,29
+South Asia,2016-01-02,76
+Southeast Asia,2016-01-02,26
+Eastern Asia,2016-01-03,21
+Oceania,2016-01-03,38
+South Asia,2016-01-03,53
+Southeast Asia,2016-01-03,112
+Eastern Asia,2016-01-04,32
+Oceania,2016-01-04,33
+South Asia,2016-01-04,49
+Southeast Asia,2016-01-04,34
+Eastern Asia,2016-01-05,56
+Oceania,2016-01-05,38
+South Asia,2016-01-05,25
+Southeast Asia,2016-01-05,38
+Eastern Asia,2016-01-06,30
+Oceania,2016-01-06,66
+South Asia,2016-01-06,16
+Southeast Asia,2016-01-06,64
+Eastern Asia,2016-01-07,33
+Oceania,2016-01-07,79
+South Asia,2016-01-07,44
+Southeast Asia,2016-01-07,13
+Eastern Asia,2016-01-08,16
+Oceania,2016-01-08,90
+South Asia,2016-01-08,74
+Southeast Asia,2016-01-08,32
+Eastern Asia,2016-01-09,18
+Oceania,2016-01-09,20
+South Asia,2016-01-09,34
+Southeast Asia,2016-01-09,110
+Eastern Asia,2016-01-10,18
+Oceania,2016-01-10,104
+South Asia,2016-01-10,20
+Southeast Asia,2016-01-10,37
+Eastern Asia,2016-01-11,25
+Oceania,2016-01-11,55
+South Asia,2016-01-11,24
+Southeast Asia,2016-01-11,69
+Eastern Asia,2016-01-12,25
+Oceania,2016-01-12,33
+South Asia,2016-01-12,50
+Southeast Asia,2016-01-12,63
+Eastern Asia,2016-01-13,39
+Oceania,2016-01-13,13
+South Asia,2016-01-13,15
+Southeast Asia,2016-01-13,82
+Eastern Asia,2016-01-14,15
+Oceania,2016-01-14,47
+South Asia,2016-01-14,27
+Southeast Asia,2016-01-14,37
+Eastern Asia,2016-01-15,18
+Oceania,2016-01-15,46
+South Asia,2016-01-15,108
+Southeast Asia,2016-01-15,27
+Eastern Asia,2016-01-16,89
+Oceania,2016-01-16,35
+South Asia,2016-01-16,21
+Southeast Asia,2016-01-16,78
+Eastern Asia,2016-01-17,30
+Oceania,2016-01-17,72
+South Asia,2016-01-17,38
+Southeast Asia,2016-01-17,45
+Eastern Asia,2016-01-18,28
+Oceania,2016-01-18,45
+South Asia,2016-01-18,12
+Southeast Asia,2016-01-18,85
+Eastern Asia,2016-01-19,74
+Oceania,2016-01-19,15
+South Asia,2016-01-19,33
+Southeast Asia,2016-01-19,47
+Eastern Asia,2016-01-20,21
+Oceania,2016-01-20,28
+South Asia,2016-01-20,39
+Southeast Asia,2016-01-20,49
+Eastern Asia,2016-01-21,30
+Oceania,2016-01-21,62
+South Asia,2016-01-21,80
+Southeast Asia,2016-01-21,61
+Eastern Asia,2016-01-22,37
+Oceania,2016-01-22,43
+South Asia,2016-01-22,41
+Southeast Asia,2016-01-22,74
+Eastern Asia,2016-01-23,29
+Oceania,2016-01-23,54
+South Asia,2016-01-23,22
+Southeast Asia,2016-01-23,54
+Eastern Asia,2016-01-24,56
+Oceania,2016-01-24,20
+South Asia,2016-01-24,18
+Southeast Asia,2016-01-24,43
+Eastern Asia,2016-01-25,70
+Oceania,2016-01-25,46
+South Asia,2016-01-25,31
+Southeast Asia,2016-01-25,51
+Eastern Asia,2016-01-26,74
+Oceania,2016-01-26,62
+South Asia,2016-01-26,12
+Southeast Asia,2016-01-26,62
+Eastern Asia,2016-01-27,51
+Oceania,2016-01-27,43
+South Asia,2016-01-27,10
+Southeast Asia,2016-01-27,60
+Eastern Asia,2016-01-28,24
+Oceania,2016-01-28,83
+South Asia,2016-01-28,37
+Southeast Asia,2016-01-28,13
+Eastern Asia,2016-01-29,28
+Oceania,2016-01-29,38
+South Asia,2016-01-29,38
+Southeast Asia,2016-01-29,58
+Eastern Asia,2016-01-30,58
+Oceania,2016-01-30,36
+South Asia,2016-01-30,67
+Southeast Asia,2016-01-30,54
+Eastern Asia,2016-01-31,50
+Oceania,2016-01-31,16
+South Asia,2016-01-31,22
+Southeast Asia,2016-01-31,67
+Eastern Asia,2016-02-01,67
+Oceania,2016-02-01,19
+South Asia,2016-02-01,3
+Southeast Asia,2016-02-01,66
+Eastern Asia,2016-02-02,62
+Oceania,2016-02-02,35
+South Asia,2016-02-02,20
+Southeast Asia,2016-02-02,54
+Eastern Asia,2016-02-03,66
+Oceania,2016-02-03,29
+South Asia,2016-02-03,35
+Southeast Asia,2016-02-03,34
+Eastern Asia,2016-02-04,58
+Oceania,2016-02-04,35
+South Asia,2016-02-04,34
+Southeast Asia,2016-02-04,52
+Eastern Asia,2016-02-05,19
+Oceania,2016-02-05,51
+South Asia,2016-02-05,70
+Southeast Asia,2016-02-05,39
+Eastern Asia,2016-02-06,70
+Oceania,2016-02-06,36
+South Asia,2016-02-06,32
+Southeast Asia,2016-02-06,81
+Eastern Asia,2016-02-07,56
+Oceania,2016-02-07,51
+South Asia,2016-02-07,65
+Southeast Asia,2016-02-07,46
+Eastern Asia,2016-02-08,77
+Oceania,2016-02-08,38
+South Asia,2016-02-08,22
+Southeast Asia,2016-02-08,35
+Eastern Asia,2016-02-09,56
+Oceania,2016-02-09,98
+South Asia,2016-02-09,5
+Southeast Asia,2016-02-09,52
+Eastern Asia,2016-02-10,19
+Oceania,2016-02-10,93
+South Asia,2016-02-10,41
+Southeast Asia,2016-02-10,54
+Eastern Asia,2016-02-11,36
+Oceania,2016-02-11,15
+South Asia,2016-02-11,48
+Southeast Asia,2016-02-11,88
+Eastern Asia,2016-02-12,44
+Oceania,2016-02-12,44
+South Asia,2016-02-12,60
+Southeast Asia,2016-02-12,34
+Eastern Asia,2016-02-13,43
+Oceania,2016-02-13,67
+South Asia,2016-02-13,48
+Southeast Asia,2016-02-13,46
+Eastern Asia,2016-02-14,44
+Oceania,2016-02-14,25
+South Asia,2016-02-14,67
+Southeast Asia,2016-02-14,18
+Eastern Asia,2016-02-15,21
+Oceania,2016-02-15,34
+South Asia,2016-02-15,13
+Southeast Asia,2016-02-15,105
+Eastern Asia,2016-02-16,59
+Oceania,2016-02-16,59
+South Asia,2016-02-16,18
+Southeast Asia,2016-02-16,26
+Eastern Asia,2016-02-17,64
+Oceania,2016-02-17,50
+South Asia,2016-02-17,50
+Southeast Asia,2016-02-17,84
+Eastern Asia,2016-02-18,61
+Oceania,2016-02-18,21
+South Asia,2016-02-18,65
+Southeast Asia,2016-02-18,45
+Eastern Asia,2016-02-19,28
+Oceania,2016-02-19,33
+South Asia,2016-02-19,50
+Southeast Asia,2016-02-19,92
+Eastern Asia,2016-02-20,16
+Oceania,2016-02-20,42
+South Asia,2016-02-20,54
+Southeast Asia,2016-02-20,53
+Eastern Asia,2016-02-21,50
+Oceania,2016-02-21,48
+South Asia,2016-02-21,22
+Southeast Asia,2016-02-21,65
+Eastern Asia,2016-02-22,69
+Oceania,2016-02-22,72
+South Asia,2016-02-22,22
+Southeast Asia,2016-02-22,35
+Eastern Asia,2016-02-23,43
+Oceania,2016-02-23,53
+South Asia,2016-02-23,56
+Southeast Asia,2016-02-23,60
+Eastern Asia,2016-02-24,23
+Oceania,2016-02-24,69
+South Asia,2016-02-24,38
+Southeast Asia,2016-02-24,32
+Eastern Asia,2016-02-25,57
+Oceania,2016-02-25,25
+South Asia,2016-02-25,58
+Southeast Asia,2016-02-25,27
+Eastern Asia,2016-02-26,72
+Oceania,2016-02-26,11
+South Asia,2016-02-26,59
+Southeast Asia,2016-02-26,54
+Eastern Asia,2016-02-27,44
+Oceania,2016-02-27,24
+South Asia,2016-02-27,57
+Southeast Asia,2016-02-27,37
+Eastern Asia,2016-02-28,85
+Oceania,2016-02-28,31
+South Asia,2016-02-28,23
+Southeast Asia,2016-02-28,50
+Eastern Asia,2016-02-29,33
+Oceania,2016-02-29,76
+South Asia,2016-02-29,46
+Southeast Asia,2016-02-29,90
+Eastern Asia,2016-03-01,26
+Oceania,2016-03-01,64
+South Asia,2016-03-01,11
+Southeast Asia,2016-03-01,75
+Eastern Asia,2016-03-02,29
+Oceania,2016-03-02,55
+South Asia,2016-03-02,75
+Southeast Asia,2016-03-02,28
+Eastern Asia,2016-03-03,17
+Oceania,2016-03-03,28
+South Asia,2016-03-03,90
+Southeast Asia,2016-03-03,69
+Eastern Asia,2016-03-04,38
+Oceania,2016-03-04,28
+South Asia,2016-03-04,42
+Southeast Asia,2016-03-04,60
+Eastern Asia,2016-03-05,37
+Oceania,2016-03-05,38
+South Asia,2016-03-05,27
+Southeast Asia,2016-03-05,110
+Eastern Asia,2016-03-06,63
+Oceania,2016-03-06,60
+South Asia,2016-03-06,31
+Southeast Asia,2016-03-06,44
+Eastern Asia,2016-03-07,36
+Oceania,2016-03-07,39
+South Asia,2016-03-07,21
+Southeast Asia,2016-03-07,73
+Eastern Asia,2016-03-08,40
+Oceania,2016-03-08,43
+South Asia,2016-03-08,17
+Southeast Asia,2016-03-08,92
+Eastern Asia,2016-03-09,36
+Oceania,2016-03-09,69
+South Asia,2016-03-09,35
+Southeast Asia,2016-03-09,61
+Eastern Asia,2016-03-10,78
+Oceania,2016-03-10,58
+South Asia,2016-03-10,23
+Southeast Asia,2016-03-10,61
+Eastern Asia,2016-03-11,14
+Oceania,2016-03-11,42
+South Asia,2016-03-11,5
+Southeast Asia,2016-03-11,101
+Eastern Asia,2016-03-12,18
+Oceania,2016-03-12,35
+South Asia,2016-03-12,11
+Southeast Asia,2016-03-12,136
+Eastern Asia,2016-03-13,26
+Oceania,2016-03-13,10
+South Asia,2016-03-13,45
+Southeast Asia,2016-03-13,63
+Eastern Asia,2016-03-14,7
+Oceania,2016-03-14,76
+South Asia,2016-03-14,39
+Southeast Asia,2016-03-14,47
+Eastern Asia,2016-03-15,34
+Oceania,2016-03-15,68
+South Asia,2016-03-15,26
+Southeast Asia,2016-03-15,43
+Eastern Asia,2016-03-16,21
+Oceania,2016-03-16,64
+South Asia,2016-03-16,33
+Southeast Asia,2016-03-16,28
+Eastern Asia,2016-03-17,65
+Oceania,2016-03-17,27
+South Asia,2016-03-17,4
+Southeast Asia,2016-03-17,78
+Eastern Asia,2016-03-18,16
+Oceania,2016-03-18,151
+South Asia,2016-03-18,25
+Oceania,2016-03-19,207
+Oceania,2016-03-20,198
+Oceania,2016-03-21,203
+Oceania,2016-03-22,180
+Oceania,2016-03-23,161
+Oceania,2016-03-24,159
+Oceania,2016-03-25,228
+Oceania,2016-03-26,218
+Oceania,2016-03-27,203
+Oceania,2016-03-28,158
+Oceania,2016-03-29,185
+Oceania,2016-03-30,177
+Oceania,2016-03-31,218
+Oceania,2016-04-01,203
+South of  USA ,2016-04-01,11
+Southeast Asia,2016-04-01,4
+West of USA ,2016-04-01,12
+East of USA,2016-04-02,58
+South of  USA ,2016-04-02,4
+US Center ,2016-04-02,42
+West of USA ,2016-04-02,22
+East of USA,2016-04-03,29
+South of  USA ,2016-04-03,34
+US Center ,2016-04-03,48
+West of USA ,2016-04-03,63
+East of USA,2016-04-04,28
+South of  USA ,2016-04-04,18
+US Center ,2016-04-04,67
+West of USA ,2016-04-04,49
+East of USA,2016-04-05,57
+South of  USA ,2016-04-05,29
+US Center ,2016-04-05,81
+West of USA ,2016-04-05,29
+East of USA,2016-04-06,97
+South of  USA ,2016-04-06,8
+US Center ,2016-04-06,5
+West of USA ,2016-04-06,69
+East of USA,2016-04-07,66
+South of  USA ,2016-04-07,24
+US Center ,2016-04-07,31
+West of USA ,2016-04-07,67
+East of USA,2016-04-08,50
+South of  USA ,2016-04-08,23
+US Center ,2016-04-08,57
+West of USA ,2016-04-08,21
+East of USA,2016-04-09,17
+South of  USA ,2016-04-09,38
+US Center ,2016-04-09,49
+West of USA ,2016-04-09,64
+East of USA,2016-04-10,62
+South of  USA ,2016-04-10,43
+US Center ,2016-04-10,20
+West of USA ,2016-04-10,100
+East of USA,2016-04-11,36
+South of  USA ,2016-04-11,52
+US Center ,2016-04-11,62
+West of USA ,2016-04-11,34
+East of USA,2016-04-12,67
+South of  USA ,2016-04-12,6
+US Center ,2016-04-12,50
+West of USA ,2016-04-12,77
+East of USA,2016-04-13,63
+South of  USA ,2016-04-13,59
+US Center ,2016-04-13,52
+West of USA ,2016-04-13,68
+East of USA,2016-04-14,61
+South of  USA ,2016-04-14,38
+US Center ,2016-04-14,17
+West of USA ,2016-04-14,37
+East of USA,2016-04-15,53
+South of  USA ,2016-04-15,6
+US Center ,2016-04-15,26
+West of USA ,2016-04-15,79
+East of USA,2016-04-16,80
+South of  USA ,2016-04-16,16
+US Center ,2016-04-16,22
+West of USA ,2016-04-16,41
+East of USA,2016-04-17,48
+South of  USA ,2016-04-17,2
+US Center ,2016-04-17,42
+West of USA ,2016-04-17,37
+East of USA,2016-04-18,36
+South of  USA ,2016-04-18,55
+US Center ,2016-04-18,45
+West of USA ,2016-04-18,36
+East of USA,2016-04-19,45
+South of  USA ,2016-04-19,20
+US Center ,2016-04-19,3
+West of USA ,2016-04-19,49
+East of USA,2016-04-20,20
+South of  USA ,2016-04-20,32
+US Center ,2016-04-20,18
+West of USA ,2016-04-20,33
+East of USA,2016-04-21,24
+South of  USA ,2016-04-21,22
+US Center ,2016-04-21,19
+West of USA ,2016-04-21,53
+East of USA,2016-04-22,31
+South of  USA ,2016-04-22,31
+US Center ,2016-04-22,14
+West of USA ,2016-04-22,10
+East of USA,2016-04-23,21
+South of  USA ,2016-04-23,22
+US Center ,2016-04-23,14
+West of USA ,2016-04-23,49
+East of USA,2016-04-24,47
+South of  USA ,2016-04-24,9
+US Center ,2016-04-24,30
+West of USA ,2016-04-24,29
+East of USA,2016-04-25,87
+US Center ,2016-04-25,17
+West of USA ,2016-04-25,85
+East of USA,2016-04-26,34
+US Center ,2016-04-26,10
+West of USA ,2016-04-26,25
+East of USA,2016-04-27,35
+South of  USA ,2016-04-27,10
+US Center ,2016-04-27,61
+West of USA ,2016-04-27,21
+East of USA,2016-04-28,17
+South of  USA ,2016-04-28,36
+US Center ,2016-04-28,54
+West of USA ,2016-04-28,31
+East of USA,2016-04-29,23
+South of  USA ,2016-04-29,22
+US Center ,2016-04-29,18
+West of USA ,2016-04-29,26
+East of USA,2016-04-30,46
+South of  USA ,2016-04-30,10
+US Center ,2016-04-30,26
+West of USA ,2016-04-30,32
+East of USA,2016-05-01,28
+South of  USA ,2016-05-01,5
+US Center ,2016-05-01,26
+West of USA ,2016-05-01,13
+East of USA,2016-05-02,17
+South of  USA ,2016-05-02,6
+US Center ,2016-05-02,4
+West of USA ,2016-05-02,56
+East of USA,2016-05-03,26
+South of  USA ,2016-05-03,17
+US Center ,2016-05-03,35
+West of USA ,2016-05-03,25
+East of USA,2016-05-04,29
+South of  USA ,2016-05-04,24
+US Center ,2016-05-04,33
+West of USA ,2016-05-04,48
+East of USA,2016-05-05,21
+South of  USA ,2016-05-05,21
+US Center ,2016-05-05,35
+West of USA ,2016-05-05,49
+East of USA,2016-05-06,45
+South of  USA ,2016-05-06,5
+US Center ,2016-05-06,26
+West of USA ,2016-05-06,39
+East of USA,2016-05-07,73
+South of  USA ,2016-05-07,31
+US Center ,2016-05-07,8
+West of USA ,2016-05-07,50
+East of USA,2016-05-08,21
+South of  USA ,2016-05-08,21
+US Center ,2016-05-08,36
+West of USA ,2016-05-08,47
+East of USA,2016-05-09,27
+South of  USA ,2016-05-09,24
+US Center ,2016-05-09,13
+West of USA ,2016-05-09,25
+East of USA,2016-05-10,9
+South of  USA ,2016-05-10,36
+US Center ,2016-05-10,16
+West of USA ,2016-05-10,43
+East of USA,2016-05-11,38
+South of  USA ,2016-05-11,39
+US Center ,2016-05-11,10
+West of USA ,2016-05-11,70
+East of USA,2016-05-12,38
+South of  USA ,2016-05-12,23
+US Center ,2016-05-12,32
+West of USA ,2016-05-12,73
+East of USA,2016-05-13,5
+South of  USA ,2016-05-13,38
+US Center ,2016-05-13,26
+West of USA ,2016-05-13,50
+East of USA,2016-05-14,19
+South of  USA ,2016-05-14,5
+US Center ,2016-05-14,31
+West of USA ,2016-05-14,52
+East of USA,2016-05-15,35
+South of  USA ,2016-05-15,36
+US Center ,2016-05-15,5
+West of USA ,2016-05-15,66
+East of USA,2016-05-16,42
+South of  USA ,2016-05-16,22
+US Center ,2016-05-16,18
+West of USA ,2016-05-16,51
+East of USA,2016-05-17,19
+South of  USA ,2016-05-17,9
+US Center ,2016-05-17,55
+West of USA ,2016-05-17,25
+East of USA,2016-05-18,50
+South of  USA ,2016-05-18,8
+US Center ,2016-05-18,46
+West of USA ,2016-05-18,30
+East of USA,2016-05-19,12
+South of  USA ,2016-05-19,11
+US Center ,2016-05-19,54
+West of USA ,2016-05-19,32
+East of USA,2016-05-20,43
+South of  USA ,2016-05-20,7
+US Center ,2016-05-20,39
+West of USA ,2016-05-20,10
+East of USA,2016-05-21,40
+South of  USA ,2016-05-21,19
+US Center ,2016-05-21,32
+West of USA ,2016-05-21,31
+East of USA,2016-05-22,46
+South of  USA ,2016-05-22,26
+US Center ,2016-05-22,52
+West of USA ,2016-05-22,35
+East of USA,2016-05-23,11
+South of  USA ,2016-05-23,33
+US Center ,2016-05-23,41
+West of USA ,2016-05-23,27
+East of USA,2016-05-24,48
+South of  USA ,2016-05-24,22
+US Center ,2016-05-24,27
+West of USA ,2016-05-24,41
+East of USA,2016-05-25,24
+South of  USA ,2016-05-25,15
+US Center ,2016-05-25,18
+West of USA ,2016-05-25,26
+East of USA,2016-05-26,24
+South of  USA ,2016-05-26,21
+US Center ,2016-05-26,10
+West of USA ,2016-05-26,22
+East of USA,2016-05-27,16
+South of  USA ,2016-05-27,27
+US Center ,2016-05-27,7
+West of USA ,2016-05-27,31
+East of USA,2016-05-28,46
+South of  USA ,2016-05-28,42
+US Center ,2016-05-28,40
+West of USA ,2016-05-28,28
+East of USA,2016-05-29,38
+South of  USA ,2016-05-29,11
+US Center ,2016-05-29,18
+West of USA ,2016-05-29,51
+East of USA,2016-05-30,27
+South of  USA ,2016-05-30,22
+US Center ,2016-05-30,25
+West of USA ,2016-05-30,23
+East of USA,2016-05-31,25
+South of  USA ,2016-05-31,21
+US Center ,2016-05-31,30
+West of USA ,2016-05-31,47
+East of USA,2016-06-01,25
+South of  USA ,2016-06-01,28
+US Center ,2016-06-01,23
+West of USA ,2016-06-01,45
+East of USA,2016-06-02,29
+South of  USA ,2016-06-02,27
+US Center ,2016-06-02,43
+West of USA ,2016-06-02,34
+East of USA,2016-06-03,22
+South of  USA ,2016-06-03,11
+US Center ,2016-06-03,20
+West of USA ,2016-06-03,50
+East of USA,2016-06-04,19
+South of  USA ,2016-06-04,31
+US Center ,2016-06-04,41
+West of USA ,2016-06-04,30
+East of USA,2016-06-05,34
+South of  USA ,2016-06-05,33
+US Center ,2016-06-05,9
+West of USA ,2016-06-05,45
+East of USA,2016-06-06,63
+South of  USA ,2016-06-06,2
+US Center ,2016-06-06,37
+West of USA ,2016-06-06,38
+East of USA,2016-06-07,18
+South of  USA ,2016-06-07,31
+US Center ,2016-06-07,51
+West of USA ,2016-06-07,49
+East of USA,2016-06-08,70
+South of  USA ,2016-06-08,38
+US Center ,2016-06-08,17
+West of USA ,2016-06-08,33
+East of USA,2016-06-09,13
+South of  USA ,2016-06-09,3
+US Center ,2016-06-09,61
+West of USA ,2016-06-09,40
+East of USA,2016-06-10,17
+South of  USA ,2016-06-10,27
+US Center ,2016-06-10,42
+West of USA ,2016-06-10,79
+East of USA,2016-06-11,49
+South of  USA ,2016-06-11,8
+US Center ,2016-06-11,35
+West of USA ,2016-06-11,24
+East of USA,2016-06-12,8
+South of  USA ,2016-06-12,25
+US Center ,2016-06-12,30
+West of USA ,2016-06-12,50
+East of USA,2016-06-13,22
+South of  USA ,2016-06-13,23
+US Center ,2016-06-13,3
+West of USA ,2016-06-13,45
+East of USA,2016-06-14,18
+South of  USA ,2016-06-14,9
+US Center ,2016-06-14,33
+West of USA ,2016-06-14,41
+East of USA,2016-06-15,70
+South of  USA ,2016-06-15,35
+US Center ,2016-06-15,13
+West of USA ,2016-06-15,28
+East of USA,2016-06-16,40
+South of  USA ,2016-06-16,9
+US Center ,2016-06-16,44
+West of USA ,2016-06-16,26
+East of USA,2016-06-17,32
+South of  USA ,2016-06-17,26
+US Center ,2016-06-17,27
+West of USA ,2016-06-17,33
+East of USA,2016-06-18,57
+South of  USA ,2016-06-18,30
+US Center ,2016-06-18,43
+West of USA ,2016-06-18,30
+East of USA,2016-06-19,21
+US Center ,2016-06-19,49
+West of USA ,2016-06-19,69
+East of USA,2016-06-20,7
+South of  USA ,2016-06-20,20
+US Center ,2016-06-20,15
+West of USA ,2016-06-20,62
+East of USA,2016-06-21,23
+South of  USA ,2016-06-21,11
+US Center ,2016-06-21,30
+West of USA ,2016-06-21,41
+East of USA,2016-06-22,62
+South of  USA ,2016-06-22,13
+US Center ,2016-06-22,20
+West of USA ,2016-06-22,46
+East of USA,2016-06-23,36
+South of  USA ,2016-06-23,12
+US Center ,2016-06-23,19
+West of USA ,2016-06-23,51
+East of USA,2016-06-24,33
+South of  USA ,2016-06-24,6
+US Center ,2016-06-24,27
+West of USA ,2016-06-24,53
+East of USA,2016-06-25,38
+South of  USA ,2016-06-25,12
+US Center ,2016-06-25,34
+West of USA ,2016-06-25,31
+East of USA,2016-06-26,41
+South of  USA ,2016-06-26,56
+US Center ,2016-06-26,41
+West of USA ,2016-06-26,42
+East of USA,2016-06-27,44
+South of  USA ,2016-06-27,17
+US Center ,2016-06-27,15
+West of USA ,2016-06-27,69
+East of USA,2016-06-28,33
+South of  USA ,2016-06-28,26
+US Center ,2016-06-28,24
+West of USA ,2016-06-28,57
+East of USA,2016-06-29,56
+South of  USA ,2016-06-29,2
+US Center ,2016-06-29,28
+West of USA ,2016-06-29,19
+East of USA,2016-06-30,47
+South of  USA ,2016-06-30,18
+US Center ,2016-06-30,39
+West of USA ,2016-06-30,48
+East of USA,2016-07-01,31
+South of  USA ,2016-07-01,4
+US Center ,2016-07-01,71
+West of USA ,2016-07-01,37
+East of USA,2016-07-02,25
+South of  USA ,2016-07-02,25
+US Center ,2016-07-02,33
+West of USA ,2016-07-02,47
+East of USA,2016-07-03,78
+South of  USA ,2016-07-03,10
+US Center ,2016-07-03,43
+West of USA ,2016-07-03,38
+East of USA,2016-07-04,28
+South of  USA ,2016-07-04,17
+US Center ,2016-07-04,34
+West of USA ,2016-07-04,24
+East of USA,2016-07-05,35
+South of  USA ,2016-07-05,40
+US Center ,2016-07-05,13
+West of USA ,2016-07-05,3
+East of USA,2016-07-06,33
+South of  USA ,2016-07-06,18
+US Center ,2016-07-06,48
+West of USA ,2016-07-06,32
+East of USA,2016-07-07,38
+South of  USA ,2016-07-07,46
+US Center ,2016-07-07,24
+West of USA ,2016-07-07,58
+East of USA,2016-07-08,32
+South of  USA ,2016-07-08,35
+US Center ,2016-07-08,35
+West of USA ,2016-07-08,32
+East of USA,2016-07-09,36
+South of  USA ,2016-07-09,12
+US Center ,2016-07-09,27
+West of USA ,2016-07-09,51
+East of USA,2016-07-10,9
+South of  USA ,2016-07-10,21
+US Center ,2016-07-10,24
+West of USA ,2016-07-10,41
+East of USA,2016-07-11,19
+South of  USA ,2016-07-11,41
+US Center ,2016-07-11,32
+West of USA ,2016-07-11,87
+East of USA,2016-07-12,20
+South of  USA ,2016-07-12,25
+US Center ,2016-07-12,17
+West of USA ,2016-07-12,23
+East of USA,2016-07-13,39
+South of  USA ,2016-07-13,3
+US Center ,2016-07-13,9
+West of USA ,2016-07-13,70
+East of USA,2016-07-14,45
+South of  USA ,2016-07-14,34
+US Center ,2016-07-14,32
+West of USA ,2016-07-14,44
+East of USA,2016-07-15,35
+South of  USA ,2016-07-15,54
+US Center ,2016-07-15,31
+West of USA ,2016-07-15,32
+East of USA,2016-07-16,21
+South of  USA ,2016-07-16,15
+US Center ,2016-07-16,7
+West of USA ,2016-07-16,108
+East of USA,2016-07-17,40
+South of  USA ,2016-07-17,41
+US Center ,2016-07-17,27
+West of USA ,2016-07-17,49
+East of USA,2016-07-18,11
+South of  USA ,2016-07-18,13
+US Center ,2016-07-18,69
+West of USA ,2016-07-18,81
+East of USA,2016-07-19,19
+South of  USA ,2016-07-19,17
+US Center ,2016-07-19,54
+West of USA ,2016-07-19,54
+East of USA,2016-07-20,27
+South of  USA ,2016-07-20,16
+US Center ,2016-07-20,17
+West of USA ,2016-07-20,58
+East of USA,2016-07-21,52
+South of  USA ,2016-07-21,11
+US Center ,2016-07-21,24
+West of USA ,2016-07-21,40
+East of USA,2016-07-22,35
+South of  USA ,2016-07-22,8
+US Center ,2016-07-22,34
+West of USA ,2016-07-22,73
+East of USA,2016-07-23,41
+South of  USA ,2016-07-23,31
+US Center ,2016-07-23,34
+West of USA ,2016-07-23,10
+East of USA,2016-07-24,28
+South of  USA ,2016-07-24,36
+US Center ,2016-07-24,25
+West of USA ,2016-07-24,35
+East of USA,2016-07-25,15
+South of  USA ,2016-07-25,11
+US Center ,2016-07-25,32
+West of USA ,2016-07-25,84
+East of USA,2016-07-26,37
+South of  USA ,2016-07-26,49
+US Center ,2016-07-26,32
+West of USA ,2016-07-26,18
+East of USA,2016-07-27,18
+South of  USA ,2016-07-27,13
+US Center ,2016-07-27,32
+West of USA ,2016-07-27,71
+East of USA,2016-07-28,58
+South of  USA ,2016-07-28,13
+US Center ,2016-07-28,29
+West of USA ,2016-07-28,43
+East of USA,2016-07-29,51
+South of  USA ,2016-07-29,1
+US Center ,2016-07-29,21
+West of USA ,2016-07-29,28
+East of USA,2016-07-30,18
+South of  USA ,2016-07-30,19
+US Center ,2016-07-30,20
+West of USA ,2016-07-30,22
+East of USA,2016-07-31,24
+South of  USA ,2016-07-31,39
+US Center ,2016-07-31,31
+West of USA ,2016-07-31,13
+East of USA,2016-08-01,33
+South of  USA ,2016-08-01,33
+US Center ,2016-08-01,26
+West of USA ,2016-08-01,25
+East of USA,2016-08-02,58
+US Center ,2016-08-02,11
+West of USA ,2016-08-02,28
+East of USA,2016-08-03,55
+South of  USA ,2016-08-03,10
+US Center ,2016-08-03,26
+West of USA ,2016-08-03,39
+East of USA,2016-08-04,35
+South of  USA ,2016-08-04,14
+US Center ,2016-08-04,21
+West of USA ,2016-08-04,24
+East of USA,2016-08-05,33
+South of  USA ,2016-08-05,22
+US Center ,2016-08-05,45
+West of USA ,2016-08-05,52
+East of USA,2016-08-06,33
+South of  USA ,2016-08-06,38
+US Center ,2016-08-06,64
+West of USA ,2016-08-06,44
+East of USA,2016-08-07,45
+South of  USA ,2016-08-07,28
+US Center ,2016-08-07,13
+West of USA ,2016-08-07,23
+East of USA,2016-08-08,49
+South of  USA ,2016-08-08,19
+US Center ,2016-08-08,18
+West of USA ,2016-08-08,38
+East of USA,2016-08-09,51
+South of  USA ,2016-08-09,18
+US Center ,2016-08-09,33
+West of USA ,2016-08-09,33
+East of USA,2016-08-10,21
+South of  USA ,2016-08-10,25
+US Center ,2016-08-10,46
+West of USA ,2016-08-10,18
+East of USA,2016-08-11,23
+South of  USA ,2016-08-11,23
+US Center ,2016-08-11,43
+West of USA ,2016-08-11,56
+East of USA,2016-08-12,18
+South of  USA ,2016-08-12,18
+US Center ,2016-08-12,56
+West of USA ,2016-08-12,21
+East of USA,2016-08-13,37
+South of  USA ,2016-08-13,19
+US Center ,2016-08-13,8
+West of USA ,2016-08-13,86
+East of USA,2016-08-14,39
+South of  USA ,2016-08-14,3
+US Center ,2016-08-14,47
+West of USA ,2016-08-14,61
+East of USA,2016-08-15,28
+South of  USA ,2016-08-15,6
+US Center ,2016-08-15,39
+West of USA ,2016-08-15,39
+East of USA,2016-08-16,26
+South of  USA ,2016-08-16,21
+US Center ,2016-08-16,27
+West of USA ,2016-08-16,84
+East of USA,2016-08-17,10
+South of  USA ,2016-08-17,4
+US Center ,2016-08-17,25
+West of USA ,2016-08-17,46
+East of USA,2016-08-18,31
+South of  USA ,2016-08-18,6
+US Center ,2016-08-18,83
+West of USA ,2016-08-18,36
+East of USA,2016-08-19,39
+South of  USA ,2016-08-19,27
+US Center ,2016-08-19,22
+West of USA ,2016-08-19,7
+East of USA,2016-08-20,55
+South of  USA ,2016-08-20,9
+US Center ,2016-08-20,28
+West of USA ,2016-08-20,57
+East of USA,2016-08-21,27
+South of  USA ,2016-08-21,10
+US Center ,2016-08-21,9
+West of USA ,2016-08-21,53
+East of USA,2016-08-22,40
+South of  USA ,2016-08-22,40
+US Center ,2016-08-22,48
+West of USA ,2016-08-22,25
+East of USA,2016-08-23,70
+South of  USA ,2016-08-23,29
+US Center ,2016-08-23,17
+West of USA ,2016-08-23,55
+East of USA,2016-08-24,38
+South of  USA ,2016-08-24,4
+US Center ,2016-08-24,26
+West of USA ,2016-08-24,22
+East of USA,2016-08-25,33
+Eastern Europe,2016-08-25,12
+North Africa,2016-08-25,16
+South of  USA ,2016-08-25,21
+US Center ,2016-08-25,16
+West Asia,2016-08-25,1
+West of USA ,2016-08-25,30
+Central Africa,2016-08-26,4
+North Africa,2016-08-26,11
+South Asia,2016-08-26,20
+Southern Africa,2016-08-26,15
+West Africa,2016-08-26,12
+West Asia,2016-08-26,45
+Canada,2016-08-27,31
+Central Africa,2016-08-27,4
+East Africa,2016-08-27,19
+Eastern Europe,2016-08-27,17
+North Africa,2016-08-27,5
+South Asia,2016-08-27,2
+West Africa,2016-08-27,20
+West Asia,2016-08-27,74
+Central Africa,2016-08-28,3
+East Africa,2016-08-28,4
+Eastern Europe,2016-08-28,20
+North Africa,2016-08-28,21
+South Asia,2016-08-28,1
+Southern Africa,2016-08-28,35
+West Africa,2016-08-28,4
+West Asia,2016-08-28,27
+Central Africa,2016-08-29,6
+East Africa,2016-08-29,1
+Eastern Europe,2016-08-29,3
+North Africa,2016-08-29,35
+South Asia,2016-08-29,15
+Southern Africa,2016-08-29,3
+West Africa,2016-08-29,36
+West Asia,2016-08-29,53
+Canada,2016-08-30,11
+East Africa,2016-08-30,1
+North Africa,2016-08-30,40
+Southern Africa,2016-08-30,11
+West Africa,2016-08-30,30
+West Asia,2016-08-30,31
+Canada,2016-08-31,1
+Central Africa,2016-08-31,9
+East Africa,2016-08-31,11
+Eastern Europe,2016-08-31,45
+North Africa,2016-08-31,2
+Northern Europe,2016-08-31,5
+South Asia,2016-08-31,8
+Southern Africa,2016-08-31,9
+West Africa,2016-08-31,23
+West Asia,2016-08-31,15
+Central Africa,2016-09-01,5
+Central Asia,2016-09-01,8
+East Africa,2016-09-01,4
+Eastern Europe,2016-09-01,17
+North Africa,2016-09-01,51
+Southern Africa,2016-09-01,1
+Southern Europe,2016-09-01,1
+West Africa,2016-09-01,11
+West Asia,2016-09-01,15
+Western Europe,2016-09-01,1
+Central Africa,2016-09-02,1
+East Africa,2016-09-02,21
+Eastern Europe,2016-09-02,23
+North Africa,2016-09-02,18
+South Asia,2016-09-02,9
+Southern Africa,2016-09-02,13
+West Africa,2016-09-02,11
+West Asia,2016-09-02,26
+Central Africa,2016-09-03,18
+Central Asia,2016-09-03,17
+East Africa,2016-09-03,14
+Eastern Europe,2016-09-03,40
+North Africa,2016-09-03,9
+South Asia,2016-09-03,5
+Southern Africa,2016-09-03,6
+West Africa,2016-09-03,7
+West Asia,2016-09-03,18
+Canada,2016-09-04,12
+Central Asia,2016-09-04,8
+East Africa,2016-09-04,7
+Eastern Europe,2016-09-04,17
+North Africa,2016-09-04,9
+South Asia,2016-09-04,12
+Southern Africa,2016-09-04,13
+West Africa,2016-09-04,3
+West Asia,2016-09-04,12
+Central Africa,2016-09-05,17
+Eastern Asia,2016-09-05,1
+Eastern Europe,2016-09-05,22
+North Africa,2016-09-05,24
+South Asia,2016-09-05,16
+West Africa,2016-09-05,14
+West Asia,2016-09-05,28
+Central Africa,2016-09-06,4
+Central Asia,2016-09-06,5
+East Africa,2016-09-06,1
+Eastern Europe,2016-09-06,4
+North Africa,2016-09-06,63
+South Asia,2016-09-06,41
+Southern Europe,2016-09-06,2
+West Africa,2016-09-06,2
+West Asia,2016-09-06,5
+Canada,2016-09-07,18
+Central Asia,2016-09-07,16
+East Africa,2016-09-07,26
+Eastern Europe,2016-09-07,7
+North Africa,2016-09-07,13
+South Asia,2016-09-07,14
+Southern Africa,2016-09-07,3
+West Africa,2016-09-07,31
+West Asia,2016-09-07,22
+Canada,2016-09-08,16
+Central Asia,2016-09-08,5
+East Africa,2016-09-08,11
+Eastern Europe,2016-09-08,17
+North Africa,2016-09-08,4
+South Asia,2016-09-08,1
+Southern Africa,2016-09-08,3
+West Africa,2016-09-08,10
+West Asia,2016-09-08,53
+Western Europe,2016-09-08,1
+Central Africa,2016-09-09,9
+Central Asia,2016-09-09,6
+East Africa,2016-09-09,40
+Eastern Europe,2016-09-09,45
+North Africa,2016-09-09,17
+South Asia,2016-09-09,17
+West Africa,2016-09-09,16
+West Asia,2016-09-09,22
+Central Africa,2016-09-10,15
+East Africa,2016-09-10,8
+Eastern Europe,2016-09-10,12
+North Africa,2016-09-10,52
+South Asia,2016-09-10,3
+Southern Africa,2016-09-10,8
+West Africa,2016-09-10,20
+West Asia,2016-09-10,17
+Western Europe,2016-09-10,6
+Canada,2016-09-11,11
+Central Africa,2016-09-11,25
+East Africa,2016-09-11,13
+Eastern Asia,2016-09-11,1
+North Africa,2016-09-11,34
+Southern Africa,2016-09-11,1
+West Africa,2016-09-11,1
+West Asia,2016-09-11,48
+Central Africa,2016-09-12,13
+East Africa,2016-09-12,8
+Eastern Europe,2016-09-12,19
+North Africa,2016-09-12,6
+South Asia,2016-09-12,25
+West Africa,2016-09-12,12
+West Asia,2016-09-12,13
+Central Africa,2016-09-13,6
+Central Asia,2016-09-13,6
+East Africa,2016-09-13,42
+North Africa,2016-09-13,30
+South Asia,2016-09-13,13
+Southern Africa,2016-09-13,7
+West Africa,2016-09-13,18
+West Asia,2016-09-13,17
+Canada,2016-09-14,18
+Central Africa,2016-09-14,10
+Eastern Europe,2016-09-14,13
+North Africa,2016-09-14,5
+South Asia,2016-09-14,10
+West Africa,2016-09-14,17
+West Asia,2016-09-14,34
+Central Africa,2016-09-15,15
+Central Asia,2016-09-15,2
+East Africa,2016-09-15,22
+Eastern Europe,2016-09-15,20
+North Africa,2016-09-15,22
+West Africa,2016-09-15,14
+West Asia,2016-09-15,44
+Canada,2016-09-16,9
+Central Africa,2016-09-16,18
+Central Asia,2016-09-16,3
+East Africa,2016-09-16,3
+Eastern Europe,2016-09-16,20
+North Africa,2016-09-16,10
+Southern Europe,2016-09-16,12
+West Africa,2016-09-16,17
+West Asia,2016-09-16,46
+Central Africa,2016-09-17,10
+Central Asia,2016-09-17,1
+East Africa,2016-09-17,28
+Eastern Europe,2016-09-17,14
+North Africa,2016-09-17,46
+South Asia,2016-09-17,5
+Southern Africa,2016-09-17,10
+West Africa,2016-09-17,11
+West Asia,2016-09-17,40
+Western Europe,2016-09-17,2
+Central Africa,2016-09-18,14
+East Africa,2016-09-18,23
+Eastern Europe,2016-09-18,15
+North Africa,2016-09-18,9
+South Asia,2016-09-18,2
+West Africa,2016-09-18,45
+West Asia,2016-09-18,12
+Canada,2016-09-19,10
+Central Asia,2016-09-19,6
+East Africa,2016-09-19,21
+Eastern Europe,2016-09-19,35
+North Africa,2016-09-19,51
+South Asia,2016-09-19,10
+Southern Africa,2016-09-19,25
+Southern Europe,2016-09-19,4
+West Africa,2016-09-19,31
+West Asia,2016-09-19,16
+Western Europe,2016-09-19,3
+Central Africa,2016-09-20,22
+East Africa,2016-09-20,15
+Eastern Europe,2016-09-20,50
+North Africa,2016-09-20,11
+Northern Europe,2016-09-20,10
+Southern Africa,2016-09-20,12
+Southern Europe,2016-09-20,15
+West Africa,2016-09-20,14
+West Asia,2016-09-20,58
+Western Europe,2016-09-20,5
+Canada,2016-09-21,2
+Eastern Europe,2016-09-21,50
+North Africa,2016-09-21,22
+South Asia,2016-09-21,17
+Southern Africa,2016-09-21,4
+West Africa,2016-09-21,49
+West Asia,2016-09-21,32
+Canada,2016-09-22,17
+Central Africa,2016-09-22,14
+Central Asia,2016-09-22,1
+East Africa,2016-09-22,13
+Eastern Europe,2016-09-22,17
+North Africa,2016-09-22,7
+South Asia,2016-09-22,12
+Southern Africa,2016-09-22,15
+West Africa,2016-09-22,35
+West Asia,2016-09-22,52
+Central Africa,2016-09-23,6
+Eastern Europe,2016-09-23,22
+North Africa,2016-09-23,13
+Northern Europe,2016-09-23,5
+Southern Africa,2016-09-23,37
+West Africa,2016-09-23,70
+West Asia,2016-09-23,28
+Canada,2016-09-24,3
+Central Africa,2016-09-24,28
+East Africa,2016-09-24,2
+Eastern Europe,2016-09-24,35
+North Africa,2016-09-24,34
+South Asia,2016-09-24,21
+Southern Africa,2016-09-24,17
+West Africa,2016-09-24,19
+West Asia,2016-09-24,30
+Canada,2016-09-25,31
+Central Africa,2016-09-25,3
+Central Asia,2016-09-25,19
+East Africa,2016-09-25,3
+Eastern Europe,2016-09-25,31
+North Africa,2016-09-25,33
+West Africa,2016-09-25,35
+West Asia,2016-09-25,56
+Central Africa,2016-09-26,16
+East Africa,2016-09-26,8
+Eastern Europe,2016-09-26,51
+North Africa,2016-09-26,11
+South Asia,2016-09-26,5
+Southern Africa,2016-09-26,5
+Southern Europe,2016-09-26,5
+West Africa,2016-09-26,17
+West Asia,2016-09-26,51
+Western Europe,2016-09-26,4
+Central Africa,2016-09-27,1
+Central Asia,2016-09-27,8
+East Africa,2016-09-27,9
+Eastern Europe,2016-09-27,44
+North Africa,2016-09-27,2
+South Asia,2016-09-27,4
+Southern Africa,2016-09-27,29
+West Africa,2016-09-27,39
+West Asia,2016-09-27,28
+East Africa,2016-09-28,1
+Eastern Europe,2016-09-28,26
+North Africa,2016-09-28,91
+South Asia,2016-09-28,15
+Southern Africa,2016-09-28,4
+West Africa,2016-09-28,2
+West Asia,2016-09-28,29
+Canada,2016-09-29,6
+Central Africa,2016-09-29,14
+East Africa,2016-09-29,6
+Eastern Europe,2016-09-29,26
+North Africa,2016-09-29,38
+South Asia,2016-09-29,6
+Southern Africa,2016-09-29,2
+West Africa,2016-09-29,16
+West Asia,2016-09-29,70
+Canada,2016-09-30,20
+Central Africa,2016-09-30,22
+East Africa,2016-09-30,16
+Eastern Europe,2016-09-30,33
+North Africa,2016-09-30,2
+Southern Europe,2016-09-30,10
+West Africa,2016-09-30,51
+West Asia,2016-09-30,43
+Canada,2016-10-01,8
+Central Africa,2016-10-01,20
+Central Asia,2016-10-01,2
+East Africa,2016-10-01,12
+Eastern Europe,2016-10-01,10
+North Africa,2016-10-01,29
+South Asia,2016-10-01,20
+Southern Africa,2016-10-01,4
+West Africa,2016-10-01,68
+West Asia,2016-10-01,25
+Canada,2016-10-02,18
+Central Africa,2016-10-02,12
+East Africa,2016-10-02,24
+Eastern Europe,2016-10-02,53
+North Africa,2016-10-02,15
+South Asia,2016-10-02,6
+Southern Africa,2016-10-02,5
+West Africa,2016-10-02,34
+West Asia,2016-10-02,41
+Canada,2016-10-03,8
+Central Asia,2016-10-03,11
+East Africa,2016-10-03,3
+Eastern Europe,2016-10-03,31
+North Africa,2016-10-03,23
+South Asia,2016-10-03,43
+Southern Africa,2016-10-03,4
+West Africa,2016-10-03,21
+West Asia,2016-10-03,60
+Western Europe,2016-10-03,12
+Canada,2016-10-04,8
+Central Africa,2016-10-04,22
+Central Asia,2016-10-04,14
+East Africa,2016-10-04,8
+Eastern Europe,2016-10-04,21
+North Africa,2016-10-04,6
+South Asia,2016-10-04,51
+Southern Africa,2016-10-04,8
+West Africa,2016-10-04,19
+West Asia,2016-10-04,40
+Canada,2016-10-05,8
+Central Africa,2016-10-05,15
+East Africa,2016-10-05,11
+Eastern Asia,2016-10-05,5
+Eastern Europe,2016-10-05,25
+North Africa,2016-10-05,7
+West Africa,2016-10-05,24
+West Asia,2016-10-05,50
+Canada,2016-10-06,11
+Central Africa,2016-10-06,15
+Central Asia,2016-10-06,2
+East Africa,2016-10-06,1
+Eastern Europe,2016-10-06,33
+North Africa,2016-10-06,23
+South Asia,2016-10-06,19
+Southern Africa,2016-10-06,19
+West Africa,2016-10-06,7
+West Asia,2016-10-06,45
+Canada,2016-10-07,17
+Central Africa,2016-10-07,38
+East Africa,2016-10-07,3
+Eastern Europe,2016-10-07,1
+North Africa,2016-10-07,17
+South Asia,2016-10-07,6
+Southern Africa,2016-10-07,10
+West Africa,2016-10-07,9
+West Asia,2016-10-07,55
+Western Europe,2016-10-07,1
+Canada,2016-10-08,23
+Central Africa,2016-10-08,1
+Central Asia,2016-10-08,6
+East Africa,2016-10-08,6
+Eastern Europe,2016-10-08,12
+North Africa,2016-10-08,45
+South Asia,2016-10-08,7
+West Africa,2016-10-08,28
+West Asia,2016-10-08,37
+Canada,2016-10-09,15
+Central Africa,2016-10-09,11
+East Africa,2016-10-09,2
+Eastern Europe,2016-10-09,28
+Northern Europe,2016-10-09,10
+South Asia,2016-10-09,15
+Southern Africa,2016-10-09,1
+Southern Europe,2016-10-09,7
+West Africa,2016-10-09,43
+West Asia,2016-10-09,34
+Central Africa,2016-10-10,5
+East Africa,2016-10-10,11
+Eastern Europe,2016-10-10,19
+North Africa,2016-10-10,39
+South Asia,2016-10-10,4
+Southern Africa,2016-10-10,24
+Southern Europe,2016-10-10,6
+West Africa,2016-10-10,18
+West Asia,2016-10-10,59
+Western Europe,2016-10-10,3
+Canada,2016-10-11,15
+Central Asia,2016-10-11,7
+East Africa,2016-10-11,34
+Eastern Europe,2016-10-11,34
+North Africa,2016-10-11,41
+South Asia,2016-10-11,3
+Southern Africa,2016-10-11,21
+Southern Europe,2016-10-11,2
+West Africa,2016-10-11,53
+West Asia,2016-10-11,44
+Canada,2016-10-12,4
+Central Africa,2016-10-12,14
+Central Asia,2016-10-12,4
+East Africa,2016-10-12,3
+Eastern Europe,2016-10-12,34
+North Africa,2016-10-12,50
+South Asia,2016-10-12,20
+Southern Africa,2016-10-12,8
+West Africa,2016-10-12,24
+West Asia,2016-10-12,13
+Canada,2016-10-13,8
+East Africa,2016-10-13,22
+Eastern Europe,2016-10-13,30
+North Africa,2016-10-13,39
+South Asia,2016-10-13,35
+West Asia,2016-10-13,73
+Central Africa,2016-10-14,29
+East Africa,2016-10-14,29
+Eastern Europe,2016-10-14,18
+North Africa,2016-10-14,24
+South Asia,2016-10-14,6
+Southern Africa,2016-10-14,5
+Southern Europe,2016-10-14,10
+West Africa,2016-10-14,54
+West Asia,2016-10-14,54
+Western Europe,2016-10-14,5
+Central Africa,2016-10-15,6
+Central Asia,2016-10-15,1
+East Africa,2016-10-15,18
+Eastern Europe,2016-10-15,57
+North Africa,2016-10-15,22
+Northern Europe,2016-10-15,3
+South Asia,2016-10-15,10
+Southern Africa,2016-10-15,37
+West Africa,2016-10-15,29
+West Asia,2016-10-15,71
+Central Africa,2016-10-16,25
+Central Asia,2016-10-16,2
+East Africa,2016-10-16,15
+Eastern Europe,2016-10-16,23
+North Africa,2016-10-16,18
+South Asia,2016-10-16,37
+Southern Africa,2016-10-16,18
+West Africa,2016-10-16,25
+West Asia,2016-10-16,18
+Canada,2016-10-17,3
+East Africa,2016-10-17,5
+Eastern Europe,2016-10-17,30
+North Africa,2016-10-17,41
+West Africa,2016-10-17,12
+West Asia,2016-10-17,36
+Canada,2016-10-18,2
+Central Africa,2016-10-18,28
+Central Asia,2016-10-18,23
+East Africa,2016-10-18,11
+Eastern Europe,2016-10-18,13
+North Africa,2016-10-18,25
+South Asia,2016-10-18,10
+Southern Europe,2016-10-18,3
+West Africa,2016-10-18,31
+West Asia,2016-10-18,14
+Central Africa,2016-10-19,7
+East Africa,2016-10-19,4
+Eastern Europe,2016-10-19,41
+North Africa,2016-10-19,27
+South Asia,2016-10-19,39
+Southern Africa,2016-10-19,6
+West Africa,2016-10-19,29
+West Asia,2016-10-19,40
+Canada,2016-10-20,31
+Central Africa,2016-10-20,12
+Central Asia,2016-10-20,2
+East Africa,2016-10-20,42
+Eastern Europe,2016-10-20,41
+North Africa,2016-10-20,52
+South Asia,2016-10-20,7
+West Africa,2016-10-20,11
+West Asia,2016-10-20,39
+Canada,2016-10-21,7
+Central Africa,2016-10-21,13
+Central Asia,2016-10-21,5
+East Africa,2016-10-21,20
+Eastern Europe,2016-10-21,9
+North Africa,2016-10-21,6
+South Asia,2016-10-21,36
+Southern Africa,2016-10-21,31
+West Africa,2016-10-21,36
+West Asia,2016-10-21,54
+Western Europe,2016-10-21,6
+Central Africa,2016-10-22,19
+Central Asia,2016-10-22,5
+East Africa,2016-10-22,4
+Eastern Europe,2016-10-22,63
+North Africa,2016-10-22,19
+South Asia,2016-10-22,6
+Southern Europe,2016-10-22,4
+West Africa,2016-10-22,20
+West Asia,2016-10-22,45
+Canada,2016-10-23,2
+Central Africa,2016-10-23,17
+East Africa,2016-10-23,18
+Eastern Europe,2016-10-23,30
+South Asia,2016-10-23,11
+West Africa,2016-10-23,61
+West Asia,2016-10-23,62
+Canada,2016-10-24,8
+Central Africa,2016-10-24,11
+Central Asia,2016-10-24,42
+East Africa,2016-10-24,15
+Eastern Europe,2016-10-24,24
+North Africa,2016-10-24,36
+Northern Europe,2016-10-24,1
+South Asia,2016-10-24,6
+West Africa,2016-10-24,14
+West Asia,2016-10-24,42
+Central Africa,2016-10-25,15
+Central Asia,2016-10-25,10
+Eastern Europe,2016-10-25,33
+North Africa,2016-10-25,23
+South Asia,2016-10-25,18
+Southern Africa,2016-10-25,10
+Southern Europe,2016-10-25,1
+West Africa,2016-10-25,26
+West Asia,2016-10-25,29
+Western Europe,2016-10-25,7
+Central Asia,2016-10-26,3
+Eastern Europe,2016-10-26,22
+North Africa,2016-10-26,20
+West Africa,2016-10-26,54
+West Asia,2016-10-26,43
+Central Africa,2016-10-27,18
+Central Asia,2016-10-27,1
+Eastern Asia,2016-10-27,12
+Eastern Europe,2016-10-27,49
+North Africa,2016-10-27,30
+West Africa,2016-10-27,58
+West Asia,2016-10-27,35
+Central Africa,2016-10-28,3
+Central Asia,2016-10-28,9
+East Africa,2016-10-28,27
+Eastern Europe,2016-10-28,53
+North Africa,2016-10-28,12
+South Asia,2016-10-28,3
+Southern Africa,2016-10-28,4
+West Africa,2016-10-28,13
+West Asia,2016-10-28,97
+Central Africa,2016-10-29,6
+Central Asia,2016-10-29,5
+East Africa,2016-10-29,2
+Eastern Europe,2016-10-29,29
+North Africa,2016-10-29,20
+South Asia,2016-10-29,27
+Southern Africa,2016-10-29,14
+West Africa,2016-10-29,25
+West Asia,2016-10-29,53
+Central Africa,2016-10-30,5
+East Africa,2016-10-30,7
+Eastern Europe,2016-10-30,5
+North Africa,2016-10-30,1
+South Asia,2016-10-30,12
+Southern Africa,2016-10-30,17
+West Africa,2016-10-30,42
+West Asia,2016-10-30,96
+Canada,2016-10-31,5
+Central Africa,2016-10-31,7
+East Africa,2016-10-31,8
+Eastern Europe,2016-10-31,59
+North Africa,2016-10-31,33
+South Asia,2016-10-31,1
+Southern Africa,2016-10-31,2
+West Africa,2016-10-31,31
+West Asia,2016-10-31,25
+Central Africa,2016-11-01,21
+Central Asia,2016-11-01,8
+East Africa,2016-11-01,10
+Eastern Europe,2016-11-01,21
+North Africa,2016-11-01,55
+Southern Africa,2016-11-01,10
+West Africa,2016-11-01,3
+West Asia,2016-11-01,40
+Canada,2016-11-02,27
+Central Africa,2016-11-02,5
+East Africa,2016-11-02,19
+Eastern Europe,2016-11-02,24
+North Africa,2016-11-02,40
+South Asia,2016-11-02,14
+Southern Africa,2016-11-02,12
+Southern Europe,2016-11-02,6
+West Africa,2016-11-02,5
+West Asia,2016-11-02,60
+Canada,2016-11-03,14
+East Africa,2016-11-03,4
+Eastern Europe,2016-11-03,50
+North Africa,2016-11-03,48
+South Asia,2016-11-03,8
+West Africa,2016-11-03,14
+West Asia,2016-11-03,89
+Central Africa,2016-11-04,20
+Central Asia,2016-11-04,9
+East Africa,2016-11-04,24
+Eastern Europe,2016-11-04,49
+North Africa,2016-11-04,30
+South Asia,2016-11-04,7
+Southern Africa,2016-11-04,9
+West Africa,2016-11-04,34
+West Asia,2016-11-04,10
+Canada,2016-11-05,37
+Central Africa,2016-11-05,5
+Central Asia,2016-11-05,9
+East Africa,2016-11-05,10
+Eastern Europe,2016-11-05,11
+North Africa,2016-11-05,58
+Northern Europe,2016-11-05,1
+South Asia,2016-11-05,14
+Southern Africa,2016-11-05,5
+West Africa,2016-11-05,42
+West Asia,2016-11-05,4
+Canada,2016-11-06,10
+Central Africa,2016-11-06,12
+Central Asia,2016-11-06,12
+East Africa,2016-11-06,18
+Eastern Europe,2016-11-06,27
+North Africa,2016-11-06,32
+Northern Europe,2016-11-06,1
+South Asia,2016-11-06,4
+Southern Africa,2016-11-06,3
+West Africa,2016-11-06,2
+West Asia,2016-11-06,37
+Canada,2016-11-07,5
+Central Africa,2016-11-07,29
+Central Asia,2016-11-07,10
+East Africa,2016-11-07,5
+Eastern Europe,2016-11-07,50
+North Africa,2016-11-07,73
+South Asia,2016-11-07,4
+Southern Europe,2016-11-07,2
+West Africa,2016-11-07,41
+West Asia,2016-11-07,35
+Canada,2016-11-08,16
+Central Africa,2016-11-08,27
+East Africa,2016-11-08,16
+Eastern Europe,2016-11-08,13
+North Africa,2016-11-08,3
+South Asia,2016-11-08,28
+Southern Africa,2016-11-08,14
+Southern Europe,2016-11-08,4
+West Africa,2016-11-08,29
+West Asia,2016-11-08,63
+Central Africa,2016-11-09,2
+East Africa,2016-11-09,5
+Eastern Europe,2016-11-09,57
+North Africa,2016-11-09,4
+South Asia,2016-11-09,12
+Southern Africa,2016-11-09,23
+West Africa,2016-11-09,21
+West Asia,2016-11-09,67
+Canada,2016-11-10,8
+Central Asia,2016-11-10,2
+Eastern Europe,2016-11-10,23
+North Africa,2016-11-10,18
+South Asia,2016-11-10,7
+Southern Africa,2016-11-10,11
+West Africa,2016-11-10,2
+West Asia,2016-11-10,44
+Canada,2016-11-11,22
+Central Africa,2016-11-11,50
+Central Asia,2016-11-11,12
+East Africa,2016-11-11,23
+Eastern Europe,2016-11-11,32
+North Africa,2016-11-11,5
+South Asia,2016-11-11,5
+Southern Africa,2016-11-11,6
+West Africa,2016-11-11,54
+West Asia,2016-11-11,1
+Central Africa,2016-11-12,87
+East Africa,2016-11-12,20
+Eastern Europe,2016-11-12,18
+North Africa,2016-11-12,37
+South Asia,2016-11-12,18
+West Africa,2016-11-12,9
+West Asia,2016-11-12,48
+Western Europe,2016-11-12,10
+Canada,2016-11-13,6
+Central Africa,2016-11-13,20
+Central Asia,2016-11-13,8
+Eastern Europe,2016-11-13,41
+North Africa,2016-11-13,55
+South Asia,2016-11-13,7
+Southern Africa,2016-11-13,1
+West Africa,2016-11-13,22
+West Asia,2016-11-13,38
+Central Africa,2016-11-14,27
+East Africa,2016-11-14,12
+Eastern Europe,2016-11-14,18
+North Africa,2016-11-14,49
+Southern Africa,2016-11-14,1
+Southern Europe,2016-11-14,2
+West Africa,2016-11-14,17
+West Asia,2016-11-14,39
+Canada,2016-11-15,1
+Central Africa,2016-11-15,11
+Central Asia,2016-11-15,6
+East Africa,2016-11-15,23
+Eastern Europe,2016-11-15,61
+North Africa,2016-11-15,23
+South Asia,2016-11-15,2
+West Africa,2016-11-15,24
+West Asia,2016-11-15,40
+Canada,2016-11-16,10
+Central Africa,2016-11-16,5
+Central Asia,2016-11-16,6
+East Africa,2016-11-16,6
+Eastern Europe,2016-11-16,51
+North Africa,2016-11-16,3
+South Asia,2016-11-16,11
+Southern Africa,2016-11-16,10
+West Africa,2016-11-16,35
+West Asia,2016-11-16,6
+Canada,2016-11-17,14
+Central Africa,2016-11-17,13
+Central Asia,2016-11-17,33
+East Africa,2016-11-17,3
+Eastern Asia,2016-11-17,5
+Eastern Europe,2016-11-17,50
+North Africa,2016-11-17,20
+South Asia,2016-11-17,11
+Southern Africa,2016-11-17,12
+Southern Europe,2016-11-17,5
+West Africa,2016-11-17,13
+West Asia,2016-11-17,56
+Canada,2016-11-18,6
+Central Africa,2016-11-18,3
+East Africa,2016-11-18,60
+Eastern Europe,2016-11-18,46
+South Asia,2016-11-18,22
+Southern Africa,2016-11-18,1
+Southern Europe,2016-11-18,1
+West Africa,2016-11-18,13
+West Asia,2016-11-18,16
+Western Europe,2016-11-18,2
+Canada,2016-11-19,3
+East Africa,2016-11-19,12
+Eastern Europe,2016-11-19,35
+North Africa,2016-11-19,15
+South Asia,2016-11-19,19
+Southern Africa,2016-11-19,23
+West Africa,2016-11-19,33
+West Asia,2016-11-19,29
+Western Europe,2016-11-19,7
+Canada,2016-11-20,16
+Central Africa,2016-11-20,3
+Central Asia,2016-11-20,7
+East Africa,2016-11-20,50
+Eastern Europe,2016-11-20,17
+North Africa,2016-11-20,54
+South Asia,2016-11-20,34
+Southern Africa,2016-11-20,16
+West Africa,2016-11-20,44
+West Asia,2016-11-20,26
+Canada,2016-11-21,13
+Central Africa,2016-11-21,12
+East Africa,2016-11-21,15
+Eastern Europe,2016-11-21,21
+South Asia,2016-11-21,47
+Southern Africa,2016-11-21,2
+Southern Europe,2016-11-21,13
+West Africa,2016-11-21,14
+West Asia,2016-11-21,39
+Canada,2016-11-22,20
+Central Africa,2016-11-22,9
+East Africa,2016-11-22,2
+Eastern Europe,2016-11-22,43
+North Africa,2016-11-22,2
+South Asia,2016-11-22,15
+Southern Africa,2016-11-22,12
+West Africa,2016-11-22,59
+West Asia,2016-11-22,38
+Canada,2016-11-23,29
+Central Africa,2016-11-23,25
+Eastern Europe,2016-11-23,27
+North Africa,2016-11-23,6
+South Asia,2016-11-23,1
+Southern Africa,2016-11-23,4
+Southern Europe,2016-11-23,3
+West Africa,2016-11-23,22
+West Asia,2016-11-23,44
+Central Asia,2016-11-24,1
+East Africa,2016-11-24,6
+Eastern Europe,2016-11-24,19
+North Africa,2016-11-24,40
+South Asia,2016-11-24,3
+West Africa,2016-11-24,42
+West Asia,2016-11-24,37
+Central Africa,2016-11-25,35
+East Africa,2016-11-25,1
+Eastern Europe,2016-11-25,41
+North Africa,2016-11-25,36
+Southern Africa,2016-11-25,6
+West Africa,2016-11-25,27
+West Asia,2016-11-25,46
+Western Europe,2016-11-25,6
+Canada,2016-11-26,20
+East Africa,2016-11-26,17
+Eastern Europe,2016-11-26,13
+North Africa,2016-11-26,9
+Northern Europe,2016-11-26,1
+South Asia,2016-11-26,6
+Southern Africa,2016-11-26,20
+Southern Europe,2016-11-26,6
+West Africa,2016-11-26,55
+West Asia,2016-11-26,44
+Canada,2016-11-27,2
+Central Africa,2016-11-27,5
+East Africa,2016-11-27,18
+Eastern Europe,2016-11-27,11
+North Africa,2016-11-27,11
+South Asia,2016-11-27,7
+Southern Africa,2016-11-27,25
+West Africa,2016-11-27,41
+West Asia,2016-11-27,91
+Canada,2016-11-28,10
+East Africa,2016-11-28,32
+Eastern Asia,2016-11-28,3
+Eastern Europe,2016-11-28,29
+North Africa,2016-11-28,35
+West Africa,2016-11-28,2
+West Asia,2016-11-28,13
+Western Europe,2016-11-28,2
+Central Africa,2016-11-29,34
+East Africa,2016-11-29,4
+Eastern Europe,2016-11-29,60
+North Africa,2016-11-29,13
+South Asia,2016-11-29,29
+Southern Africa,2016-11-29,21
+West Africa,2016-11-29,16
+West Asia,2016-11-29,49
+Central Africa,2016-11-30,39
+East Africa,2016-11-30,7
+Eastern Europe,2016-11-30,27
+North Africa,2016-11-30,30
+South Asia,2016-11-30,10
+Southern Africa,2016-11-30,1
+Southern Europe,2016-11-30,8
+West Africa,2016-11-30,32
+West Asia,2016-11-30,41
+Western Europe,2016-11-30,1
+Canada,2016-12-01,18
+Central Asia,2016-12-01,2
+East Africa,2016-12-01,25
+Eastern Europe,2016-12-01,9
+North Africa,2016-12-01,53
+South Asia,2016-12-01,1
+West Africa,2016-12-01,10
+West Asia,2016-12-01,25
+Western Europe,2016-12-01,1
+Canada,2016-12-02,5
+Central Africa,2016-12-02,3
+East Africa,2016-12-02,22
+Eastern Europe,2016-12-02,57
+North Africa,2016-12-02,22
+Northern Europe,2016-12-02,11
+South Asia,2016-12-02,12
+West Africa,2016-12-02,11
+West Asia,2016-12-02,57
+Central Africa,2016-12-03,25
+East Africa,2016-12-03,31
+Eastern Asia,2016-12-03,13
+Eastern Europe,2016-12-03,60
+Northern Europe,2016-12-03,2
+South Asia,2016-12-03,7
+West Africa,2016-12-03,23
+West Asia,2016-12-03,46
+Canada,2016-12-04,6
+Central Africa,2016-12-04,4
+Central Asia,2016-12-04,19
+East Africa,2016-12-04,7
+Eastern Europe,2016-12-04,58
+North Africa,2016-12-04,29
+Southern Africa,2016-12-04,5
+Southern Europe,2016-12-04,13
+West Africa,2016-12-04,31
+West Asia,2016-12-04,26
+Canada,2016-12-05,20
+Central Africa,2016-12-05,21
+East Africa,2016-12-05,23
+Eastern Europe,2016-12-05,20
+North Africa,2016-12-05,32
+West Africa,2016-12-05,34
+West Asia,2016-12-05,33
+Western Europe,2016-12-05,18
+Central Asia,2016-12-06,12
+Eastern Europe,2016-12-06,33
+North Africa,2016-12-06,30
+South Asia,2016-12-06,11
+Southern Africa,2016-12-06,1
+Southern Europe,2016-12-06,12
+West Africa,2016-12-06,21
+West Asia,2016-12-06,36
+Canada,2016-12-07,15
+Central Africa,2016-12-07,45
+East Africa,2016-12-07,16
+Eastern Europe,2016-12-07,44
+North Africa,2016-12-07,29
+Northern Europe,2016-12-07,11
+Southern Europe,2016-12-07,4
+West Africa,2016-12-07,6
+West Asia,2016-12-07,51
+Canada,2016-12-08,21
+East Africa,2016-12-08,6
+Eastern Asia,2016-12-08,9
+Eastern Europe,2016-12-08,73
+North Africa,2016-12-08,30
+South Asia,2016-12-08,22
+Southern Africa,2016-12-08,10
+West Africa,2016-12-08,30
+West Asia,2016-12-08,45
+Western Europe,2016-12-08,1
+Central Africa,2016-12-09,17
+East Africa,2016-12-09,40
+Eastern Europe,2016-12-09,23
+North Africa,2016-12-09,15
+South Asia,2016-12-09,15
+West Africa,2016-12-09,43
+West Asia,2016-12-09,44
+Western Europe,2016-12-09,6
+Central Africa,2016-12-10,3
+Central Asia,2016-12-10,9
+East Africa,2016-12-10,19
+Eastern Europe,2016-12-10,51
+North Africa,2016-12-10,31
+South Asia,2016-12-10,1
+Southern Africa,2016-12-10,1
+West Africa,2016-12-10,34
+West Asia,2016-12-10,34
+Canada,2016-12-11,10
+East Africa,2016-12-11,50
+Eastern Europe,2016-12-11,25
+North Africa,2016-12-11,8
+Southern Africa,2016-12-11,11
+West Africa,2016-12-11,44
+West Asia,2016-12-11,59
+Central Africa,2016-12-12,26
+East Africa,2016-12-12,2
+Eastern Europe,2016-12-12,26
+North Africa,2016-12-12,19
+South Asia,2016-12-12,7
+Southern Africa,2016-12-12,32
+West Africa,2016-12-12,62
+West Asia,2016-12-12,34
+Canada,2016-12-13,7
+Central Africa,2016-12-13,23
+East Africa,2016-12-13,11
+Eastern Europe,2016-12-13,12
+North Africa,2016-12-13,39
+South Asia,2016-12-13,7
+Southern Africa,2016-12-13,10
+West Africa,2016-12-13,12
+West Asia,2016-12-13,43
+Western Europe,2016-12-13,7
+Canada,2016-12-14,1
+Central Africa,2016-12-14,16
+Central Asia,2016-12-14,4
+East Africa,2016-12-14,6
+Eastern Europe,2016-12-14,14
+North Africa,2016-12-14,4
+South Asia,2016-12-14,7
+Southern Africa,2016-12-14,16
+West Africa,2016-12-14,69
+West Asia,2016-12-14,34
+Western Europe,2016-12-14,3
+Central Africa,2016-12-15,6
+East Africa,2016-12-15,36
+Eastern Europe,2016-12-15,35
+North Africa,2016-12-15,4
+South Asia,2016-12-15,8
+Southern Africa,2016-12-15,10
+West Africa,2016-12-15,21
+West Asia,2016-12-15,28
+Canada,2016-12-16,19
+Central Africa,2016-12-16,16
+Central Asia,2016-12-16,2
+East Africa,2016-12-16,4
+Eastern Europe,2016-12-16,11
+North Africa,2016-12-16,32
+South Asia,2016-12-16,21
+Southern Africa,2016-12-16,8
+West Africa,2016-12-16,56
+West Asia,2016-12-16,2
+Western Europe,2016-12-16,11
+Canada,2016-12-17,6
+Central Africa,2016-12-17,27
+East Africa,2016-12-17,18
+Eastern Europe,2016-12-17,18
+North Africa,2016-12-17,19
+Northern Europe,2016-12-17,5
+South Asia,2016-12-17,19
+Southern Africa,2016-12-17,6
+West Africa,2016-12-17,11
+West Asia,2016-12-17,38
+Canada,2016-12-18,4
+Central Africa,2016-12-18,3
+East Africa,2016-12-18,35
+Eastern Europe,2016-12-18,4
+North Africa,2016-12-18,25
+South Asia,2016-12-18,6
+Southern Africa,2016-12-18,22
+West Africa,2016-12-18,40
+West Asia,2016-12-18,55
+Canada,2016-12-19,2
+Central Africa,2016-12-19,24
+East Africa,2016-12-19,34
+Eastern Europe,2016-12-19,5
+North Africa,2016-12-19,16
+South Asia,2016-12-19,8
+Southern Africa,2016-12-19,6
+West Africa,2016-12-19,55
+West Asia,2016-12-19,50
+Central Africa,2016-12-20,11
+East Africa,2016-12-20,23
+Eastern Europe,2016-12-20,10
+North Africa,2016-12-20,36
+Southern Europe,2016-12-20,1
+West Africa,2016-12-20,17
+West Asia,2016-12-20,116
+Canada,2016-12-21,5
+Central Asia,2016-12-21,4
+Eastern Europe,2016-12-21,25
+North Africa,2016-12-21,26
+Northern Europe,2016-12-21,4
+South Asia,2016-12-21,5
+Southern Africa,2016-12-21,7
+Southern Europe,2016-12-21,14
+West Africa,2016-12-21,30
+West Asia,2016-12-21,57
+East Africa,2016-12-22,6
+Eastern Europe,2016-12-22,11
+North Africa,2016-12-22,42
+Southern Africa,2016-12-22,18
+West Africa,2016-12-22,6
+West Asia,2016-12-22,71
+Western Europe,2016-12-22,16
+Central Asia,2016-12-23,2
+East Africa,2016-12-23,27
+Eastern Europe,2016-12-23,43
+North Africa,2016-12-23,22
+South Asia,2016-12-23,17
+Southern Africa,2016-12-23,3
+West Africa,2016-12-23,18
+West Asia,2016-12-23,63
+Canada,2016-12-24,5
+Central Africa,2016-12-24,13
+Central Asia,2016-12-24,13
+Eastern Europe,2016-12-24,46
+North Africa,2016-12-24,25
+South Asia,2016-12-24,10
+Southern Africa,2016-12-24,12
+West Africa,2016-12-24,15
+West Asia,2016-12-24,46
+Canada,2016-12-25,5
+Central Africa,2016-12-25,8
+Central Asia,2016-12-25,13
+East Africa,2016-12-25,8
+Eastern Europe,2016-12-25,26
+North Africa,2016-12-25,1
+Southern Africa,2016-12-25,38
+West Africa,2016-12-25,32
+West Asia,2016-12-25,43
+Canada,2016-12-26,24
+East Africa,2016-12-26,17
+Eastern Europe,2016-12-26,29
+North Africa,2016-12-26,13
+South Asia,2016-12-26,19
+Southern Africa,2016-12-26,10
+West Africa,2016-12-26,17
+West Asia,2016-12-26,23
+Canada,2016-12-27,2
+Central Africa,2016-12-27,3
+East Africa,2016-12-27,2
+Eastern Europe,2016-12-27,29
+North Africa,2016-12-27,35
+South Asia,2016-12-27,23
+Southern Africa,2016-12-27,12
+West Asia,2016-12-27,85
+Canada,2016-12-28,3
+Central Africa,2016-12-28,29
+Central Asia,2016-12-28,11
+Eastern Europe,2016-12-28,14
+North Africa,2016-12-28,38
+South Asia,2016-12-28,17
+Southern Africa,2016-12-28,47
+West Africa,2016-12-28,8
+West Asia,2016-12-28,41
+Western Europe,2016-12-28,10
+Canada,2016-12-29,15
+Central Africa,2016-12-29,35
+Central Asia,2016-12-29,4
+Eastern Europe,2016-12-29,39
+North Africa,2016-12-29,10
+South Asia,2016-12-29,6
+West Africa,2016-12-29,29
+West Asia,2016-12-29,19
+Canada,2016-12-30,1
+Central Africa,2016-12-30,9
+East Africa,2016-12-30,9
+Eastern Europe,2016-12-30,21
+North Africa,2016-12-30,35
+South Asia,2016-12-30,9
+Southern Africa,2016-12-30,9
+West Africa,2016-12-30,65
+West Asia,2016-12-30,44
+Canada,2016-12-31,8
+Central Africa,2016-12-31,7
+East Africa,2016-12-31,28
+Eastern Europe,2016-12-31,14
+North Africa,2016-12-31,9
+South Asia,2016-12-31,27
+West Africa,2016-12-31,25
+West Asia,2016-12-31,89
+Canada,2017-01-01,4
+Central Africa,2017-01-01,17
+East Africa,2017-01-01,16
+Eastern Europe,2017-01-01,31
+North Africa,2017-01-01,17
+South Asia,2017-01-01,1
+Southern Africa,2017-01-01,5
+West Africa,2017-01-01,2
+West Asia,2017-01-01,38
+Central Africa,2017-01-02,12
+Central Asia,2017-01-02,4
+East Africa,2017-01-02,10
+Eastern Europe,2017-01-02,15
+North Africa,2017-01-02,6
+South Asia,2017-01-02,16
+Southern Africa,2017-01-02,32
+West Africa,2017-01-02,33
+West Asia,2017-01-02,42
+Canada,2017-01-03,9
+East Africa,2017-01-03,16
+North Africa,2017-01-03,26
+South Asia,2017-01-03,15
+West Africa,2017-01-03,11
+West Asia,2017-01-03,112
+Western Europe,2017-01-03,10
+Canada,2017-01-04,17
+Central Africa,2017-01-04,4
+Central Asia,2017-01-04,1
+East Africa,2017-01-04,7
+Eastern Europe,2017-01-04,17
+North Africa,2017-01-04,22
+Southern Africa,2017-01-04,1
+Southern Europe,2017-01-04,1
+West Africa,2017-01-04,4
+West Asia,2017-01-04,75
+Central Africa,2017-01-05,12
+East Africa,2017-01-05,7
+Eastern Europe,2017-01-05,48
+Northern Europe,2017-01-05,2
+South Asia,2017-01-05,20
+Southern Africa,2017-01-05,4
+Southern Europe,2017-01-05,5
+West Africa,2017-01-05,64
+West Asia,2017-01-05,8
+Canada,2017-01-06,17
+Central Africa,2017-01-06,3
+Central Asia,2017-01-06,9
+East Africa,2017-01-06,3
+Eastern Europe,2017-01-06,20
+North Africa,2017-01-06,12
+South Asia,2017-01-06,9
+West Africa,2017-01-06,18
+West Asia,2017-01-06,61
+East Africa,2017-01-07,6
+Eastern Europe,2017-01-07,81
+North Africa,2017-01-07,50
+West Africa,2017-01-07,2
+West Asia,2017-01-07,31
+Canada,2017-01-08,13
+Central Africa,2017-01-08,19
+East Africa,2017-01-08,22
+Eastern Europe,2017-01-08,37
+North Africa,2017-01-08,38
+South Asia,2017-01-08,8
+Southern Africa,2017-01-08,14
+West Africa,2017-01-08,33
+West Asia,2017-01-08,14
+Canada,2017-01-09,15
+Central Africa,2017-01-09,38
+Central Asia,2017-01-09,20
+East Africa,2017-01-09,1
+Eastern Europe,2017-01-09,15
+North Africa,2017-01-09,31
+Northern Europe,2017-01-09,5
+West Africa,2017-01-09,11
+West Asia,2017-01-09,21
+Canada,2017-01-10,6
+Central Africa,2017-01-10,5
+Central Asia,2017-01-10,2
+East Africa,2017-01-10,31
+Eastern Europe,2017-01-10,5
+North Africa,2017-01-10,15
+South Asia,2017-01-10,13
+Southern Africa,2017-01-10,4
+West Africa,2017-01-10,32
+West Asia,2017-01-10,116
+Canada,2017-01-11,19
+Central Africa,2017-01-11,5
+Eastern Europe,2017-01-11,50
+North Africa,2017-01-11,55
+South Asia,2017-01-11,6
+West Africa,2017-01-11,24
+West Asia,2017-01-11,42
+Canada,2017-01-12,12
+Central Africa,2017-01-12,9
+East Africa,2017-01-12,1
+Eastern Europe,2017-01-12,51
+North Africa,2017-01-12,4
+Northern Europe,2017-01-12,42
+Southern Africa,2017-01-12,17
+West Africa,2017-01-12,88
+West Asia,2017-01-12,37
+Canada,2017-01-13,12
+Central Africa,2017-01-13,4
+Central Asia,2017-01-13,9
+East Africa,2017-01-13,30
+Eastern Europe,2017-01-13,27
+North Africa,2017-01-13,11
+South Asia,2017-01-13,16
+Southern Africa,2017-01-13,10
+West Africa,2017-01-13,18
+West Asia,2017-01-13,50
+Central Africa,2017-01-14,11
+Central Asia,2017-01-14,1
+Eastern Asia,2017-01-14,4
+Eastern Europe,2017-01-14,39
+North Africa,2017-01-14,28
+Southern Europe,2017-01-14,10
+West Africa,2017-01-14,63
+West Asia,2017-01-14,49
+Canada,2017-01-15,5
+Central Africa,2017-01-15,5
+Central Asia,2017-01-15,1
+East Africa,2017-01-15,33
+Eastern Europe,2017-01-15,9
+North Africa,2017-01-15,7
+South Asia,2017-01-15,2
+Southern Africa,2017-01-15,7
+Southern Europe,2017-01-15,17
+West Africa,2017-01-15,18
+West Asia,2017-01-15,22
+Canada,2017-01-16,2
+East Africa,2017-01-16,31
+Eastern Europe,2017-01-16,57
+North Africa,2017-01-16,16
+South Asia,2017-01-16,13
+Southern Africa,2017-01-16,16
+West Africa,2017-01-16,11
+West Asia,2017-01-16,52
+Central Asia,2017-01-17,15
+East Africa,2017-01-17,20
+Eastern Europe,2017-01-17,41
+North Africa,2017-01-17,7
+South Asia,2017-01-17,5
+Southern Europe,2017-01-17,1
+West Africa,2017-01-17,26
+West Asia,2017-01-17,92
+Central America,2017-01-18,40
+Eastern Asia,2017-01-18,20
+Eastern Europe,2017-01-18,49
+North Africa,2017-01-18,19
+Northern Europe,2017-01-18,8
+South America,2017-01-18,53
+West Africa,2017-01-18,38
+West Asia,2017-01-18,68
+Caribbean,2017-01-19,39
+Central America,2017-01-19,121
+South America,2017-01-19,15
+Caribbean,2017-01-20,21
+Central America,2017-01-20,74
+South America,2017-01-20,77
+Caribbean,2017-01-21,32
+Central America,2017-01-21,72
+South America,2017-01-21,55
+Caribbean,2017-01-22,24
+Central America,2017-01-22,86
+South America,2017-01-22,42
+Central America,2017-01-23,111
+South America,2017-01-23,124
+Caribbean,2017-01-24,47
+Central America,2017-01-24,95
+South America,2017-01-24,41
+Caribbean,2017-01-25,37
+Central America,2017-01-25,128
+South America,2017-01-25,41
+Caribbean,2017-01-26,38
+Central America,2017-01-26,128
+South America,2017-01-26,53
+Caribbean,2017-01-27,32
+Central America,2017-01-27,125
+South America,2017-01-27,34
+Caribbean,2017-01-28,13
+Central America,2017-01-28,122
+South America,2017-01-28,41
+Caribbean,2017-01-29,40
+Central America,2017-01-29,116
+South America,2017-01-29,22
+Caribbean,2017-01-30,22
+Central America,2017-01-30,130
+South America,2017-01-30,55
+Caribbean,2017-01-31,60
+Central America,2017-01-31,92
+South America,2017-01-31,59
+Caribbean,2017-02-01,33
+Central America,2017-02-01,148
+South America,2017-02-01,21
+Caribbean,2017-02-02,80
+Central America,2017-02-02,81
+South America,2017-02-02,51
+Caribbean,2017-02-03,62
+Central America,2017-02-03,74
+South America,2017-02-03,75
+Caribbean,2017-02-04,42
+Central America,2017-02-04,86
+South America,2017-02-04,112
+Caribbean,2017-02-05,21
+Central America,2017-02-05,139
+South America,2017-02-05,53
+Caribbean,2017-02-06,33
+Central America,2017-02-06,114
+South America,2017-02-06,75
+Caribbean,2017-02-07,24
+Central America,2017-02-07,136
+South America,2017-02-07,42
+Caribbean,2017-02-08,37
+Central America,2017-02-08,42
+South America,2017-02-08,96
+Caribbean,2017-02-09,9
+Central America,2017-02-09,106
+South America,2017-02-09,25
+Caribbean,2017-02-10,56
+Central America,2017-02-10,77
+South America,2017-02-10,46
+Caribbean,2017-02-11,29
+Central America,2017-02-11,109
+South America,2017-02-11,50
+Caribbean,2017-02-12,23
+Central America,2017-02-12,113
+South America,2017-02-12,56
+Caribbean,2017-02-13,19
+Central America,2017-02-13,80
+South America,2017-02-13,77
+Caribbean,2017-02-14,19
+Central America,2017-02-14,83
+South America,2017-02-14,25
+Caribbean,2017-02-15,47
+Central America,2017-02-15,99
+South America,2017-02-15,34
+Caribbean,2017-02-16,31
+Central America,2017-02-16,95
+South America,2017-02-16,40
+Caribbean,2017-02-17,17
+Central America,2017-02-17,78
+South America,2017-02-17,67
+Caribbean,2017-02-18,5
+Central America,2017-02-18,106
+South America,2017-02-18,103
+Caribbean,2017-02-19,24
+Central America,2017-02-19,85
+South America,2017-02-19,44
+Caribbean,2017-02-20,51
+Central America,2017-02-20,126
+South America,2017-02-20,33
+Caribbean,2017-02-21,48
+Central America,2017-02-21,111
+South America,2017-02-21,45
+Caribbean,2017-02-22,30
+Central America,2017-02-22,126
+South America,2017-02-22,24
+Caribbean,2017-02-23,59
+Central America,2017-02-23,151
+South America,2017-02-23,44
+Caribbean,2017-02-24,8
+Central America,2017-02-24,123
+South America,2017-02-24,40
+Caribbean,2017-02-25,67
+Central America,2017-02-25,95
+South America,2017-02-25,49
+Caribbean,2017-02-26,21
+Central America,2017-02-26,129
+South America,2017-02-26,37
+Caribbean,2017-02-27,4
+Central America,2017-02-27,73
+South America,2017-02-27,79
+Caribbean,2017-02-28,18
+Central America,2017-02-28,109
+South America,2017-02-28,52
+Caribbean,2017-03-01,51
+Central America,2017-03-01,72
+South America,2017-03-01,91
+Caribbean,2017-03-02,45
+Central America,2017-03-02,30
+South America,2017-03-02,95
+Caribbean,2017-03-03,18
+Central America,2017-03-03,106
+South America,2017-03-03,60
+Caribbean,2017-03-04,6
+Central America,2017-03-04,94
+South America,2017-03-04,45
+Caribbean,2017-03-05,39
+Central America,2017-03-05,91
+South America,2017-03-05,34
+Caribbean,2017-03-06,26
+Central America,2017-03-06,95
+South America,2017-03-06,76
+Caribbean,2017-03-07,34
+Central America,2017-03-07,90
+South America,2017-03-07,72
+Caribbean,2017-03-08,38
+Central America,2017-03-08,66
+South America,2017-03-08,48
+Caribbean,2017-03-09,36
+Central America,2017-03-09,86
+South America,2017-03-09,27
+Caribbean,2017-03-10,56
+Central America,2017-03-10,85
+South America,2017-03-10,52
+Caribbean,2017-03-11,45
+Central America,2017-03-11,78
+South America,2017-03-11,80
+Caribbean,2017-03-12,61
+Central America,2017-03-12,101
+South America,2017-03-12,25
+Caribbean,2017-03-13,4
+Central America,2017-03-13,100
+South America,2017-03-13,28
+Caribbean,2017-03-14,33
+Central America,2017-03-14,123
+South America,2017-03-14,32
+Caribbean,2017-03-15,61
+Central America,2017-03-15,92
+South America,2017-03-15,42
+Caribbean,2017-03-16,67
+Central America,2017-03-16,107
+South America,2017-03-16,41
+Caribbean,2017-03-17,32
+Central America,2017-03-17,114
+South America,2017-03-17,19
+Caribbean,2017-03-18,32
+Central America,2017-03-18,39
+South America,2017-03-18,98
+Caribbean,2017-03-19,30
+Central America,2017-03-19,115
+South America,2017-03-19,48
+Caribbean,2017-03-20,43
+Central America,2017-03-20,70
+South America,2017-03-20,52
+Caribbean,2017-03-21,13
+Central America,2017-03-21,112
+South America,2017-03-21,45
+Caribbean,2017-03-22,41
+Central America,2017-03-22,68
+South America,2017-03-22,26
+Central America,2017-03-23,155
+South America,2017-03-23,33
+Caribbean,2017-03-24,35
+Central America,2017-03-24,78
+South America,2017-03-24,56
+Caribbean,2017-03-25,20
+Central America,2017-03-25,135
+South America,2017-03-25,34
+Caribbean,2017-03-26,10
+Central America,2017-03-26,92
+South America,2017-03-26,29
+Caribbean,2017-03-27,12
+Central America,2017-03-27,81
+South America,2017-03-27,26
+Caribbean,2017-03-28,2
+Central America,2017-03-28,140
+South America,2017-03-28,36
+Caribbean,2017-03-29,28
+Central America,2017-03-29,144
+South America,2017-03-29,57
+Caribbean,2017-03-30,20
+Central America,2017-03-30,168
+South America,2017-03-30,71
+Caribbean,2017-03-31,39
+Central America,2017-03-31,80
+South America,2017-03-31,39
+Caribbean,2017-04-01,57
+Central America,2017-04-01,107
+South America,2017-04-01,8
+Caribbean,2017-04-02,35
+Central America,2017-04-02,104
+South America,2017-04-02,33
+Caribbean,2017-04-03,70
+Central America,2017-04-03,150
+South America,2017-04-03,37
+Caribbean,2017-04-04,45
+Central America,2017-04-04,123
+South America,2017-04-04,62
+Caribbean,2017-04-05,47
+Central America,2017-04-05,144
+South America,2017-04-05,36
+Caribbean,2017-04-06,37
+Central America,2017-04-06,101
+South America,2017-04-06,24
+Caribbean,2017-04-07,37
+Central America,2017-04-07,99
+South America,2017-04-07,61
+Caribbean,2017-04-08,39
+Central America,2017-04-08,95
+South America,2017-04-08,29
+Caribbean,2017-04-09,34
+Central America,2017-04-09,95
+South America,2017-04-09,49
+Caribbean,2017-04-10,11
+Central America,2017-04-10,67
+South America,2017-04-10,63
+Caribbean,2017-04-11,17
+Central America,2017-04-11,144
+South America,2017-04-11,58
+Caribbean,2017-04-12,32
+Central America,2017-04-12,107
+South America,2017-04-12,68
+Caribbean,2017-04-13,13
+Central America,2017-04-13,110
+South America,2017-04-13,43
+Caribbean,2017-04-14,54
+Central America,2017-04-14,90
+South America,2017-04-14,52
+Caribbean,2017-04-15,43
+Central America,2017-04-15,111
+South America,2017-04-15,19
+Caribbean,2017-04-16,12
+Central America,2017-04-16,90
+South America,2017-04-16,67
+Caribbean,2017-04-17,37
+Central America,2017-04-17,49
+South America,2017-04-17,66
+Caribbean,2017-04-18,19
+Central America,2017-04-18,117
+South America,2017-04-18,65
+Caribbean,2017-04-19,16
+Central America,2017-04-19,115
+South America,2017-04-19,22
+Caribbean,2017-04-20,28
+Central America,2017-04-20,64
+South America,2017-04-20,28
+Caribbean,2017-04-21,30
+Central America,2017-04-21,55
+South America,2017-04-21,25
+Caribbean,2017-04-22,7
+Central America,2017-04-22,103
+South America,2017-04-22,28
+Caribbean,2017-04-23,16
+Central America,2017-04-23,71
+South America,2017-04-23,28
+Caribbean,2017-04-24,22
+Central America,2017-04-24,35
+South America,2017-04-24,12
+Caribbean,2017-04-25,13
+Central America,2017-04-25,74
+South America,2017-04-25,44
+Caribbean,2017-04-26,29
+Central America,2017-04-26,97
+South America,2017-04-26,6
+Central America,2017-04-27,85
+South America,2017-04-27,19
+Caribbean,2017-04-28,28
+Central America,2017-04-28,59
+South America,2017-04-28,27
+Caribbean,2017-04-29,3
+Central America,2017-04-29,89
+South America,2017-04-29,10
+Caribbean,2017-04-30,33
+Central America,2017-04-30,35
+South America,2017-04-30,23
+Caribbean,2017-05-01,54
+Central America,2017-05-01,53
+South America,2017-05-01,14
+Caribbean,2017-05-02,19
+Central America,2017-05-02,71
+South America,2017-05-02,31
+Caribbean,2017-05-03,22
+Central America,2017-05-03,67
+South America,2017-05-03,3
+Caribbean,2017-05-04,3
+Central America,2017-05-04,68
+South America,2017-05-04,35
+Caribbean,2017-05-05,16
+Central America,2017-05-05,111
+South America,2017-05-05,4
+Caribbean,2017-05-06,32
+Central America,2017-05-06,49
+South America,2017-05-06,34
+Caribbean,2017-05-07,13
+Central America,2017-05-07,70
+South America,2017-05-07,41
+Caribbean,2017-05-08,20
+Central America,2017-05-08,68
+South America,2017-05-08,23
+Caribbean,2017-05-09,25
+Central America,2017-05-09,44
+South America,2017-05-09,58
+Caribbean,2017-05-10,12
+Central America,2017-05-10,76
+South America,2017-05-10,50
+Caribbean,2017-05-11,20
+Central America,2017-05-11,36
+South America,2017-05-11,24
+Caribbean,2017-05-12,32
+Central America,2017-05-12,91
+South America,2017-05-12,22
+Central America,2017-05-13,111
+South America,2017-05-13,24
+Caribbean,2017-05-14,21
+Central America,2017-05-14,89
+South America,2017-05-14,9
+Caribbean,2017-05-15,20
+Central America,2017-05-15,95
+South America,2017-05-15,18
+Caribbean,2017-05-16,21
+Central America,2017-05-16,91
+South America,2017-05-16,27
+Caribbean,2017-05-17,13
+Central America,2017-05-17,48
+South America,2017-05-17,13
+Caribbean,2017-05-18,13
+Central America,2017-05-18,67
+South America,2017-05-18,23
+Caribbean,2017-05-19,16
+Central America,2017-05-19,66
+South America,2017-05-19,52
+Caribbean,2017-05-20,9
+Central America,2017-05-20,50
+South America,2017-05-20,42
+Caribbean,2017-05-21,23
+Central America,2017-05-21,53
+South America,2017-05-21,14
+Caribbean,2017-05-22,28
+Central America,2017-05-22,45
+South America,2017-05-22,48
+Caribbean,2017-05-23,19
+Central America,2017-05-23,70
+South America,2017-05-23,46
+Caribbean,2017-05-24,18
+Central America,2017-05-24,66
+South America,2017-05-24,9
+Caribbean,2017-05-25,14
+Central America,2017-05-25,65
+South America,2017-05-25,27
+Caribbean,2017-05-26,1
+Central America,2017-05-26,27
+South America,2017-05-26,42
+Caribbean,2017-05-27,24
+Central America,2017-05-27,31
+South America,2017-05-27,49
+Caribbean,2017-05-28,25
+Central America,2017-05-28,38
+South America,2017-05-28,27
+Caribbean,2017-05-29,16
+Central America,2017-05-29,93
+South America,2017-05-29,53
+Caribbean,2017-05-30,46
+Central America,2017-05-30,85
+South America,2017-05-30,37
+Caribbean,2017-05-31,11
+Central America,2017-05-31,51
+South America,2017-05-31,33
+Caribbean,2017-06-01,41
+Central America,2017-06-01,69
+South America,2017-06-01,14
+Caribbean,2017-06-02,6
+Central America,2017-06-02,56
+South America,2017-06-02,33
+Caribbean,2017-06-03,53
+Central America,2017-06-03,73
+South America,2017-06-03,30
+Caribbean,2017-06-04,28
+Central America,2017-06-04,54
+South America,2017-06-04,10
+Caribbean,2017-06-05,11
+Central America,2017-06-05,45
+South America,2017-06-05,18
+Caribbean,2017-06-06,20
+Central America,2017-06-06,48
+South America,2017-06-06,38
+Caribbean,2017-06-07,6
+Central America,2017-06-07,60
+South America,2017-06-07,55
+Caribbean,2017-06-08,13
+Central America,2017-06-08,56
+South America,2017-06-08,52
+Caribbean,2017-06-09,2
+Central America,2017-06-09,38
+South America,2017-06-09,39
+Caribbean,2017-06-10,15
+Central America,2017-06-10,49
+South America,2017-06-10,16
+Caribbean,2017-06-11,30
+Central America,2017-06-11,81
+South America,2017-06-11,41
+Central America,2017-06-12,47
+South America,2017-06-12,33
+Central America,2017-06-13,104
+South America,2017-06-13,60
+South America,2017-06-14,136
+South America,2017-06-15,64
+South America,2017-06-16,120
+Northern Europe,2017-06-17,3
+South America,2017-06-17,111
+Northern Europe,2017-06-18,44
+Southern Europe,2017-06-18,16
+Western Europe,2017-06-18,39
+Northern Europe,2017-06-19,45
+Southern Europe,2017-06-19,26
+Western Europe,2017-06-19,75
+Northern Europe,2017-06-20,2
+Southern Europe,2017-06-20,36
+Western Europe,2017-06-20,67
+Northern Europe,2017-06-21,12
+Southern Europe,2017-06-21,17
+Western Europe,2017-06-21,61
+Northern Europe,2017-06-22,33
+Southern Europe,2017-06-22,19
+Western Europe,2017-06-22,66
+Northern Europe,2017-06-23,31
+Southern Europe,2017-06-23,24
+Western Europe,2017-06-23,69
+Northern Europe,2017-06-24,19
+Southern Europe,2017-06-24,8
+Western Europe,2017-06-24,82
+Northern Europe,2017-06-25,35
+Southern Europe,2017-06-25,23
+Western Europe,2017-06-25,103
+Northern Europe,2017-06-26,12
+Southern Europe,2017-06-26,22
+Western Europe,2017-06-26,85
+Northern Europe,2017-06-27,28
+Southern Europe,2017-06-27,15
+Western Europe,2017-06-27,75
+Northern Europe,2017-06-28,24
+Southern Europe,2017-06-28,21
+Western Europe,2017-06-28,76
+Northern Europe,2017-06-29,8
+Southern Europe,2017-06-29,19
+Western Europe,2017-06-29,58
+Northern Europe,2017-06-30,34
+Southern Europe,2017-06-30,39
+Western Europe,2017-06-30,60
+Northern Europe,2017-07-01,21
+Southern Europe,2017-07-01,26
+Western Europe,2017-07-01,80
+Northern Europe,2017-07-02,26
+Southern Europe,2017-07-02,10
+Western Europe,2017-07-02,105
+Northern Europe,2017-07-03,13
+Southern Europe,2017-07-03,48
+Western Europe,2017-07-03,110
+Northern Europe,2017-07-04,60
+Southern Europe,2017-07-04,10
+Western Europe,2017-07-04,64
+Northern Europe,2017-07-05,21
+Southern Europe,2017-07-05,26
+Western Europe,2017-07-05,79
+Northern Europe,2017-07-06,31
+Southern Europe,2017-07-06,21
+Western Europe,2017-07-06,69
+Northern Europe,2017-07-07,21
+Southern Europe,2017-07-07,65
+Western Europe,2017-07-07,112
+Northern Europe,2017-07-08,7
+Southern Europe,2017-07-08,18
+Western Europe,2017-07-08,62
+Northern Europe,2017-07-09,38
+Southern Europe,2017-07-09,24
+Western Europe,2017-07-09,48
+Northern Europe,2017-07-10,21
+Southern Europe,2017-07-10,22
+Western Europe,2017-07-10,49
+Northern Europe,2017-07-11,11
+Southern Europe,2017-07-11,20
+Western Europe,2017-07-11,99
+Northern Europe,2017-07-12,11
+Southern Europe,2017-07-12,5
+Western Europe,2017-07-12,70
+Northern Europe,2017-07-13,11
+Southern Europe,2017-07-13,13
+Western Europe,2017-07-13,79
+Northern Europe,2017-07-14,13
+Southern Europe,2017-07-14,9
+Western Europe,2017-07-14,91
+Northern Europe,2017-07-15,42
+Southern Europe,2017-07-15,23
+Western Europe,2017-07-15,67
+Northern Europe,2017-07-16,13
+Southern Europe,2017-07-16,15
+Western Europe,2017-07-16,70
+Northern Europe,2017-07-17,39
+Southern Europe,2017-07-17,27
+Western Europe,2017-07-17,66
+Northern Europe,2017-07-18,42
+Southern Europe,2017-07-18,9
+Western Europe,2017-07-18,92
+Northern Europe,2017-07-19,22
+Southern Europe,2017-07-19,46
+Western Europe,2017-07-19,64
+Northern Europe,2017-07-20,19
+Southern Europe,2017-07-20,19
+Western Europe,2017-07-20,53
+Northern Europe,2017-07-21,22
+Southern Europe,2017-07-21,24
+Western Europe,2017-07-21,54
+Northern Europe,2017-07-22,26
+Southern Europe,2017-07-22,53
+Western Europe,2017-07-22,106
+Northern Europe,2017-07-23,27
+Southern Europe,2017-07-23,37
+Western Europe,2017-07-23,56
+Northern Europe,2017-07-24,22
+Southern Europe,2017-07-24,25
+Western Europe,2017-07-24,48
+Northern Europe,2017-07-25,24
+Southern Europe,2017-07-25,33
+Western Europe,2017-07-25,58
+Northern Europe,2017-07-26,14
+Southern Europe,2017-07-26,57
+Western Europe,2017-07-26,48
+Northern Europe,2017-07-27,7
+Southern Europe,2017-07-27,30
+Western Europe,2017-07-27,48
+Northern Europe,2017-07-28,12
+Southern Europe,2017-07-28,32
+Western Europe,2017-07-28,84
+Northern Europe,2017-07-29,14
+Southern Europe,2017-07-29,16
+Western Europe,2017-07-29,73
+Northern Europe,2017-07-30,24
+Southern Europe,2017-07-30,4
+Western Europe,2017-07-30,73
+Northern Europe,2017-07-31,34
+Southern Europe,2017-07-31,28
+Western Europe,2017-07-31,50
+Northern Europe,2017-08-01,60
+Southern Europe,2017-08-01,28
+Western Europe,2017-08-01,30
+Northern Europe,2017-08-02,13
+Southern Europe,2017-08-02,28
+Western Europe,2017-08-02,54
+Northern Europe,2017-08-03,46
+Southern Europe,2017-08-03,48
+Western Europe,2017-08-03,64
+Northern Europe,2017-08-04,18
+Southern Europe,2017-08-04,44
+Western Europe,2017-08-04,45
+Northern Europe,2017-08-05,29
+Southern Europe,2017-08-05,19
+Western Europe,2017-08-05,48
+Northern Europe,2017-08-06,23
+Western Europe,2017-08-06,71
+Northern Europe,2017-08-07,9
+Southern Europe,2017-08-07,5
+Western Europe,2017-08-07,83
+Northern Europe,2017-08-08,29
+Southern Europe,2017-08-08,32
+Western Europe,2017-08-08,37
+Northern Europe,2017-08-09,23
+Southern Europe,2017-08-09,22
+Western Europe,2017-08-09,49
+Northern Europe,2017-08-10,32
+Southern Europe,2017-08-10,8
+Western Europe,2017-08-10,95
+Northern Europe,2017-08-11,39
+Southern Europe,2017-08-11,16
+Western Europe,2017-08-11,56
+Northern Europe,2017-08-12,46
+Southern Europe,2017-08-12,31
+Western Europe,2017-08-12,34
+Northern Europe,2017-08-13,10
+Southern Europe,2017-08-13,17
+Western Europe,2017-08-13,77
+Northern Europe,2017-08-14,10
+Southern Europe,2017-08-14,27
+Western Europe,2017-08-14,71
+Northern Europe,2017-08-15,11
+Southern Europe,2017-08-15,44
+Western Europe,2017-08-15,45
+Northern Europe,2017-08-16,34
+Southern Europe,2017-08-16,29
+Western Europe,2017-08-16,84
+Northern Europe,2017-08-17,60
+Southern Europe,2017-08-17,18
+Western Europe,2017-08-17,30
+Northern Europe,2017-08-18,29
+Southern Europe,2017-08-18,16
+Western Europe,2017-08-18,46
+Northern Europe,2017-08-19,30
+Southern Europe,2017-08-19,2
+Western Europe,2017-08-19,101
+Northern Europe,2017-08-20,31
+Southern Europe,2017-08-20,10
+Western Europe,2017-08-20,69
+Northern Europe,2017-08-21,12
+Southern Europe,2017-08-21,13
+Western Europe,2017-08-21,104
+Northern Europe,2017-08-22,36
+Southern Europe,2017-08-22,28
+Western Europe,2017-08-22,57
+Northern Europe,2017-08-23,13
+Southern Europe,2017-08-23,5
+Western Europe,2017-08-23,116
+Northern Europe,2017-08-24,25
+Southern Europe,2017-08-24,27
+Western Europe,2017-08-24,92
+Northern Europe,2017-08-25,19
+Southern Europe,2017-08-25,29
+Western Europe,2017-08-25,73
+Northern Europe,2017-08-26,40
+Southern Europe,2017-08-26,20
+Western Europe,2017-08-26,43
+Northern Europe,2017-08-27,25
+Southern Europe,2017-08-27,41
+Western Europe,2017-08-27,71
+Northern Europe,2017-08-28,10
+Southern Europe,2017-08-28,41
+Western Europe,2017-08-28,53
+Northern Europe,2017-08-29,28
+Southern Europe,2017-08-29,12
+Western Europe,2017-08-29,74
+Northern Europe,2017-08-30,27
+Southern Europe,2017-08-30,21
+Western Europe,2017-08-30,106
+Northern Europe,2017-08-31,30
+Southern Europe,2017-08-31,6
+Western Europe,2017-08-31,73
+Northern Europe,2017-09-01,23
+Southern Europe,2017-09-01,16
+Western Europe,2017-09-01,65
+Northern Europe,2017-09-02,28
+Southern Europe,2017-09-02,17
+Western Europe,2017-09-02,80
+Northern Europe,2017-09-03,44
+Southern Europe,2017-09-03,39
+Western Europe,2017-09-03,76
+Northern Europe,2017-09-04,26
+Southern Europe,2017-09-04,10
+Western Europe,2017-09-04,49
+Northern Europe,2017-09-05,10
+Southern Europe,2017-09-05,18
+Western Europe,2017-09-05,81
+Northern Europe,2017-09-06,32
+Southern Europe,2017-09-06,37
+Western Europe,2017-09-06,42
+Northern Europe,2017-09-07,13
+Southern Europe,2017-09-07,15
+Western Europe,2017-09-07,74
+Northern Europe,2017-09-08,41
+Southern Europe,2017-09-08,42
+Western Europe,2017-09-08,57
+Northern Europe,2017-09-09,17
+Southern Europe,2017-09-09,4
+Western Europe,2017-09-09,97
+Northern Europe,2017-09-10,21
+Southern Europe,2017-09-10,55
+Western Europe,2017-09-10,71
+Northern Europe,2017-09-11,47
+Southern Europe,2017-09-11,55
+Western Europe,2017-09-11,84
+Northern Europe,2017-09-12,18
+Southern Europe,2017-09-12,26
+Western Europe,2017-09-12,83
+Northern Europe,2017-09-13,26
+Southern Europe,2017-09-13,7
+Western Europe,2017-09-13,95
+Northern Europe,2017-09-14,29
+Southern Europe,2017-09-14,21
+Western Europe,2017-09-14,63
+Northern Europe,2017-09-15,76
+Southern Europe,2017-09-15,10
+Western Europe,2017-09-15,28
+Northern Europe,2017-09-16,42
+Southern Europe,2017-09-16,5
+Western Europe,2017-09-16,27
+Northern Europe,2017-09-17,23
+Southern Europe,2017-09-17,24
+Western Europe,2017-09-17,74
+Northern Europe,2017-09-18,6
+Southern Europe,2017-09-18,24
+Western Europe,2017-09-18,69
+Northern Europe,2017-09-19,28
+Southern Europe,2017-09-19,16
+Western Europe,2017-09-19,74
+Northern Europe,2017-09-20,22
+Southern Europe,2017-09-20,17
+Western Europe,2017-09-20,50
+Northern Europe,2017-09-21,18
+Southern Europe,2017-09-21,5
+Western Europe,2017-09-21,98
+Northern Europe,2017-09-22,15
+Southern Europe,2017-09-22,12
+Western Europe,2017-09-22,48
+Northern Europe,2017-09-23,20
+Southern Europe,2017-09-23,21
+Western Europe,2017-09-23,80
+Northern Europe,2017-09-24,35
+Southern Europe,2017-09-24,25
+Western Europe,2017-09-24,81
+Northern Europe,2017-09-25,12
+Southern Europe,2017-09-25,43
+Western Europe,2017-09-25,47
+Northern Europe,2017-09-26,18
+Southern Europe,2017-09-26,31
+Western Europe,2017-09-26,82
+Northern Europe,2017-09-27,14
+Southern Europe,2017-09-27,16
+Western Europe,2017-09-27,104
+Northern Europe,2017-09-28,15
+Southern Europe,2017-09-28,16
+Western Europe,2017-09-28,60
+Northern Europe,2017-09-29,19
+Southern Europe,2017-09-29,30
+Western Europe,2017-09-29,69
+Northern Europe,2017-09-30,52
+Southern Europe,2017-09-30,24
+Western Europe,2017-09-30,79
+Northern Europe,2017-10-01,27
+Southern Europe,2017-10-01,2
+Western Europe,2017-10-01,57
+Northern Europe,2017-10-02,2
+Southern Europe,2017-10-02,7
+Western Europe,2017-10-02,45
+Northern Europe,2017-10-03,5
+Southern Europe,2017-10-03,1
+Western Europe,2017-10-03,19
+Northern Europe,2017-10-04,6
+Southern Europe,2017-10-04,5
+Western Europe,2017-10-04,10
+Northern Europe,2017-10-05,4
+Southern Europe,2017-10-05,5
+Western Europe,2017-10-05,17
+Northern Europe,2017-10-06,1
+Southern Europe,2017-10-06,3
+Western Europe,2017-10-06,23
+Northern Europe,2017-10-07,3
+Southern Europe,2017-10-07,7
+Western Europe,2017-10-07,7
+Northern Europe,2017-10-08,13
+Southern Europe,2017-10-08,7
+Western Europe,2017-10-08,8
+Northern Europe,2017-10-09,3
+Southern Europe,2017-10-09,6
+Western Europe,2017-10-09,12
+Northern Europe,2017-10-10,7
+Southern Europe,2017-10-10,10
+Western Europe,2017-10-10,8
+Northern Europe,2017-10-11,5
+Southern Europe,2017-10-11,5
+Western Europe,2017-10-11,15
+Northern Europe,2017-10-12,11
+Southern Europe,2017-10-12,2
+Western Europe,2017-10-12,12
+Northern Europe,2017-10-13,5
+Southern Europe,2017-10-13,1
+Western Europe,2017-10-13,8
+Northern Europe,2017-10-14,5
+Southern Europe,2017-10-14,3
+Western Europe,2017-10-14,14
+Northern Europe,2017-10-15,3
+Southern Europe,2017-10-15,3
+Western Europe,2017-10-15,15
+Northern Europe,2017-10-16,6
+Southern Europe,2017-10-16,3
+Western Europe,2017-10-16,8
+Northern Europe,2017-10-17,8
+Southern Europe,2017-10-17,8
+Western Europe,2017-10-17,5
+Northern Europe,2017-10-18,3
+Southern Europe,2017-10-18,5
+Western Europe,2017-10-18,24
+Northern Europe,2017-10-19,6
+Southern Europe,2017-10-19,1
+Western Europe,2017-10-19,13
+Northern Europe,2017-10-20,3
+Southern Europe,2017-10-20,6
+Western Europe,2017-10-20,12
+Northern Europe,2017-10-21,6
+Southern Europe,2017-10-21,3
+Western Europe,2017-10-21,14
+Northern Europe,2017-10-22,6
+Southern Europe,2017-10-22,4
+Western Europe,2017-10-22,12
+Northern Europe,2017-10-23,6
+Southern Europe,2017-10-23,6
+Western Europe,2017-10-23,20
+Northern Europe,2017-10-24,3
+Southern Europe,2017-10-24,6
+Western Europe,2017-10-24,11
+Northern Europe,2017-10-25,5
+Southern Europe,2017-10-25,8
+Western Europe,2017-10-25,18
+Northern Europe,2017-10-26,5
+Southern Europe,2017-10-26,8
+Western Europe,2017-10-26,8
+Northern Europe,2017-10-27,9
+Southern Europe,2017-10-27,4
+Western Europe,2017-10-27,6
+Northern Europe,2017-10-28,5
+Southern Europe,2017-10-28,6
+Western Europe,2017-10-28,11
+Northern Europe,2017-10-29,3
+Southern Europe,2017-10-29,4
+Western Europe,2017-10-29,12
+Northern Europe,2017-10-30,2
+Southern Europe,2017-10-30,8
+Western Europe,2017-10-30,12
+Northern Europe,2017-10-31,1
+Southern Europe,2017-10-31,8
+Western Europe,2017-10-31,9
+Northern Europe,2017-11-01,3
+Southern Europe,2017-11-01,6
+Western Europe,2017-11-01,11
+Northern Europe,2017-11-02,5
+Southern Europe,2017-11-02,7
+Western Europe,2017-11-02,11
+Northern Europe,2017-11-03,5
+Southern Europe,2017-11-03,4
+Western Europe,2017-11-03,15
+Northern Europe,2017-11-04,6
+Southern Europe,2017-11-04,4
+Western Europe,2017-11-04,16
+Northern Europe,2017-11-05,5
+Southern Europe,2017-11-05,3
+Western Europe,2017-11-05,10
+Northern Europe,2017-11-06,10
+Southern Europe,2017-11-06,3
+Western Europe,2017-11-06,11
+Northern Europe,2017-11-07,6
+Southern Europe,2017-11-07,9
+Western Europe,2017-11-07,13
+Northern Europe,2017-11-08,3
+Southern Europe,2017-11-08,5
+Western Europe,2017-11-08,21
+Northern Europe,2017-11-09,8
+Southern Europe,2017-11-09,6
+Western Europe,2017-11-09,10
+Northern Europe,2017-11-10,6
+Southern Europe,2017-11-10,5
+Western Europe,2017-11-10,8
+Oceania,2017-11-11,9
+South Asia,2017-11-11,4
+Southeast Asia,2017-11-11,11
+Eastern Asia,2017-11-12,5
+Oceania,2017-11-12,2
+South Asia,2017-11-12,5
+Southeast Asia,2017-11-12,6
+Eastern Asia,2017-11-13,6
+Oceania,2017-11-13,11
+South Asia,2017-11-13,3
+Southeast Asia,2017-11-13,8
+Eastern Asia,2017-11-14,6
+Oceania,2017-11-14,10
+South Asia,2017-11-14,5
+Southeast Asia,2017-11-14,11
+Eastern Asia,2017-11-15,10
+South Asia,2017-11-15,4
+Southeast Asia,2017-11-15,6
+Eastern Asia,2017-11-16,6
+Oceania,2017-11-16,9
+Southeast Asia,2017-11-16,5
+Eastern Asia,2017-11-17,12
+Oceania,2017-11-17,5
+South Asia,2017-11-17,3
+Southeast Asia,2017-11-17,2
+Eastern Asia,2017-11-18,9
+Oceania,2017-11-18,5
+South Asia,2017-11-18,2
+Southeast Asia,2017-11-18,9
+Eastern Asia,2017-11-19,6
+Oceania,2017-11-19,2
+South Asia,2017-11-19,2
+Southeast Asia,2017-11-19,8
+Eastern Asia,2017-11-20,5
+Oceania,2017-11-20,1
+South Asia,2017-11-20,7
+Southeast Asia,2017-11-20,12
+Eastern Asia,2017-11-21,4
+Oceania,2017-11-21,5
+South Asia,2017-11-21,10
+Southeast Asia,2017-11-21,5
+Eastern Asia,2017-11-22,10
+Oceania,2017-11-22,6
+South Asia,2017-11-22,7
+Southeast Asia,2017-11-22,8
+Eastern Asia,2017-11-23,5
+Oceania,2017-11-23,4
+South Asia,2017-11-23,7
+Southeast Asia,2017-11-23,2
+Eastern Asia,2017-11-24,9
+Oceania,2017-11-24,9
+South Asia,2017-11-24,5
+Southeast Asia,2017-11-24,6
+Eastern Asia,2017-11-25,12
+Oceania,2017-11-25,7
+South Asia,2017-11-25,2
+Southeast Asia,2017-11-25,7
+Eastern Asia,2017-11-26,3
+Oceania,2017-11-26,11
+South Asia,2017-11-26,7
+Southeast Asia,2017-11-26,12
+Eastern Asia,2017-11-27,6
+Oceania,2017-11-27,9
+South Asia,2017-11-27,6
+Southeast Asia,2017-11-27,7
+Eastern Asia,2017-11-28,7
+Oceania,2017-11-28,2
+South Asia,2017-11-28,2
+Southeast Asia,2017-11-28,7
+Eastern Asia,2017-11-29,9
+Oceania,2017-11-29,7
+South Asia,2017-11-29,4
+Southeast Asia,2017-11-29,7
+Eastern Asia,2017-11-30,4
+Oceania,2017-11-30,12
+South Asia,2017-11-30,2
+Southeast Asia,2017-11-30,3
+Eastern Asia,2017-12-01,3
+Oceania,2017-12-01,9
+South Asia,2017-12-01,5
+Southeast Asia,2017-12-01,16
+Eastern Asia,2017-12-02,2
+Oceania,2017-12-02,8
+South Asia,2017-12-02,2
+Southeast Asia,2017-12-02,3
+Eastern Asia,2017-12-08,2
+Oceania,2017-12-08,5
+South Asia,2017-12-08,3
+Southeast Asia,2017-12-08,4
+Eastern Asia,2017-12-09,4
+Oceania,2017-12-09,7
+South Asia,2017-12-09,3
+Southeast Asia,2017-12-09,14
+Eastern Asia,2017-12-10,7
+Oceania,2017-12-10,2
+South Asia,2017-12-10,16
+Southeast Asia,2017-12-10,10
+Eastern Asia,2017-12-11,14
+Oceania,2017-12-11,6
+South Asia,2017-12-11,1
+Southeast Asia,2017-12-11,10
+Eastern Asia,2017-12-12,9
+Oceania,2017-12-12,2
+South Asia,2017-12-12,5
+Southeast Asia,2017-12-12,9
+Eastern Asia,2017-12-13,9
+Oceania,2017-12-13,4
+South Asia,2017-12-13,6
+Southeast Asia,2017-12-13,9
+Eastern Asia,2017-12-14,3
+Oceania,2017-12-14,11
+South Asia,2017-12-14,1
+Southeast Asia,2017-12-14,9
+Eastern Asia,2017-12-15,4
+Oceania,2017-12-15,5
+South Asia,2017-12-15,7
+Southeast Asia,2017-12-15,5
+Eastern Asia,2017-12-16,8
+Oceania,2017-12-16,7
+South Asia,2017-12-16,5
+Southeast Asia,2017-12-16,5
+Oceania,2017-12-17,5
+South Asia,2017-12-17,5
+Southeast Asia,2017-12-17,13
+Eastern Asia,2017-12-18,8
+Oceania,2017-12-18,10
+South Asia,2017-12-18,2
+Southeast Asia,2017-12-18,8
+Eastern Asia,2017-12-19,6
+Oceania,2017-12-19,8
+South Asia,2017-12-19,3
+Southeast Asia,2017-12-19,6
+Eastern Asia,2017-12-20,12
+Oceania,2017-12-20,7
+South Asia,2017-12-20,5
+Southeast Asia,2017-12-20,4
+Eastern Asia,2017-12-21,3
+Oceania,2017-12-21,1
+South Asia,2017-12-21,7
+Southeast Asia,2017-12-21,14
+Eastern Asia,2017-12-22,3
+Oceania,2017-12-22,7
+South Asia,2017-12-22,4
+Southeast Asia,2017-12-22,11
+Eastern Asia,2017-12-23,4
+Oceania,2017-12-23,2
+South Asia,2017-12-23,3
+Southeast Asia,2017-12-23,10
+Eastern Asia,2017-12-24,6
+Oceania,2017-12-24,5
+South Asia,2017-12-24,2
+Southeast Asia,2017-12-24,9
+Eastern Asia,2017-12-25,2
+Oceania,2017-12-25,14
+South Asia,2017-12-25,2
+Southeast Asia,2017-12-25,18
+Eastern Asia,2017-12-26,4
+Oceania,2017-12-26,5
+South Asia,2017-12-26,7
+Southeast Asia,2017-12-26,3
+Eastern Asia,2017-12-27,3
+Oceania,2017-12-27,6
+South Asia,2017-12-27,4
+Southeast Asia,2017-12-27,10
+Eastern Asia,2017-12-28,6
+Oceania,2017-12-28,9
+South Asia,2017-12-28,4
+Southeast Asia,2017-12-28,7
+Eastern Asia,2017-12-29,9
+Oceania,2017-12-29,3
+South Asia,2017-12-29,2
+Southeast Asia,2017-12-29,5
+Eastern Asia,2017-12-30,3
+Oceania,2017-12-30,8
+South Asia,2017-12-30,8
+Southeast Asia,2017-12-30,5
+Eastern Asia,2017-12-31,3
+Oceania,2017-12-31,6
+South Asia,2017-12-31,4
+Southeast Asia,2017-12-31,7
+Eastern Asia,2018-01-01,6
+Oceania,2018-01-01,9
+South Asia,2018-01-01,7
+Southeast Asia,2018-01-01,10
+Eastern Asia,2018-01-02,8
+Oceania,2018-01-02,7
+South Asia,2018-01-02,5
+Southeast Asia,2018-01-02,3
+Eastern Asia,2018-01-03,11
+Oceania,2018-01-03,2
+South Asia,2018-01-03,6
+Southeast Asia,2018-01-03,10
+Eastern Asia,2018-01-04,7
+Oceania,2018-01-04,4
+South Asia,2018-01-04,7
+Southeast Asia,2018-01-04,6
+Eastern Asia,2018-01-05,8
+Oceania,2018-01-05,12
+South Asia,2018-01-05,3
+Southeast Asia,2018-01-05,5
+Eastern Asia,2018-01-06,6
+Oceania,2018-01-06,6
+South Asia,2018-01-06,12
+Southeast Asia,2018-01-06,12
+Eastern Asia,2018-01-07,4
+Oceania,2018-01-07,4
+South Asia,2018-01-07,4
+Southeast Asia,2018-01-07,9
+Eastern Asia,2018-01-08,8
+Oceania,2018-01-08,4
+South Asia,2018-01-08,4
+Southeast Asia,2018-01-08,4
+Eastern Asia,2018-01-09,1
+Oceania,2018-01-09,4
+South Asia,2018-01-09,7
+Southeast Asia,2018-01-09,9
+Eastern Asia,2018-01-10,2
+Oceania,2018-01-10,9
+Southeast Asia,2018-01-10,3
+Eastern Asia,2018-01-17,2
+Oceania,2018-01-17,4
+South Asia,2018-01-17,1
+Eastern Asia,2018-01-18,6
+Oceania,2018-01-18,5
+South Asia,2018-01-18,4
+Southeast Asia,2018-01-18,13
+Eastern Asia,2018-01-19,9
+Oceania,2018-01-19,12
+South Asia,2018-01-19,6
+Southeast Asia,2018-01-19,6
+Eastern Asia,2018-01-20,7
+Oceania,2018-01-20,2
+South Asia,2018-01-20,9
+Southeast Asia,2018-01-20,8
+Eastern Asia,2018-01-21,4
+Oceania,2018-01-21,4
+South Asia,2018-01-21,7
+Southeast Asia,2018-01-21,7
+Eastern Asia,2018-01-22,7
+Oceania,2018-01-22,4
+South Asia,2018-01-22,7
+Southeast Asia,2018-01-22,6
+Eastern Asia,2018-01-23,8
+Oceania,2018-01-23,7
+South Asia,2018-01-23,3
+Southeast Asia,2018-01-23,7
+Eastern Asia,2018-01-24,10
+Oceania,2018-01-24,7
+South Asia,2018-01-24,3
+Southeast Asia,2018-01-24,10
+Eastern Asia,2018-01-25,3
+Oceania,2018-01-25,7
+South Asia,2018-01-25,6
+Southeast Asia,2018-01-25,2
+Eastern Asia,2018-01-26,3
+Oceania,2018-01-26,10
+South Asia,2018-01-26,6
+Southeast Asia,2018-01-26,6
+Oceania,2018-01-27,5
+South Asia,2018-01-27,4
+Southeast Asia,2018-01-27,9
+Eastern Asia,2018-01-28,2
+Oceania,2018-01-28,11
+South Asia,2018-01-28,5
+Southeast Asia,2018-01-28,12
+Eastern Asia,2018-01-29,3
+Oceania,2018-01-29,10
+South Asia,2018-01-29,3
+Southeast Asia,2018-01-29,9
+Eastern Asia,2018-01-30,6
+Oceania,2018-01-30,2
+South Asia,2018-01-30,9
+Southeast Asia,2018-01-30,11
+Eastern Asia,2018-01-31,4
+Oceania,2018-01-31,5
+South Asia,2018-01-31,5
+Southeast Asia,2018-01-31,5

@@ -2,6 +2,7 @@ import argparse
 import os
 import torch
 from exp.exp_long_term_forecasting import Exp_Long_Term_Forecast
+from exp.exp_long_term_forecasting_embedding import Exp_Long_Term_Forecast_Embedding
 from utils.print_args import print_args
 import random
 import numpy as np
@@ -145,8 +146,13 @@ if __name__ == '__main__':
 
     # ATTENTION
     if args.task_name == 'long_term_forecast':
+        # Use embedding experiment for embedding-based data
+        if args.data in ['SupplyChainEmbedding', 'MultiRegionEmbedding'] or args.model in ['QCAAPatchTF_Embedding']:
+            Exp = Exp_Long_Term_Forecast_Embedding
+        else:
+            Exp = Exp_Long_Term_Forecast
+    else:
         Exp = Exp_Long_Term_Forecast
-    Exp = Exp_Long_Term_Forecast
 
     if args.is_training:
         for ii in range(args.itr):

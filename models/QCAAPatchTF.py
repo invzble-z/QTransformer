@@ -1,4 +1,3 @@
-
 #Advanced Patch Embedding Transformer with Quantum Attention            
 
 import torch
@@ -53,7 +52,21 @@ class Model(nn.Module):
         self.task_name = configs.task_name
         self.seq_len = configs.seq_len
         self.pred_len = configs.pred_len
-        self.feature_projection = nn.Linear(configs.d_model, configs.enc_in)
+        
+        # Embedding layers cho categorical features
+        self.embeddings = nn.ModuleDict()
+        if hasattr(configs, 'categorical_dims'):
+            for cat_name, cat_dim in configs.categorical_dims.items():
+                embed_dim = min(50, (cat_dim + 1) // 2)  # Rule of thumb for embedding dimension
+                self.embeddings[cat_name] = nn.Embedding(cat_dim, embed_dim)
+        
+        # Tính toán input dimension sau khi embed
+        embed_total_dim = sum([min(50, (dim + 1) // 2) for dim in configs.categorical_dims.values()])
+        numerical_dim = configs.enc_in - len(configs.categorical_dims)  # Số numerical features
+        total_input_dim = embed_total_dim + numerical_dim
+        
+        # Projection layer to match d_model
+        self.input_projection = nn.Linear(total_input_dim, configs.d_model)
         self.patch_len = compute_patch_len(configs.seq_len, method=method, d_model=configs.d_model)
         stride = self.patch_len // 2 
         print(stride)
@@ -203,7 +216,22 @@ class Model(nn.Module):
 
         return output
 
-    def forward(self, x_enc, x_mark_enc, x_dec, x_mark_dec, mask=None):
+    def forward(self, x_enc, x_mark_enc, x_dec, x_mark_dec, mask=None, categorical_features=None):
+        if categorical_features is not None:
+            # Process categorical features through embeddings
+            embedded_cats = []
+            for cat_name, cat_indices in categorical_features.items():
+                embedded = self.embeddings[cat_name](cat_indices)
+                embedded_cats.append(embedded)
+            
+            # Concatenate embeddings with numerical features
+            if embedded_cats:
+                cat_embedded = torch.cat(embedded_cats, dim=-1)
+                x_enc = torch.cat([x_enc, cat_embedded], dim=-1)
+            
+            # Project to d_model dimension
+            x_enc = self.input_projection(x_enc)
+        
         if self.task_name == 'long_term_forecast' or self.task_name == 'short_term_forecast':
             dec_out = self.forecast(x_enc, x_mark_enc, x_dec, x_mark_dec)
             return dec_out[:, -self.pred_len:, :]  # [B, L, D]

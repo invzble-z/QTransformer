@@ -4,6 +4,7 @@ import torch
 #     Informer, LightTS, Reformer, ETSformer, Pyraformer, PatchTST, MICN, Crossformer, FiLM, iTransformer, \
 #     Koopa, TiDE, FreTS, TimeMixer, TSMixer, SegRNN, MambaSimple, TemporalFusionTransformer, QCAAPatchTF
 from models import QCAAPatchTF
+from models.QCAAPatchTF_Embedding import QCAAPatchTF_Embedding
 
 
 class Exp_Basic(object):
@@ -34,7 +35,8 @@ class Exp_Basic(object):
             'TSMixer': None,
             'SegRNN': None,
             'TemporalFusionTransformer': None,
-            'QCAAPatchTF':QCAAPatchTF,           
+            'QCAAPatchTF': QCAAPatchTF,
+            'QCAAPatchTF_Embedding': QCAAPatchTF_Embedding,           
             }
         if args.model == 'Mamba':
             print('Please make sure you have successfully installed mamba_ssm')
