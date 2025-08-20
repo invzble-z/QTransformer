@@ -32,15 +32,32 @@
 #### **From Transaction → Time Series:**
 ```python
 # Transform transaction-level to daily aggregated time series
-daily_data = df.groupby(['order_date_only', 'Market']).agg({
-    'Order_Item_Quantity': 'count',  # Target: daily order count
-    'Days_for_shipping_real': 'mean',
-    'Order_Item_Product_Price': 'mean',
-    'Order_Item_Discount_Rate': 'mean',
-    'Order_Item_Profit_Ratio': 'mean',
-    'Order_Profit_Per_Order': 'mean',
-    'Late_delivery_risk': 'mean'
+daily_data = df.groupby(['order_date_only', 'Market']).agg({    
+    # Target variable
+    'Order Id': 'count',                    # Daily order count (our target)
+    
+    # Raw numerical features (to be averaged)
+    'Days for shipping (real)': 'mean',
+    'Late_delivery_risk': 'mean',
+    'Order Item Product Price': 'mean',
+    'Order Item Discount Rate': 'mean',
+    'Order Item Profit Ratio': 'mean',
+    'Order Profit Per Order': 'mean',
+    
+    # For engineered features
+    'Order Item Quantity': 'sum',          # Total quantity per day
+    'Sales': 'sum',                        # Total sales per day  
+    'Order Item Total': 'mean',            # Avg order value
+    'Customer Segment': 'first',           # For diversity calculation
+    'Category Name': 'first'               # For diversity calculation
 }).reset_index()
+
+# Then create time features from 'order_date_only'
+daily_data['day_of_week'] = daily_data['order_date_only'].dt.dayofweek
+daily_data['day_of_month'] = daily_data['order_date_only'].dt.day  
+daily_data['month'] = daily_data['order_date_only'].dt.month
+daily_data['is_weekend'] = daily_data['day_of_week'].isin([5, 6])
+daily_data['days_since_start'] = (daily_data['order_date_only'] - start_date).dt.days
 ```
 
 #### **Timeline Cleaning:**
@@ -48,44 +65,107 @@ daily_data = df.groupby(['order_date_only', 'Market']).agg({
 - **Expected removal:** ~30-60 initial days (unbalanced period)
 - **Final timeline:** ~250-280 training days
 
+#### **⚠️ CRITICAL: Multi-Market Timeline Synchronization**
+
+**Problem:** Markets bắt đầu hoạt động vào thời điểm khác nhau
+- Market A có thể bắt đầu từ ngày 1
+- Market B có thể bắt đầu từ ngày 15  
+- Market C có thể bắt đầu từ ngày 30
+
+**Solution Strategy:**
+
+```python
+def find_synchronized_start_date(df, min_orders_per_market=10):
+    """
+    Tìm ngày đầu tiên mà TẤT CẢ 3 markets đều có >= min_orders_per_market
+    """
+    # Đếm orders hàng ngày cho từng market
+    daily_counts = df.groupby(['order_date_only', 'Market']).size().reset_index(name='daily_orders')
+    
+    # Pivot để có ma trận [date x market]
+    market_matrix = daily_counts.pivot(index='order_date_only', columns='Market', values='daily_orders').fillna(0)
+    
+    # Tìm ngày đầu tiên tất cả markets >= threshold
+    valid_days = (market_matrix >= min_orders_per_market).all(axis=1)
+    synchronized_start_date = valid_days[valid_days == True].index[0]
+    
+    return synchronized_start_date
+
+# Áp dụng timeline cleaning
+start_date = find_synchronized_start_date(df, min_orders_per_market=10)
+df_synchronized = df[df['order_date_only'] >= start_date]
+
+print(f"Original timeline: {df['order_date_only'].min()} to {df['order_date_only'].max()}")
+print(f"Synchronized timeline: {start_date} to {df['order_date_only'].max()}")
+print(f"Removed {(start_date - df['order_date_only'].min()).days} days for synchronization")
+```
+
+**Impact Assessment:**
+```python
+# Kiểm tra data loss per market
+removed_data = df[df['order_date_only'] < start_date]
+for market in ['USCA', 'LATAM', 'Europe']:
+    market_removed = removed_data[removed_data['Market'] == market].shape[0]
+    market_total = df[df['Market'] == market].shape[0]
+    loss_pct = (market_removed / market_total) * 100
+    print(f"{market}: Lost {market_removed:,} orders ({loss_pct:.1f}%)")
+```
+
 ### 2. **FEATURE ENGINEERING**
 
-#### **Input Features (15 total):**
+#### **Input Features (21 total):**
 
-**Numerical Features (9):**
+**⚠️ IMPORTANT NOTE:** Time features sẽ được **tạo mới** từ cột `order date (DateOrders)`, không có sẵn trong raw dataset.
+
+**Numerical Features từ Raw Data (6):**
 ```python
-numerical_features = [
-    'days_shipping_avg',           # Average shipping days
-    'late_delivery_rate',          # Risk of late delivery (%)
-    'product_price_avg',           # Average product price
-    'discount_rate_avg',           # Average discount rate
-    'profit_ratio_avg',            # Average profit ratio
-    'profit_per_order_avg',        # Average profit per order
-    'order_quantity_total',        # Total quantity (not count)
-    'customer_segment_diversity',   # Simpson's diversity index
-    'category_diversity_index'     # Product category diversity
+raw_numerical_features = [
+    'Days for shipping (real)',     # From dataset - avg per day/market
+    'Late_delivery_risk',           # From dataset - rate per day/market  
+    'Order Item Product Price',     # From dataset - avg per day/market
+    'Order Item Discount Rate',     # From dataset - avg per day/market
+    'Order Item Profit Ratio',      # From dataset - avg per day/market
+    'Order Profit Per Order'        # From dataset - avg per day/market
 ]
 ```
 
-**Time Features (6):**
+**Engineered Numerical Features (9):**
+```python
+engineered_features = [
+    'order_count',                  # Target-related: daily order count per market
+    'order_quantity_total',         # Sum of Order Item Quantity per day/market
+    'customer_segment_consumer_pct', # % Consumer vs Corporate/Home Office
+    'customer_segment_corporate_pct', # % Corporate 
+    'customer_segment_home_office_pct', # % Home Office
+    'category_diversity_index',     # Simpson's diversity of Category Name
+    'sales_total',                  # Sum of Sales per day/market
+    'order_item_total_avg',         # Avg Order Item Total per day/market
+    'price_volatility'              # Std dev of prices within day/market
+]
+```
+
+**Time Features (5) - TẠO MỚI từ 'order date (DateOrders)':**
 ```python
 time_features = [
-    'day_of_week',      # 0-6 (Monday=0)
-    'day_of_month',     # 1-31
-    'month',            # 1-12
-    'quarter',          # 1-4
-    'is_weekend',       # Boolean
-    'days_since_start'  # Trend component
+    'day_of_week',      # 0-6 (Monday=0) - CREATED from datetime
+    'day_of_month',     # 1-31 - CREATED from datetime
+    'month',            # 1-12 - CREATED from datetime  
+    'is_weekend',       # Boolean - CREATED from day_of_week
+    'days_since_start'  # Trend component - CREATED from start date
 ]
+# Note: Removed 'quarter' as timeline is only ~1 year (not enough quarters)
 ```
 
 **Categorical Features (Embedded):**
 ```python
 categorical_features = {
-    'Market': 3,              # USCA, LATAM, Europe
-    'Shipping_Mode_dominant': 4  # Most frequent mode per day
+    'Market': 3,              # USCA, LATAM, Europe (existing in dataset)
+    # Note: Removed Shipping_Mode as per user request
 }
+# Embedding dimension: Market (16) = 16 total embedded features
 ```
+
+**TOTAL: 6 + 9 + 5 + 1 (Market embedded as 16) = 21 features**
 
 ### 3. **TARGET VARIABLE DESIGN**
 
@@ -138,13 +218,45 @@ feature_smoothed = rolling_median(feature, window=3)
 
 #### **Missing Days:**
 ```python
-# Create complete date range
-full_date_range = pd.date_range(start_date, end_date, freq='D')
+# Create complete date range for synchronized period
+synchronized_start = find_synchronized_start_date(df)
+full_date_range = pd.date_range(synchronized_start, df['order_date_only'].max(), freq='D')
 
-# Fill missing days with interpolation
-for market in markets:
+# Fill missing days with market-specific interpolation
+for market in ['USCA', 'LATAM', 'Europe']:
+    market_data = daily_agg[daily_agg['Market'] == market].set_index('order_date_only')
     market_data = market_data.reindex(full_date_range)
+    
+    # Handle missing days (weekends, low activity days)
     market_data = market_data.interpolate(method='linear')
+    
+    # For categorical features, forward fill
+    categorical_cols = ['customer_segment_dominant', 'category_dominant']
+    market_data[categorical_cols] = market_data[categorical_cols].fillna(method='ffill')
+```
+
+#### **⚠️ Alternative Approach: Market-specific Modeling**
+```python
+# Option 2: Train separate models per market (if synchronization removes too much data)
+def create_market_specific_datasets(df):
+    market_datasets = {}
+    
+    for market in ['USCA', 'LATAM', 'Europe']:
+        market_df = df[df['Market'] == market].copy()
+        
+        # Each market uses its own timeline
+        market_start = market_df['order_date_only'].min()
+        market_end = market_df['order_date_only'].max()
+        
+        # Filter for minimum activity threshold
+        daily_counts = market_df.groupby('order_date_only').size()
+        valid_days = daily_counts[daily_counts >= 5].index  # Lower threshold per market
+        
+        market_datasets[market] = market_df[market_df['order_date_only'].isin(valid_days)]
+    
+    return market_datasets
+
+# Use this approach if synchronized timeline is too restrictive
 ```
 
 ---
@@ -171,16 +283,12 @@ output_shape = [batch, pred_len, n_markets]  # Only target predicted
 
 ### **Embedding Strategy:**
 ```python
-# Market embedding
+# Market embedding only (removed Shipping_Mode)
 market_embed_dim = 16
 market_embedding = nn.Embedding(3, market_embed_dim)
 
-# Shipping mode embedding  
-shipping_embed_dim = 8
-shipping_embedding = nn.Embedding(4, shipping_embed_dim)
-
-# Total embedded dimension: 16 + 8 = 24
-# Combined with 9 numerical + 6 time = 39 total features
+# Total embedded dimension: 16
+# Combined with 20 numerical/time features = 36 total features
 ```
 
 ---
@@ -205,7 +313,7 @@ test_end = val_end + timedelta(days=42)
 model_config = {
     'seq_len': 60,           # 60 days input history
     'pred_len': 7,           # 7 days prediction
-    'enc_in': 39,            # Total input features
+    'enc_in': 36,            # Total input features (20 numerical/time + 16 embedded)
     'c_out': 3,              # 3 markets output
     'd_model': 512,          # Model dimension
     'n_heads': 8,            # Attention heads
@@ -256,22 +364,59 @@ overall_metrics = weighted_average(metrics_per_market, market_weights)
 
 ## 🔧 IMPLEMENTATION PIPELINE
 
+### **📁 File Structure & Responsibilities:**
+
+```
+data_preprocessing/
+├── data_visualization.ipynb      # 📊 EDA & Interactive visualizations  
+├── data_preprocessing.ipynb      # 🛠️  Preprocessing pipeline (STRUCTURE ONLY)
+└── README.md                     # 📋 This strategy document
+```
+
+**File Purposes:**
+- **`data_visualization.ipynb`**: Exploratory Data Analysis, trend analysis, plotly charts
+- **`data_preprocessing.ipynb`**: **Empty structure** prepared for implementing Option A preprocessing pipeline
+- **`DATA_PREPROCESSING_README.md`**: Complete technical documentation and strategy guide
+
 ### **Step 1: Data Preparation**
 ```python
 def preprocess_supply_chain_data(df):
-    # 1. Clean timeline and filter valid dates
-    df_clean = filter_valid_timeline(df)
+    # 1. Timeline synchronization - CRITICAL STEP
+    synchronized_start = find_synchronized_start_date(df, min_orders_per_market=10)
+    df_clean = df[df['order_date_only'] >= synchronized_start].copy()
     
-    # 2. Daily aggregation by market
-    daily_agg = aggregate_daily_features(df_clean)
+    print(f"Timeline synchronized from {synchronized_start}")
+    print(f"Removed {(synchronized_start - df['order_date_only'].min()).days} days")
     
-    # 3. Handle outliers and missing values
-    daily_clean = clean_outliers_and_missing(daily_agg)
+    # 2. Daily aggregation by market (using actual column names)
+    daily_agg = df_clean.groupby(['order_date_only', 'Market']).agg({
+        'Order Id': 'count',  # Target: daily order count
+        'Days for shipping (real)': 'mean',
+        'Late_delivery_risk': 'mean', 
+        'Order Item Product Price': 'mean',
+        'Order Item Discount Rate': 'mean',
+        'Order Item Profit Ratio': 'mean',
+        'Order Profit Per Order': 'mean',
+        'Order Item Quantity': 'sum',
+        'Sales': 'sum',
+        'Order Item Total': 'mean',
+        'Customer Segment': lambda x: x.mode()[0],  # Most frequent segment
+        'Category Name': 'nunique'  # Category diversity per day
+    }).reset_index()
     
-    # 4. Feature engineering
+    # 3. Create complete timeline for all markets
+    full_timeline = create_complete_timeline(daily_agg, synchronized_start)
+    
+    # 4. Create time features from order_date_only
+    daily_with_time = create_time_features(full_timeline)
+    
+    # 5. Handle outliers and missing values
+    daily_clean = clean_outliers_and_missing(daily_with_time)
+    
+    # 6. Engineer additional features (diversity indices, etc.)
     daily_featured = engineer_features(daily_clean)
     
-    # 5. Create time series format
+    # 7. Create time series format for model
     timeseries_data = create_timeseries_format(daily_featured)
     
     return timeseries_data
@@ -333,9 +478,10 @@ results = evaluate_predictions(test_predictions, test_targets)
 ### **Key Decisions Made:**
 - **Model:** QCAAPatchTF_Embedding (modified for multi-market output)
 - **Prediction:** Multi-step direct (7 days at once)
-- **Features:** 39 features (9 numerical + 6 time + 24 embedded)
+- **Features:** 36 features (20 numerical/time + 16 embedded Market)
 - **Loss:** Hybrid weighted (time + market importance)
 - **Validation:** Time series split
+- **Removed:** Shipping_Mode feature (as per user request)
 
 ---
 
@@ -352,6 +498,151 @@ results = evaluate_predictions(test_predictions, test_targets)
 - **Data leakage:** Strict temporal split
 - **Market bias:** Weighted loss function
 - **Outliers:** Robust preprocessing pipeline
+
+---
+
+## 📅 TIMELINE SYNCHRONIZATION ANALYSIS
+
+### **Expected Timeline Issues:**
+
+Based on supply chain dataset characteristics, different markets likely have:
+
+#### **Typical Market Launch Patterns:**
+```python
+# Expected market timeline (hypothetical)
+market_timelines = {
+    'USCA': '2017-01-18',      # First to launch (established market)
+    'LATAM': '2017-02-15',     # Second wave expansion  
+    'Europe': '2017-03-10'     # Last to launch (new market entry)
+}
+
+# Impact on data availability
+total_timeline = '2017-01-18 to 2018-01-31'  # 378 days
+synchronized_timeline = '2017-03-10 to 2018-01-31'  # ~327 days
+data_loss = '~51 days of early USCA/LATAM data'
+```
+
+#### **Decision Matrix:**
+
+| Approach | Pros | Cons | Use Case |
+|----------|------|------|----------|
+| **Synchronized Timeline** | Clean multi-market modeling, No missing markets | Loses early single-market data | When data loss < 20% |
+| **Market-specific Models** | Uses all available data, Market-tailored features | Complex deployment, No cross-market learning | When data loss > 30% |
+| **Hybrid Approach** | Best of both worlds | More complex implementation | When markets have different patterns |
+
+#### **Implementation Decision Logic:**
+```python
+def choose_timeline_strategy(df):
+    # Calculate data loss for synchronization
+    sync_start = find_synchronized_start_date(df)
+    total_records = len(df)
+    sync_records = len(df[df['order_date_only'] >= sync_start])
+    data_loss_pct = ((total_records - sync_records) / total_records) * 100
+    
+    if data_loss_pct < 15:
+        return "synchronized_timeline"
+    elif data_loss_pct < 30:
+        return "hybrid_approach" 
+    else:
+        return "market_specific_models"
+        
+    print(f"Data loss for synchronization: {data_loss_pct:.1f}%")
+    print(f"Recommended approach: {strategy}")
+```
+
+### **Risk Mitigation:**
+- **Monitor data quality** during synchronization
+- **Validate market balance** after timeline cleaning  
+- **Consider business context** (market launch strategies)
+- **Implement fallback** to market-specific models if needed
+
+### **✅ FINAL DECISION: Synchronized Timeline (Option A)**
+
+**Chosen Strategy:** 🔄 **Option A: Synchronized Timeline**
+
+**Rationale:**
+- **Clean multi-market modeling:** Single unified model predicting all 3 markets simultaneously
+- **Model output:** `[batch, 7_days, 3_markets]` as originally planned
+- **Cross-market learning:** Model can learn shared patterns between markets
+- **Deployment simplicity:** One model for all markets
+- **Acceptable data loss:** Expected 10-20% data loss for synchronization is manageable
+
+**Implementation Approach:**
+```python
+# Use find_synchronized_start_date() function
+synchronized_start = find_synchronized_start_date(df, min_orders_per_market=10)
+df_final = df[df['order_date_only'] >= synchronized_start]
+
+# Expected outcome:
+# - Original: ~378 days total timeline
+# - Synchronized: ~250-280 days usable timeline  
+# - Data loss: ~51-100 days (~13-26% acceptable range)
+```
+
+**Benefits of This Choice:**
+- ✅ Unified forecasting system
+- ✅ Cross-market pattern detection
+- ✅ Simpler model architecture
+- ✅ Easier business interpretation
+- ✅ Future scalability (new markets)
+
+**Trade-offs Accepted:**
+- ⚠️ Loss of early single-market data
+- ⚠️ Shorter training timeline
+- ⚠️ Potential underutilization of market-specific patterns
+
+---
+
+## 📝 DETAILED FEATURE MAPPING
+
+### **Raw Dataset Columns → Processed Features:**
+
+#### **Available in Raw Dataset:**
+```python
+# These columns exist in DataCoSupplyChain_Synchronized.csv
+raw_columns_used = [
+    'order date (DateOrders)',        # → time features (6 features)
+    'Market',                         # → embedded feature (16 dim)
+    'Days for shipping (real)',       # → daily average
+    'Late_delivery_risk',             # → daily rate
+    'Order Item Product Price',       # → daily average
+    'Order Item Discount Rate',       # → daily average
+    'Order Item Profit Ratio',        # → daily average
+    'Order Profit Per Order',         # → daily average
+    'Order Id',                       # → daily count (TARGET)
+    'Order Item Quantity',            # → daily sum
+    'Sales',                          # → daily sum
+    'Order Item Total',               # → daily average
+    'Customer Segment',               # → diversity calculation
+    'Category Name'                   # → diversity calculation
+]
+```
+
+#### **Engineered Features (Created during preprocessing):**
+```python
+created_features = {
+    # Time features from 'order date (DateOrders)'
+    'day_of_week': 'df["order_date_only"].dt.dayofweek',
+    'day_of_month': 'df["order_date_only"].dt.day',
+    'month': 'df["order_date_only"].dt.month', 
+    'is_weekend': 'df["day_of_week"].isin([5, 6])',
+    'days_since_start': '(df["order_date_only"] - start_date).dt.days',
+    
+    # Diversity features
+    'customer_segment_consumer_pct': 'calc_segment_percentage("Consumer")',
+    'customer_segment_corporate_pct': 'calc_segment_percentage("Corporate")', 
+    'customer_segment_home_office_pct': 'calc_segment_percentage("Home Office")',
+    'category_diversity_index': 'calc_simpson_diversity(category_counts)',
+    'price_volatility': 'daily_price_std_dev'
+}
+```
+
+### **Final Feature Count Breakdown:**
+- **Raw numerical features:** 6 (from existing columns)
+- **Engineered numerical features:** 9 (calculated)
+- **Time features:** 5 (from datetime conversion)
+- **Embedded categorical:** 16 (Market embedding)
+- **TOTAL:** 36 features
 
 ---
 
