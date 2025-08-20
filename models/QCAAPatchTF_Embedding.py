@@ -21,25 +21,31 @@ class Transpose(nn.Module):
             return x.transpose(*self.dims)
 
 class FlattenHead(nn.Module):
-    def __init__(self, n_vars, nf, target_window, head_dropout=0):
+    def __init__(self, n_vars, nf, target_window, n_markets=1, head_dropout=0):
         super().__init__()
         self.n_vars = n_vars
+        self.n_markets = n_markets
+        self.target_window = target_window
         self.flatten = nn.Flatten(start_dim=-2)
-        self.linear = nn.Linear(nf, target_window)
+        self.linear = nn.Linear(nf, target_window * n_markets)
         self.dropout = nn.Dropout(head_dropout)
 
     def forward(self, x):  # x: [bs x nvars x d_model x patch_num]
+        batch_size = x.shape[0]
         x = self.flatten(x)
         x = self.linear(x)
         x = self.dropout(x)
+        # Reshape to [batch_size, target_window, n_markets]
+        x = x.view(batch_size, self.target_window, self.n_markets)
         return x
 
 class EmbeddingHead(nn.Module):
-    """Enhanced head that handles both numerical and categorical features"""
-    def __init__(self, d_model, target_window, categorical_dims=None, head_dropout=0):
+    """Enhanced head that handles both numerical and categorical features with multi-market support"""
+    def __init__(self, d_model, target_window, n_markets=1, categorical_dims=None, head_dropout=0):
         super().__init__()
         self.d_model = d_model
         self.target_window = target_window
+        self.n_markets = n_markets
         
         # Embedding layers for categorical features
         self.embeddings = nn.ModuleDict()
@@ -54,9 +60,9 @@ class EmbeddingHead(nn.Module):
         # Projection layer to combine embeddings with main features
         self.feature_projection = nn.Linear(d_model + total_embed_dim, d_model)
         
-        # Final prediction head
+        # Final prediction head for multi-market output
         self.flatten = nn.Flatten(start_dim=-2)
-        self.linear = nn.Linear(d_model, target_window)
+        self.linear = nn.Linear(d_model, target_window * n_markets)
         self.dropout = nn.Dropout(head_dropout)
 
     def forward(self, x, categorical_features=None):
@@ -85,8 +91,11 @@ class EmbeddingHead(nn.Module):
         
         # Apply prediction head
         x = self.flatten(x)  # [bs, nvars * d_model * patch_num]
-        x = self.linear(x)   # [bs, target_window]
+        x = self.linear(x)   # [bs, target_window * n_markets]
         x = self.dropout(x)
+        
+        # Reshape to [batch_size, target_window, n_markets]
+        x = x.view(batch_size, self.target_window, self.n_markets)
         return x
 
 def compute_patch_len(seq_len, num_patches=None, method="evaluate", d_model=None):
@@ -143,19 +152,24 @@ class QCAAPatchTF_Embedding(nn.Module):
             norm_layer=torch.nn.LayerNorm(configs.d_model)
         )
         
+        # Get output markets configuration
+        self.c_out = getattr(configs, 'c_out', 1)  # Default to 1 if not specified
+        
         # Prediction head
         if self.channel_independence == 1:
             self.head = FlattenHead(
                 1, 
                 self.patch_num * configs.d_model, 
                 self.pred_len,
+                n_markets=self.c_out,
                 head_dropout=configs.dropout
             )
         else:
             self.head = FlattenHead(
                 configs.enc_in,
                 self.patch_num * configs.d_model, 
-                self.pred_len, 
+                self.pred_len,
+                n_markets=self.c_out, 
                 head_dropout=configs.dropout
             )
         
@@ -212,10 +226,7 @@ class QCAAPatchTF_Embedding(nn.Module):
         # Apply prediction head
         dec_out = self.head(enc_out)
         
-        # Reshape output: [B, pred_len] -> [B, pred_len, 1]
-        if len(dec_out.shape) == 2:
-            dec_out = dec_out.unsqueeze(-1)
-            
+        # Output shape is already [batch_size, pred_len, n_markets] from the head
         return dec_out
 
 # Alias for compatibility

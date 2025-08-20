@@ -1,6 +1,7 @@
 from data_provider.data_loader import Dataset_ETT_hour, Dataset_Custom, Dataset_SupplyChain #  Dataset_ETT_minute, , Dataset_M4, PSMSegLoader, \
     # MSLSegLoader, SMAPSegLoader, SMDSegLoader, SWATSegLoader, UEAloader
 from data_provider.data_loader_embedding import Dataset_SupplyChain_Embedding, Dataset_MultiRegion_Embedding
+from data_provider.data_loader_supply_chain import Dataset_SupplyChain_Processed, Dataset_SupplyChain_MultiMarket
 # from data_provider.uea import collate_fn
 from torch.utils.data import DataLoader
 import torch
@@ -46,7 +47,9 @@ data_dict = {
     'SmartLogistics': Dataset_Custom,
     'SupplyChain': Dataset_SupplyChain,
     'SupplyChainEmbedding': Dataset_SupplyChain_Embedding,
-    'MultiRegionEmbedding': Dataset_MultiRegion_Embedding
+    'MultiRegionEmbedding': Dataset_MultiRegion_Embedding,
+    'SupplyChainProcessed': Dataset_SupplyChain_Processed,
+    'SupplyChainMultiMarket': Dataset_SupplyChain_MultiMarket
 }
 
 
@@ -113,7 +116,7 @@ def data_provider(args, flag):
         print(flag, len(data_set))
         
         # Use custom collate function for embedding datasets
-        collate_fn = embedding_collate_fn if args.data in ['SupplyChainEmbedding', 'MultiRegionEmbedding'] else None
+        collate_fn = embedding_collate_fn if args.data in ['SupplyChainEmbedding', 'MultiRegionEmbedding', 'SupplyChainProcessed', 'SupplyChainMultiMarket'] else None
         
         data_loader = DataLoader(
             data_set,
