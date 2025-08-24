@@ -42,9 +42,11 @@ itr=1               # Number of iterations
 mkdir -p ./results/${model_name}/${data_name}/
 
 # Run the experiment
+source .venv/bin/activate
 python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
+  --model_id SupplyChain_MultiMarket_v1 \
   --root_path ./dataset/ \
   --data_path $data_path \
   --model $model_name \

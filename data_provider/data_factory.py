@@ -49,7 +49,8 @@ data_dict = {
     'SupplyChainEmbedding': Dataset_SupplyChain_Embedding,
     'MultiRegionEmbedding': Dataset_MultiRegion_Embedding,
     'SupplyChainProcessed': Dataset_SupplyChain_Processed,
-    'SupplyChainMultiMarket': Dataset_SupplyChain_MultiMarket
+    'SupplyChainMultiMarket': Dataset_SupplyChain_MultiMarket,
+    'SupplyChainOptimized': Dataset_SupplyChain_Processed  # Sử dụng same class, chỉ khác file
 }
 
 
@@ -116,7 +117,7 @@ def data_provider(args, flag):
         print(flag, len(data_set))
         
         # Use custom collate function for embedding datasets
-        collate_fn = embedding_collate_fn if args.data in ['SupplyChainEmbedding', 'MultiRegionEmbedding', 'SupplyChainProcessed', 'SupplyChainMultiMarket'] else None
+        collate_fn = embedding_collate_fn if args.data in ['SupplyChainEmbedding', 'MultiRegionEmbedding', 'SupplyChainProcessed', 'SupplyChainMultiMarket', 'SupplyChainOptimized'] else None
         
         data_loader = DataLoader(
             data_set,

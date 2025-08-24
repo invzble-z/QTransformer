@@ -52,8 +52,8 @@ class Dataset_SupplyChain_Processed(Dataset):
         self.__read_data__()
 
     def __read_data__(self):
-        """Đọc và xử lý dữ liệu supply_chain_processed.csv"""
-        print("📂 Loading supply_chain_processed.csv...")
+        """Đọc và xử lý dữ liệu supply chain"""
+        print(f"📂 Loading {self.data_path}...")
         
         # Load data
         df_raw = pd.read_csv(os.path.join(self.root_path, self.data_path))
