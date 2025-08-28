@@ -1,0 +1,34 @@
+{
+  "total_features": 21,
+  "numerical_features": 20,
+  "categorical_features": 1,
+  "target_column": "order_count",
+  "market_encoding": {
+    "Europe": "0",
+    "LATAM": "1",
+    "USCA": "2"
+  },
+  "feature_columns": [
+    "Days for shipping (real)",
+    "Late_delivery_risk",
+    "Order Item Product Price",
+    "Order Item Discount Rate",
+    "Order Item Profit Ratio",
+    "Order Profit Per Order",
+    "Order Item Quantity",
+    "Sales",
+    "Order Item Total",
+    "customer_segment_consumer_pct",
+    "customer_segment_corporate_pct",
+    "customer_segment_home_office_pct",
+    "category_diversity_index",
+    "price_volatility",
+    "order_count",
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "is_weekend",
+    "days_since_start",
+    "Market_encoded"
+  ]
+}

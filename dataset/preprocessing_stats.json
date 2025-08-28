@@ -1,0 +1,15 @@
+{
+  "original_records": 147041,
+  "processed_records": 765,
+  "data_loss_percentage": 11.712379540400295,
+  "original_timeline": "2017-01-18 00:00:00 to 2018-01-31 00:00:00",
+  "synchronized_timeline": "2017-05-22 00:00:00 to 2018-01-31 00:00:00",
+  "markets": [
+    "Europe",
+    "LATAM",
+    "USCA"
+  ],
+  "total_features": 21,
+  "days_processed": 255,
+  "avg_orders_per_day_per_market": 170.92549019607844
+}
