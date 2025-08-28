@@ -1,5 +1,5 @@
 # Bỏ qua tất cả file trong dataset và checkpoints
-# dataset/*
+dataset/*
 checkpoints/*
 data_provider/data_preprocessing/dataset/*
 
