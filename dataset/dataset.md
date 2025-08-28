@@ -1,6 +1,6 @@
 # Dataset - Kho Dữ liệu Dự án QTransformer
 
-## THIẾU FILE DataCoSupplyChain_Synchronized.csv 82MB không push được
+## CÁC FILE DATASET CẦN THIẾT DataCoSupplyChain_Synchronized.csv 82MB, supply_chain_optimized.csv 551kb, supply_chain_processed.csv 202kb
 ## Tổng quan
 Folder `dataset` chứa toàn bộ dữ liệu được sử dụng trong dự án QTransformer, từ raw data ban đầu đến các processed datasets đã được optimize cho training model. Đây là kết quả của quá trình data preprocessing phức tạp biến đổi **147,041 transactions** thành **765 time series records**.
 
